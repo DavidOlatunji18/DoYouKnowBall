@@ -1,0 +1,26 @@
+# Secrets
+*.env
+.env*
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+
+# Keystores / signing
+*.jks
+*.keystore
+key.properties
+*.p12
+*.mobileprovision
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
