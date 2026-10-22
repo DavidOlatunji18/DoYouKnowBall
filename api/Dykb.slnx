@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Dykb.Api.Tests/Dykb.Api.Tests.csproj" />
   <Project Path="Dykb.Api/Dykb.Api.csproj" />
 </Solution>

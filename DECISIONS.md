@@ -18,3 +18,19 @@ Choices made where the plan was ambiguous, newest last.
 - **JWT lifetime:** 7 days (`Jwt:ExpiryMinutes` = 10080), because there are no refresh tokens in the MVP.
 - **`GET /health`** added now (anonymous), not in Phase 4.
 - **`System.Security.Cryptography.Pkcs` pinned to 10.0.13** to override a vulnerable 9.0.11 version that the SQL client pulls in.
+
+## Phase 1
+
+- **`sessionToken` is required in `POST /games`** (added to the contract). It's an encrypted, 1-hour token (ASP.NET Data Protection) recording the user, category and the exact question IDs that `/quiz` served. Submissions must answer exactly those questions once each, so players can't choose which questions to be scored on or submit with someone else's quiz. **Known gap:** a token can be submitted more than once within its hour. Blocking that needs a stored "used" flag, which can come later if needed.
+- **Every question must be answered** (`selectedIndex` 0–3). There's no timer in the MVP, so there's no "skipped" value.
+- **Quiz `count` is limited to 1–10.** The leaderboard compares raw best scores, so a bigger quiz would be an unfair advantage.
+- **Leaderboard:** for each user, best score and number of games in that sport's categories. Sorted by best score, then games played (more is higher), then display name. Ties on best score share a rank (1, 1, 3). `top` is limited to 1–100.
+- **History** returns the 50 most recent games, newest first.
+- **Emails** are trimmed and lowercased before storing and comparing, so `Kobe@x.com` and `kobe@x.com` are one account. Display names are trimmed and must be 2–30 characters. Passwords must be 8–100 characters.
+- **Login failures** return the same 401 message whether the email or the password is wrong, so the API doesn't reveal which emails have accounts.
+- **Auth is required by default** (a fallback authorization policy). Only `/auth/*` and `/health` opt out.
+- **Register and login return 200** with the auth response, not 201.
+- **CORS** allows origins listed in `Cors:AllowedOrigins` (empty by default). The mobile app doesn't need CORS; it's there for a future web client.
+- **Category deletes are blocked** while games reference the category, so players' history is never silently lost.
+- **Timestamps are UTC**, and JSON timestamps end in `Z`.
+- **Tests use the EF Core in-memory provider**, as the plan allows. I also ran every endpoint once against the real SQL Server to check that `NEWID()` ordering and the leaderboard `GROUP BY` translate correctly.

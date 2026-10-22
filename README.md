@@ -41,12 +41,49 @@ dotnet user-secrets set "ConnectionStrings:Default" \
   "Server=localhost,1433;Database=Dykb;User Id=sa;Password=<your MSSQL_SA_PASSWORD>;TrustServerCertificate=True"
 ```
 
+Create the database tables (and re-run after pulling new migrations):
+
+```bash
+cd api
+dotnet tool restore
+dotnet ef database update --project Dykb.Api
+```
+
 Then run it:
 
 ```bash
 cd api/Dykb.Api
 dotnet run
 ```
+
+Run the integration tests (they use an in-memory database, so neither Docker nor user-secrets are needed):
+
+```bash
+cd api
+dotnet test
+```
+
+### Trying the API in Swagger
+
+1. `POST /auth/register` with an email, password (8+ chars) and display name.
+2. Copy the `token` from the response, click **Authorize**, and paste it in.
+3. `GET /sports` → `GET /sports/{id}/categories` → `GET /quiz?categoryId=…`
+4. `POST /games` with the `categoryId`, the `sessionToken` from the quiz, and one answer per question.
+5. `GET /games/history` and `GET /leaderboard?sportId=…`
+
+The database has no questions until Phase 2 adds the seed loader.
+
+| Endpoint | Auth | Notes |
+|---|---|---|
+| `POST /auth/register`, `POST /auth/login` | — | 409 on duplicate email, 401 on bad login |
+| `GET /sports`, `GET /sports/{id}/categories` | JWT | |
+| `GET /quiz?categoryId=&count=10` | JWT | Up to 10 random questions, no answers |
+| `POST /games` | JWT | Scored on the server; needs the quiz's `sessionToken` |
+| `GET /games/history` | JWT | Your 50 most recent games |
+| `GET /leaderboard?sportId=&top=20` | JWT | Best score per player in that sport |
+| `GET /health` | — | |
+
+Errors always look like `{ "error": "message" }`.
 
 - Swagger: http://localhost:5050/swagger
 - Health check: http://localhost:5050/health

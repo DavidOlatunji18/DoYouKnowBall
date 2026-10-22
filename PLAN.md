@@ -50,7 +50,7 @@ Base URL: `http://localhost:5050` locally. Android emulator reaches the host at 
 | GET | `/sports` | | `[{ id, name }]` |
 | GET | `/sports/{sportId}/categories` | | `[{ id, name, sportId }]` |
 | GET | `/quiz?categoryId=&count=10` | | `{ sessionToken, questions: [{ id, text, options: [4 strings] }] }` |
-| POST | `/games` | `{ categoryId, answers: [{ questionId, selectedIndex }] }` | `{ gameId, score, total, review: [{ questionId, correctIndex, selectedIndex, correct }] }` |
+| POST | `/games` | `{ categoryId, sessionToken, answers: [{ questionId, selectedIndex }] }` (`sessionToken` from `/quiz`; see DECISIONS.md) | `{ gameId, score, total, review: [{ questionId, correctIndex, selectedIndex, correct }] }` |
 | GET | `/games/history` | | `[{ gameId, categoryName, score, total, playedAt }]` |
 | GET | `/leaderboard?sportId=&top=20` | | `[{ rank, displayName, bestScore, gamesPlayed }]` |
 
