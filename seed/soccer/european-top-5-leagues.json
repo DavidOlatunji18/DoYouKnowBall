@@ -1,0 +1,1406 @@
+[
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club won the 2024-25 Premier League title?",
+    "options": [
+      "Chelsea",
+      "Arsenal",
+      "Manchester City",
+      "Liverpool"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Liverpool to the 2024-25 Premier League title in his first season?",
+    "options": [
+      "Jürgen Klopp",
+      "Xabi Alonso",
+      "Arne Slot",
+      "Mauricio Pochettino"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Liverpool's 2024-25 title took their English top-flight total to how many, level with Manchester United?",
+    "options": [
+      "21",
+      "18",
+      "20",
+      "19"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many consecutive Premier League titles did Manchester City win from 2020-21 to 2023-24?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "What nickname was given to Arsenal's unbeaten 2003-04 Premier League side?",
+    "options": [
+      "The Invincibles",
+      "The Untouchables",
+      "The Unbeatables",
+      "The Immortals"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Arsenal's unbeaten 2003-04 title-winning team?",
+    "options": [
+      "Mikel Arteta",
+      "Arsène Wenger",
+      "Unai Emery",
+      "George Graham"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is the Premier League's all-time top goalscorer?",
+    "options": [
+      "Harry Kane",
+      "Alan Shearer",
+      "Thierry Henry",
+      "Wayne Rooney"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who set the record for most goals in a 38-game Premier League season, with 36 in 2022-23?",
+    "options": [
+      "Harry Kane",
+      "Alan Shearer",
+      "Erling Haaland",
+      "Mohamed Salah"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many Premier League titles did Sir Alex Ferguson win with Manchester United?",
+    "options": [
+      "13",
+      "12",
+      "11",
+      "10"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "In which season did Sir Alex Ferguson manage his final season at Manchester United?",
+    "options": [
+      "2010-11",
+      "2012-13",
+      "2011-12",
+      "2013-14"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "In which season did Leicester City win the Premier League?",
+    "options": [
+      "2016-17",
+      "2014-15",
+      "2013-14",
+      "2015-16"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Leicester City to their Premier League title?",
+    "options": [
+      "Brendan Rodgers",
+      "Nigel Pearson",
+      "Craig Shakespeare",
+      "Claudio Ranieri"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which of these clubs has won the Premier League?",
+    "options": [
+      "Blackburn Rovers",
+      "Everton",
+      "Tottenham Hotspur",
+      "Newcastle United"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "In which year did the Premier League's first season kick off?",
+    "options": [
+      "1992",
+      "1990",
+      "1988",
+      "1995"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club won the first Premier League title?",
+    "options": [
+      "Arsenal",
+      "Manchester United",
+      "Leeds United",
+      "Blackburn Rovers"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Sergio Agüero's famous last-gasp title-winning goal in 2012 came against which club?",
+    "options": [
+      "Manchester United",
+      "Sunderland",
+      "Newcastle United",
+      "Queens Park Rangers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Chelsea won their first Premier League title in 2004-05 under which manager?",
+    "options": [
+      "Claudio Ranieri",
+      "Carlo Ancelotti",
+      "Guus Hiddink",
+      "José Mourinho"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who holds the record for most Premier League assists?",
+    "options": [
+      "Ryan Giggs",
+      "Kevin De Bruyne",
+      "Cesc Fàbregas",
+      "Wayne Rooney"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who holds the record for most Premier League clean sheets?",
+    "options": [
+      "Edwin van der Sar",
+      "David James",
+      "David de Gea",
+      "Petr Čech"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who scored the fastest hat-trick in Premier League history, in 2 minutes 56 seconds?",
+    "options": [
+      "Mohamed Salah",
+      "Sergio Agüero",
+      "Robbie Fowler",
+      "Sadio Mané"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who scored the fastest goal in Premier League history, after 7.69 seconds?",
+    "options": [
+      "Christian Eriksen",
+      "Alan Shearer",
+      "Shane Long",
+      "Ledley King"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club set the Premier League record of 100 points in 2017-18?",
+    "options": [
+      "Chelsea",
+      "Liverpool",
+      "Manchester City",
+      "Manchester United"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "In 2019-20, Liverpool won their first league title in how many years?",
+    "options": [
+      "20",
+      "35",
+      "30",
+      "25"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Arsenal's all-time record goalscorer?",
+    "options": [
+      "Dennis Bergkamp",
+      "Robin van Persie",
+      "Thierry Henry",
+      "Ian Wright"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Manchester United's all-time record goalscorer?",
+    "options": [
+      "Wayne Rooney",
+      "Denis Law",
+      "Bobby Charlton",
+      "Cristiano Ronaldo"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Chelsea's all-time record goalscorer?",
+    "options": [
+      "Bobby Tambling",
+      "Kerry Dixon",
+      "Didier Drogba",
+      "Frank Lampard"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Liverpool's all-time record goalscorer?",
+    "options": [
+      "Kenny Dalglish",
+      "Roger Hunt",
+      "Ian Rush",
+      "Mohamed Salah"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Manchester City's all-time record goalscorer?",
+    "options": [
+      "Raheem Sterling",
+      "Erling Haaland",
+      "Sergio Agüero",
+      "Eric Brook"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Tottenham Hotspur's all-time record goalscorer?",
+    "options": [
+      "Harry Kane",
+      "Son Heung-min",
+      "Bobby Smith",
+      "Jimmy Greaves"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Harry Kane left Tottenham to join which club in 2023?",
+    "options": [
+      "Bayern Munich",
+      "Manchester United",
+      "Paris Saint-Germain",
+      "Real Madrid"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Harry Kane won his first major trophy in which competition?",
+    "options": [
+      "2023-24 Bundesliga",
+      "2024-25 Bundesliga",
+      "2024 DFB-Pokal",
+      "2022-23 Carabao Cup"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many Premier League Golden Boots has Mohamed Salah won (including shared awards) through 2024-25?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who won the 2023-24 Premier League Golden Boot?",
+    "options": [
+      "Ollie Watkins",
+      "Erling Haaland",
+      "Mohamed Salah",
+      "Cole Palmer"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who did Manchester United beat in the 1999 Champions League final to complete the treble?",
+    "options": [
+      "Juventus",
+      "Valencia",
+      "Bayern Munich",
+      "Barcelona"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "At which ground did Eric Cantona's infamous 1995 kung-fu kick on a fan happen?",
+    "options": [
+      "Selhurst Park",
+      "Villa Park",
+      "Upton Park",
+      "Goodison Park"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many clubs play in the Premier League each season?",
+    "options": [
+      "20",
+      "24",
+      "22",
+      "18"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many clubs are relegated from the Premier League each season?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club plays its home games at Anfield?",
+    "options": [
+      "Newcastle United",
+      "Everton",
+      "Liverpool",
+      "Manchester City"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club plays its home games at Old Trafford?",
+    "options": [
+      "Manchester City",
+      "Manchester United",
+      "Aston Villa",
+      "Leeds United"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "As of 2025, which club has won the most La Liga titles?",
+    "options": [
+      "Real Madrid",
+      "Athletic Club",
+      "Barcelona",
+      "Atlético Madrid"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which two clubs contest El Clásico?",
+    "options": [
+      "Barcelona and Espanyol",
+      "Sevilla and Real Betis",
+      "Real Madrid and Barcelona",
+      "Real Madrid and Atlético Madrid"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Real Madrid's local rival in the Madrid derby is which club?",
+    "options": [
+      "Getafe",
+      "Atlético Madrid",
+      "Rayo Vallecano",
+      "Real Sociedad"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is La Liga's all-time top goalscorer?",
+    "options": [
+      "Lionel Messi",
+      "Telmo Zarra",
+      "Hugo Sánchez",
+      "Cristiano Ronaldo"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many league goals did Lionel Messi score in his record 2011-12 La Liga season?",
+    "options": [
+      "52",
+      "48",
+      "50",
+      "46"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Real Madrid's all-time record goalscorer?",
+    "options": [
+      "Raúl",
+      "Alfredo Di Stéfano",
+      "Karim Benzema",
+      "Cristiano Ronaldo"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many official goals did Lionel Messi score for Barcelona?",
+    "options": [
+      "701",
+      "645",
+      "618",
+      "672"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who has managed Atlético Madrid since 2011?",
+    "options": [
+      "Quique Sánchez Flores",
+      "Diego Simeone",
+      "Abel Resino",
+      "Gregorio Manzano"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club won La Liga in 2013-14 by drawing at Barcelona on the final day?",
+    "options": [
+      "Real Madrid",
+      "Valencia",
+      "Sevilla",
+      "Atlético Madrid"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club won the 2024-25 La Liga title?",
+    "options": [
+      "Barcelona",
+      "Athletic Club",
+      "Real Madrid",
+      "Atlético Madrid"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "What is the name of Barcelona's traditional home stadium?",
+    "options": [
+      "Riazor",
+      "Montjuïc Arena",
+      "Camp Nou",
+      "Mestalla"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "What is the name of Real Madrid's home stadium?",
+    "options": [
+      "Vicente Calderón",
+      "Santiago Bernabéu",
+      "Wanda Metropolitano",
+      "Ramón Sánchez-Pizjuán"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which La Liga club is known for fielding only players from the Basque region?",
+    "options": [
+      "Real Sociedad",
+      "Alavés",
+      "Athletic Club",
+      "Osasuna"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "The \"Galácticos\" era of superstar signings is associated with which club?",
+    "options": [
+      "Real Madrid",
+      "Barcelona",
+      "Paris Saint-Germain",
+      "Chelsea"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Barcelona to the treble in 2008-09?",
+    "options": [
+      "Luis Enrique",
+      "Tito Vilanova",
+      "Pep Guardiola",
+      "Frank Rijkaard"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "As of 2025, how many European Cup/Champions League titles has Real Madrid won?",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "13"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Real Madrid won three straight Champions League titles from 2016 to 2018 under which manager?",
+    "options": [
+      "Carlo Ancelotti",
+      "José Mourinho",
+      "Rafael Benítez",
+      "Zinedine Zidane"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Carlo Ancelotti has won the Champions League a record how many times as a manager?",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "3"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is the Champions League's all-time top goalscorer?",
+    "options": [
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Raúl"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club won the 2025 Champions League?",
+    "options": [
+      "Paris Saint-Germain",
+      "Barcelona",
+      "Inter Milan",
+      "Arsenal"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "What was the score in the 2025 Champions League final between PSG and Inter?",
+    "options": [
+      "3-1",
+      "4-2",
+      "2-0",
+      "5-0"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed PSG to the 2025 Champions League title?",
+    "options": [
+      "Luis Enrique",
+      "Thomas Tuchel",
+      "Mauricio Pochettino",
+      "Christophe Galtier"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Real Madrid beat which club in the 2024 Champions League final at Wembley?",
+    "options": [
+      "Bayern Munich",
+      "Inter Milan",
+      "Manchester City",
+      "Borussia Dortmund"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Manchester City won their first Champions League in 2023 by beating which club?",
+    "options": [
+      "Liverpool",
+      "Chelsea",
+      "Inter Milan",
+      "Real Madrid"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club has won the most Serie A titles?",
+    "options": [
+      "AC Milan",
+      "Roma",
+      "Juventus",
+      "Inter Milan"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Juventus won how many consecutive Serie A titles from 2011-12 to 2019-20?",
+    "options": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "In the 2006 Calciopoli scandal, which club was relegated to Serie B?",
+    "options": [
+      "Juventus",
+      "AC Milan",
+      "Lazio",
+      "Fiorentina"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "The Derby della Madonnina is played between which two clubs?",
+    "options": [
+      "Roma and Lazio",
+      "Juventus and Torino",
+      "Inter Milan and AC Milan",
+      "Genoa and Sampdoria"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "The Derby della Capitale is played between which two clubs?",
+    "options": [
+      "Juventus and Torino",
+      "Roma and Lazio",
+      "Napoli and Salernitana",
+      "Inter Milan and AC Milan"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which two clubs share the San Siro stadium?",
+    "options": [
+      "Genoa and Sampdoria",
+      "Inter Milan and AC Milan",
+      "Roma and Lazio",
+      "Juventus and Torino"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many Serie A titles did Diego Maradona win with Napoli?",
+    "options": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Napoli's stadium was renamed after which player in 2020?",
+    "options": [
+      "Marek Hamšík",
+      "Gianfranco Zola",
+      "Diego Maradona",
+      "Dries Mertens"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Napoli to the 2022-23 Serie A title, their first since 1990?",
+    "options": [
+      "Luciano Spalletti",
+      "Carlo Ancelotti",
+      "Maurizio Sarri",
+      "Antonio Conte"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Napoli to the 2024-25 Serie A title?",
+    "options": [
+      "Rudi Garcia",
+      "Luciano Spalletti",
+      "Antonio Conte",
+      "Walter Mazzarri"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Serie A's all-time top goalscorer?",
+    "options": [
+      "Gunnar Nordahl",
+      "Francesco Totti",
+      "Ciro Immobile",
+      "Silvio Piola"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Francesco Totti spent his entire career at which club?",
+    "options": [
+      "Fiorentina",
+      "Lazio",
+      "AC Milan",
+      "Roma"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Paolo Maldini spent his entire career at which club?",
+    "options": [
+      "Sampdoria",
+      "Juventus",
+      "AC Milan",
+      "Inter Milan"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Inter Milan to the treble in 2009-10?",
+    "options": [
+      "José Mourinho",
+      "Rafael Benítez",
+      "Claudio Ranieri",
+      "Roberto Mancini"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Inter Milan's 2023-24 Serie A title was their 20th, earning what for their badge?",
+    "options": [
+      "A second star",
+      "A gold crest",
+      "A third star",
+      "A silver shield"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "How many European Cup/Champions League titles has AC Milan won?",
+    "options": [
+      "4",
+      "7",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club has won the most Bundesliga titles?",
+    "options": [
+      "Borussia Mönchengladbach",
+      "Hamburger SV",
+      "Borussia Dortmund",
+      "Bayern Munich"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Bayern Munich won how many consecutive Bundesliga titles from 2012-13 to 2022-23?",
+    "options": [
+      "9",
+      "12",
+      "10",
+      "11"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club won the 2023-24 Bundesliga without losing a league game?",
+    "options": [
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "RB Leipzig",
+      "Bayer Leverkusen"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who managed Bayer Leverkusen's unbeaten 2023-24 title-winning team?",
+    "options": [
+      "Thomas Tuchel",
+      "Xabi Alonso",
+      "Julian Nagelsmann",
+      "Edin Terzić"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Before 2024, Bayer Leverkusen were mockingly nicknamed what?",
+    "options": [
+      "Almostkusen",
+      "Loserkusen",
+      "Neverkusen",
+      "Secondkusen"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Robert Lewandowski scored 41 Bundesliga goals in 2020-21, breaking whose record?",
+    "options": [
+      "Gerd Müller",
+      "Jupp Heynckes",
+      "Karl-Heinz Rummenigge",
+      "Klaus Fischer"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is the Bundesliga's all-time top goalscorer?",
+    "options": [
+      "Robert Lewandowski",
+      "Klaus Fischer",
+      "Gerd Müller",
+      "Jupp Heynckes"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Robert Lewandowski famously scored five goals in nine minutes in 2015 against which club?",
+    "options": [
+      "Hamburger SV",
+      "Werder Bremen",
+      "Schalke 04",
+      "Wolfsburg"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Borussia Dortmund's famous \"Yellow Wall\" stand is in which stadium?",
+    "options": [
+      "Veltins-Arena",
+      "Allianz Arena",
+      "Signal Iduna Park",
+      "BayArena"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "The Revierderby is contested by Borussia Dortmund and which club?",
+    "options": [
+      "Bayern Munich",
+      "Bayer Leverkusen",
+      "Schalke 04",
+      "1. FC Köln"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Jürgen Klopp managed which club immediately before joining Liverpool?",
+    "options": [
+      "Mainz 05",
+      "Schalke 04",
+      "Borussia Dortmund",
+      "Bayern Munich"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Borussia Dortmund lost the 2013 Champions League final at Wembley to which club?",
+    "options": [
+      "Barcelona",
+      "Juventus",
+      "Bayern Munich",
+      "Real Madrid"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "The \"50+1\" rule limiting outside ownership of clubs is a feature of which league?",
+    "options": [
+      "Serie A",
+      "Ligue 1",
+      "Bundesliga",
+      "La Liga"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which of these leagues has 18 teams?",
+    "options": [
+      "Premier League",
+      "Serie A",
+      "La Liga",
+      "Bundesliga"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club plays its home games at the Allianz Arena?",
+    "options": [
+      "Borussia Dortmund",
+      "Bayern Munich",
+      "RB Leipzig",
+      "Eintracht Frankfurt"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club has won the most Ligue 1 titles?",
+    "options": [
+      "Marseille",
+      "Saint-Étienne",
+      "Lyon",
+      "Paris Saint-Germain"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Paris Saint-Germain is owned by an investment group from which country?",
+    "options": [
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Bahrain",
+      "Qatar"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Lyon won how many consecutive Ligue 1 titles from 2001-02 to 2007-08?",
+    "options": [
+      "6",
+      "5",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Le Classique is played between PSG and which club?",
+    "options": [
+      "Lille",
+      "Marseille",
+      "Lyon",
+      "Monaco"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Before PSG in 2025, which was the only French club to win the Champions League?",
+    "options": [
+      "Monaco",
+      "Bordeaux",
+      "Lyon",
+      "Marseille"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Who is Paris Saint-Germain's all-time record goalscorer?",
+    "options": [
+      "Edinson Cavani",
+      "Neymar",
+      "Zlatan Ibrahimović",
+      "Kylian Mbappé"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Kylian Mbappé left PSG to join which club in 2024?",
+    "options": [
+      "Manchester City",
+      "Liverpool",
+      "Real Madrid",
+      "Barcelona"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Neymar's world-record 2017 transfer to PSG came from which club?",
+    "options": [
+      "Real Madrid",
+      "Barcelona",
+      "Chelsea",
+      "Santos"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "A young Kylian Mbappé helped which club win the 2016-17 Ligue 1 title?",
+    "options": [
+      "PSG",
+      "Lyon",
+      "Lille",
+      "Monaco"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club surprised PSG to win the 2020-21 Ligue 1 title?",
+    "options": [
+      "Lyon",
+      "Lille",
+      "Monaco",
+      "Rennes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which club plays its home games at the Parc des Princes?",
+    "options": [
+      "Paris FC",
+      "Paris Saint-Germain",
+      "Lyon",
+      "Marseille"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which of these clubs has Pep Guardiola never managed?",
+    "options": [
+      "Manchester City",
+      "Barcelona",
+      "Bayern Munich",
+      "Juventus"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which Manchester City midfielder won the 2024 Ballon d'Or?",
+    "options": [
+      "Bernardo Silva",
+      "Rodri",
+      "Kevin De Bruyne",
+      "Phil Foden"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
+    "text": "Which PSG forward won the 2025 Ballon d'Or?",
+    "options": [
+      "Ousmane Dembélé",
+      "Khvicha Kvaratskhelia",
+      "Vitinha",
+      "Kylian Mbappé"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  }
+]

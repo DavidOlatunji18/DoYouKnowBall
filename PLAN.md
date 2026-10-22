@@ -16,7 +16,7 @@ Target: a working MVP by Sunday. Optimize for a complete vertical slice (registe
 
 ## MVP scope
 
-**In:** email/password auth (JWT), 2 sports (NBA, NFL) with 2-3 categories each, 10-question rounds with 4 multiple-choice answers, server-side scoring, saved game history, per-sport leaderboard.
+**In:** email/password auth (JWT), 2 sports (Soccer, NFL) with 2-3 categories each (Soccer: European Top 5 Leagues, Internationals), 10-question rounds with 4 multiple-choice answers, server-side scoring, saved game history, per-sport leaderboard.
 
 **Out (do not build yet):** other 3 sports, S3, timers, streaks, social login, friends/multiplayer, admin panel, push notifications.
 
@@ -94,9 +94,9 @@ Leaderboard is a query over `GameSessions`, not a table. Add indexes on `Questio
 
 - [ ] Define the JSON format in `/seed/questions.schema.json`:
   ```json
-  { "sport": "NBA", "category": "History", "text": "...", "options": ["a","b","c","d"], "correctIndex": 2, "difficulty": 2 }
+  { "sport": "NFL", "category": "History", "text": "...", "options": ["a","b","c","d"], "correctIndex": 2, "difficulty": 2 }
   ```
-- [ ] Generate about 100 questions per category as JSON files in `/seed` for NBA and NFL (2-3 categories each, e.g. History, Records and Stats, Players). Mix difficulties 1-3.
+- [ ] Generate about 100 questions per category as JSON files in `/seed` for Soccer (European Top 5 Leagues, Internationals) and NFL (History, Records and Stats, Players). Mix difficulties 1-3.
 - [ ] Write a validation script: exactly 4 distinct options, `correctIndex` in range, no duplicate question text, no empty fields.
 - [ ] Write an idempotent seed loader (runs on startup in Development, and via a CLI flag for prod).
 - [ ] Produce `seed/REVIEW.md` listing any question you are less than very confident about, so I can fact-check them.

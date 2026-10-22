@@ -1,0 +1,1523 @@
+[
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2022 FIFA World Cup?",
+    "options": [
+      "Croatia",
+      "Argentina",
+      "Brazil",
+      "France"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country did Argentina beat in the 2022 World Cup final?",
+    "options": [
+      "Netherlands",
+      "Morocco",
+      "France",
+      "Croatia"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What was the score after extra time in the 2022 World Cup final?",
+    "options": [
+      "2-2",
+      "3-3",
+      "1-1",
+      "4-4"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored a hat-trick for France in the 2022 World Cup final?",
+    "options": [
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Olivier Giroud",
+      "Ousmane Dembélé"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Before Kylian Mbappé in 2022, who was the only man to score a hat-trick in a World Cup final?",
+    "options": [
+      "Gerd Müller",
+      "Geoff Hurst",
+      "Pelé",
+      "Ronaldo"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored the winning penalty for Argentina in the 2022 World Cup final shootout?",
+    "options": [
+      "Gonzalo Montiel",
+      "Paulo Dybala",
+      "Leandro Paredes",
+      "Lionel Messi"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many goals did Lionel Messi score in the 2022 World Cup final?",
+    "options": [
+      "1",
+      "0",
+      "3",
+      "2"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Glove at the 2022 World Cup?",
+    "options": [
+      "Hugo Lloris",
+      "Yassine Bounou",
+      "Dominik Livaković",
+      "Emiliano Martínez"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Boot at the 2022 World Cup?",
+    "options": [
+      "Julián Álvarez",
+      "Olivier Giroud",
+      "Kylian Mbappé",
+      "Lionel Messi"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country hosted the 2022 World Cup?",
+    "options": [
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Qatar",
+      "Russia"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "The 2022 World Cup was the first played in which months?",
+    "options": [
+      "November and December",
+      "January and February",
+      "September and October",
+      "March and April"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country stunned Argentina 2-1 in their opening match of the 2022 World Cup?",
+    "options": [
+      "Japan",
+      "Mexico",
+      "Poland",
+      "Saudi Arabia"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country beat both Germany and Spain in the 2022 World Cup group stage?",
+    "options": [
+      "Japan",
+      "Morocco",
+      "South Korea",
+      "Costa Rica"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "In 2022, which country became the first African team to reach a World Cup semifinal?",
+    "options": [
+      "Senegal",
+      "Morocco",
+      "Cameroon",
+      "Ghana"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Where did Croatia finish at the 2022 World Cup?",
+    "options": [
+      "Third",
+      "Second",
+      "Fourth",
+      "Quarterfinals"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which three countries are hosting the 2026 World Cup?",
+    "options": [
+      "USA and Canada only",
+      "USA, Canada and Mexico",
+      "USA, Mexico and Costa Rica",
+      "Canada, Mexico and Jamaica"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many teams are in the 2026 World Cup?",
+    "options": [
+      "40",
+      "64",
+      "32",
+      "48"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which stadium is hosting the 2026 World Cup final?",
+    "options": [
+      "MetLife Stadium",
+      "SoFi Stadium",
+      "AT&T Stadium",
+      "Estadio Azteca"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which stadium is hosting the opening match of the 2026 World Cup?",
+    "options": [
+      "BMO Field",
+      "SoFi Stadium",
+      "Estadio Azteca",
+      "MetLife Stadium"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which three countries will co-host the main tournament of the 2030 World Cup?",
+    "options": [
+      "Spain, Portugal and Italy",
+      "Morocco, Egypt and Tunisia",
+      "Uruguay, Argentina and Paraguay",
+      "Spain, Portugal and Morocco"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country will host the 2034 World Cup?",
+    "options": [
+      "Saudi Arabia",
+      "Australia",
+      "Egypt",
+      "China"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2018 World Cup?",
+    "options": [
+      "England",
+      "Belgium",
+      "France",
+      "Croatia"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country hosted the 2018 World Cup?",
+    "options": [
+      "Russia",
+      "Germany",
+      "Brazil",
+      "Qatar"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country did France beat in the 2018 World Cup final?",
+    "options": [
+      "Uruguay",
+      "Belgium",
+      "England",
+      "Croatia"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Ball at the 2018 World Cup?",
+    "options": [
+      "Antoine Griezmann",
+      "Luka Modrić",
+      "Kylian Mbappé",
+      "Eden Hazard"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Boot at the 2018 World Cup?",
+    "options": [
+      "Harry Kane",
+      "Romelu Lukaku",
+      "Cristiano Ronaldo",
+      "Antoine Griezmann"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "The 2018 World Cup was the first to use which technology?",
+    "options": [
+      "Video assistant referee (VAR)",
+      "Semi-automated offside",
+      "Microchipped balls",
+      "Goal-line technology"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2014 World Cup?",
+    "options": [
+      "Netherlands",
+      "Brazil",
+      "Argentina",
+      "Germany"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored the extra-time winner in the 2014 World Cup final?",
+    "options": [
+      "André Schürrle",
+      "Mario Götze",
+      "Miroslav Klose",
+      "Thomas Müller"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What was the score of Germany's famous 2014 World Cup semifinal win over Brazil?",
+    "options": [
+      "7-1",
+      "6-2",
+      "4-1",
+      "5-0"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Boot at the 2014 World Cup?",
+    "options": [
+      "James Rodríguez",
+      "Neymar",
+      "Thomas Müller",
+      "Lionel Messi"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Ball at the 2014 World Cup?",
+    "options": [
+      "Thomas Müller",
+      "Lionel Messi",
+      "Arjen Robben",
+      "James Rodríguez"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2010 World Cup?",
+    "options": [
+      "Spain",
+      "Uruguay",
+      "Germany",
+      "Netherlands"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored the winning goal in the 2010 World Cup final?",
+    "options": [
+      "Fernando Torres",
+      "David Villa",
+      "Xavi",
+      "Andrés Iniesta"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country hosted the 2010 World Cup?",
+    "options": [
+      "Egypt",
+      "Morocco",
+      "South Africa",
+      "Nigeria"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Boot at the 2010 World Cup?",
+    "options": [
+      "Thomas Müller",
+      "Diego Forlán",
+      "David Villa",
+      "Wesley Sneijder"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Ball at the 2010 World Cup?",
+    "options": [
+      "Wesley Sneijder",
+      "David Villa",
+      "Andrés Iniesta",
+      "Diego Forlán"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2006 World Cup?",
+    "options": [
+      "Germany",
+      "Portugal",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Zinedine Zidane was sent off in the 2006 World Cup final for headbutting which player?",
+    "options": [
+      "Gennaro Gattuso",
+      "Fabio Cannavaro",
+      "Andrea Pirlo",
+      "Marco Materazzi"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the Golden Ball at the 2006 World Cup, despite his red card in the final?",
+    "options": [
+      "Andrea Pirlo",
+      "Zinedine Zidane",
+      "Fabio Cannavaro",
+      "Miroslav Klose"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which two countries co-hosted the 2002 World Cup?",
+    "options": [
+      "South Korea and China",
+      "South Korea and Japan",
+      "China and Japan",
+      "Japan and Australia"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2002 World Cup?",
+    "options": [
+      "Brazil",
+      "South Korea",
+      "Turkey",
+      "Germany"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many goals did Ronaldo (Brazil) score at the 2002 World Cup?",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "6"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the 2002 World Cup Golden Ball, the only goalkeeper to do so?",
+    "options": [
+      "Oliver Kahn",
+      "Rüştü Reçber",
+      "Iker Casillas",
+      "Gianluigi Buffon"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored the fastest goal in World Cup history, after 11 seconds in 2002?",
+    "options": [
+      "Bryan Robson",
+      "Alan Shearer",
+      "Hakan Şükür",
+      "Clint Dempsey"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country reached the semifinals of the 2002 World Cup as co-hosts?",
+    "options": [
+      "South Korea",
+      "China",
+      "Japan",
+      "Australia"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 1998 World Cup on home soil?",
+    "options": [
+      "Brazil",
+      "Croatia",
+      "Italy",
+      "France"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Zinedine Zidane scored two headers in the 1998 World Cup final against which country?",
+    "options": [
+      "Netherlands",
+      "Italy",
+      "Brazil",
+      "Croatia"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which player missed the decisive penalty for Italy in the 1994 World Cup final?",
+    "options": [
+      "Paolo Maldini",
+      "Roberto Baggio",
+      "Franco Baresi",
+      "Daniele Massaro"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Diego Maradona's \"Hand of God\" goal at the 1986 World Cup came against which country?",
+    "options": [
+      "West Germany",
+      "England",
+      "Italy",
+      "Belgium"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Uruguay's 1950 World Cup-deciding win over Brazil at the Maracanã is known as what?",
+    "options": [
+      "The Miracle of Bern",
+      "The Maracanazo",
+      "The Silent Final",
+      "The Battle of Rio"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country hosted and won the first World Cup in 1930?",
+    "options": [
+      "Argentina",
+      "Brazil",
+      "Italy",
+      "Uruguay"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "As of 2022, which country has won the most World Cups?",
+    "options": [
+      "Brazil",
+      "Argentina",
+      "Germany",
+      "Italy"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many World Cups has Brazil won?",
+    "options": [
+      "5",
+      "6",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many World Cups has Germany won?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many World Cups has Italy won?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many World Cups has Argentina won?",
+    "options": [
+      "1",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "In which year did England win its only World Cup?",
+    "options": [
+      "1966",
+      "1958",
+      "1970",
+      "1990"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "The Netherlands have lost how many World Cup finals?",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who is the all-time top scorer in World Cup history?",
+    "options": [
+      "Gerd Müller",
+      "Ronaldo",
+      "Miroslav Klose",
+      "Lionel Messi"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who holds the record for most goals at a single World Cup, with 13 in 1958?",
+    "options": [
+      "Gerd Müller",
+      "Pelé",
+      "Sándor Kocsis",
+      "Just Fontaine"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored a record five goals in a single World Cup match in 1994?",
+    "options": [
+      "Romário",
+      "Oleg Salenko",
+      "Hristo Stoichkov",
+      "Gabriel Batistuta"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many World Cups did Pelé win as a player?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How old was Pelé when he won the 1958 World Cup?",
+    "options": [
+      "16",
+      "19",
+      "18",
+      "17"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who holds the record for most World Cup matches played?",
+    "options": [
+      "Miroslav Klose",
+      "Paolo Maldini",
+      "Lionel Messi",
+      "Lothar Matthäus"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which Brazilian is the only player to appear in three consecutive World Cup finals (1994, 1998, 2002)?",
+    "options": [
+      "Ronaldo",
+      "Rivaldo",
+      "Cafu",
+      "Roberto Carlos"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the World Cup as France captain in 1998 and as France coach in 2018?",
+    "options": [
+      "Didier Deschamps",
+      "Laurent Blanc",
+      "Marcel Desailly",
+      "Zinedine Zidane"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the World Cup as West Germany captain in 1974 and as coach in 1990?",
+    "options": [
+      "Berti Vogts",
+      "Gerd Müller",
+      "Franz Beckenbauer",
+      "Jupp Heynckes"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which African country reached the 1990 World Cup quarterfinals, led by Roger Milla?",
+    "options": [
+      "Algeria",
+      "Cameroon",
+      "Nigeria",
+      "Egypt"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What is the best-ever World Cup finish for the United States men's team?",
+    "options": [
+      "Third place (1930)",
+      "Fourth place (1994)",
+      "Quarterfinals (2002)",
+      "Runner-up (1950)"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What was the original World Cup trophy called?",
+    "options": [
+      "Stanley Trophy",
+      "Henri Delaunay Trophy",
+      "Jules Rimet Trophy",
+      "Coupe de Monde"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What is the name of the European Championship trophy?",
+    "options": [
+      "Jules Rimet Trophy",
+      "Lennart Johansson Cup",
+      "Henri Delaunay Trophy",
+      "Copa Europa"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which 1962 World Cup match between Chile and Italy became infamous for its violence?",
+    "options": [
+      "The Disgrace of Gijón",
+      "The Battle of Santiago",
+      "The Battle of Bern",
+      "The Battle of Nuremberg"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who holds the men's record for most international goals?",
+    "options": [
+      "Ali Daei",
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Lionel Messi"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Whose men's international goals record did Cristiano Ronaldo break in 2021?",
+    "options": [
+      "Mokhtar Dahari",
+      "Ferenc Puskás",
+      "Pelé",
+      "Ali Daei"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "How many Ballon d'Or awards has Lionel Messi won?",
+    "options": [
+      "8",
+      "9",
+      "6",
+      "7"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won Euro 2024?",
+    "options": [
+      "England",
+      "Netherlands",
+      "France",
+      "Spain"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country hosted Euro 2024?",
+    "options": [
+      "Germany",
+      "Spain",
+      "France",
+      "England"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Spain beat which country in the Euro 2024 final?",
+    "options": [
+      "Germany",
+      "France",
+      "Netherlands",
+      "England"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored Spain's winning goal in the Euro 2024 final?",
+    "options": [
+      "Nico Williams",
+      "Mikel Oyarzabal",
+      "Lamine Yamal",
+      "Dani Olmo"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who was named player of the tournament at Euro 2024?",
+    "options": [
+      "Rodri",
+      "Jude Bellingham",
+      "Dani Olmo",
+      "Lamine Yamal"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Lamine Yamal became the youngest goalscorer in European Championship history with a goal against which country?",
+    "options": [
+      "France",
+      "Croatia",
+      "Germany",
+      "Italy"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won Euro 2020, played in 2021?",
+    "options": [
+      "England",
+      "Italy",
+      "Spain",
+      "Denmark"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who was named player of the tournament at Euro 2020?",
+    "options": [
+      "Gianluigi Donnarumma",
+      "Jorginho",
+      "Federico Chiesa",
+      "Leonardo Bonucci"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won Euro 2016?",
+    "options": [
+      "Portugal",
+      "Germany",
+      "Wales",
+      "France"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored the extra-time winner for Portugal in the Euro 2016 final?",
+    "options": [
+      "Éder",
+      "Cristiano Ronaldo",
+      "Nani",
+      "Renato Sanches"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which tiny nation knocked England out of Euro 2016?",
+    "options": [
+      "Wales",
+      "Northern Ireland",
+      "Albania",
+      "Iceland"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country shocked Europe by winning Euro 2004?",
+    "options": [
+      "Greece",
+      "Netherlands",
+      "Czech Republic",
+      "Portugal"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won Euro 1992 after replacing Yugoslavia at late notice?",
+    "options": [
+      "Denmark",
+      "Netherlands",
+      "Sweden",
+      "Germany"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Spain won which three major tournaments in a row from 2008 to 2012?",
+    "options": [
+      "Euro 2008, World Cup 2010, Euro 2012",
+      "Euro 2008, Euro 2012, World Cup 2014",
+      "World Cup 2006, Euro 2008, World Cup 2010",
+      "World Cup 2010, Euro 2012, World Cup 2014"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "As of 2024, which country has won the most European Championships?",
+    "options": [
+      "Italy",
+      "France",
+      "Spain",
+      "Germany"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Antonín Panenka's famous chipped penalty won Euro 1976 for which country?",
+    "options": [
+      "Czechoslovakia",
+      "Hungary",
+      "Yugoslavia",
+      "Poland"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who is the all-time top scorer in European Championship history?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Alan Shearer",
+      "Michel Platini",
+      "Antoine Griezmann"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2024 Copa América?",
+    "options": [
+      "Uruguay",
+      "Colombia",
+      "Argentina",
+      "Brazil"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who scored the extra-time winner for Argentina in the 2024 Copa América final?",
+    "options": [
+      "Ángel Di María",
+      "Lionel Messi",
+      "Julián Álvarez",
+      "Lautaro Martínez"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Argentina won the 2021 Copa América by beating which country in the final?",
+    "options": [
+      "Chile",
+      "Colombia",
+      "Uruguay",
+      "Brazil"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "As of 2024, which country has won the most Copa América titles?",
+    "options": [
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Uruguay"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won back-to-back Copa América titles in 2015 and 2016?",
+    "options": [
+      "Argentina",
+      "Peru",
+      "Colombia",
+      "Chile"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country has won the most Africa Cup of Nations titles?",
+    "options": [
+      "Cameroon",
+      "Ghana",
+      "Nigeria",
+      "Egypt"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2025 UEFA Nations League?",
+    "options": [
+      "France",
+      "Germany",
+      "Portugal",
+      "Spain"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the first UEFA Nations League in 2019?",
+    "options": [
+      "Netherlands",
+      "Switzerland",
+      "England",
+      "Portugal"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2023 FIFA Women's World Cup?",
+    "options": [
+      "England",
+      "Spain",
+      "United States",
+      "Sweden"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which two countries co-hosted the 2023 Women's World Cup?",
+    "options": [
+      "Japan and South Korea",
+      "France and Belgium",
+      "Australia and New Zealand",
+      "Canada and USA"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country has won the most FIFA Women's World Cups?",
+    "options": [
+      "Germany",
+      "Japan",
+      "United States",
+      "Norway"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Which country won the 2025 Women's European Championship?",
+    "options": [
+      "England",
+      "Spain",
+      "France",
+      "Germany"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who is the all-time top scorer in Women's World Cup history?",
+    "options": [
+      "Abby Wambach",
+      "Birgit Prinz",
+      "Christine Sinclair",
+      "Marta"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who won the women's Ballon d'Or in both 2023 and 2024?",
+    "options": [
+      "Aitana Bonmatí",
+      "Alessia Russo",
+      "Alexia Putellas",
+      "Sam Kerr"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who is the only goalkeeper to win the Ballon d'Or?",
+    "options": [
+      "Manuel Neuer",
+      "Gianluigi Buffon",
+      "Iker Casillas",
+      "Lev Yashin"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who was appointed England men's manager in 2024, starting in January 2025?",
+    "options": [
+      "Lee Carsley",
+      "Gareth Southgate",
+      "Thomas Tuchel",
+      "Graham Potter"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who became Brazil's head coach in 2025?",
+    "options": [
+      "José Mourinho",
+      "Carlo Ancelotti",
+      "Jorge Jesus",
+      "Dorival Júnior"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who was appointed USMNT head coach in 2024?",
+    "options": [
+      "Gregg Berhalter",
+      "Mauricio Pochettino",
+      "Jürgen Klinsmann",
+      "Jesse Marsch"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "Who coached Argentina to the 2022 World Cup title?",
+    "options": [
+      "Gerardo Martino",
+      "Jorge Sampaoli",
+      "Diego Maradona",
+      "Lionel Scaloni"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What is the nickname of Italy's national team?",
+    "options": [
+      "La Roja",
+      "Oranje",
+      "Seleção",
+      "Azzurri"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What is the nickname of Brazil's national team?",
+    "options": [
+      "Seleção",
+      "La Albiceleste",
+      "Azzurri",
+      "Les Bleus"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What is the nickname of Nigeria's national team?",
+    "options": [
+      "Indomitable Lions",
+      "Super Eagles",
+      "Atlas Lions",
+      "Black Stars"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "What is the nickname of Argentina's national team?",
+    "options": [
+      "La Roja",
+      "La Celeste",
+      "La Albiceleste",
+      "El Tri"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "Internationals",
+    "text": "The Dutch \"Total Football\" style of the 1970s was led on the pitch by which player?",
+    "options": [
+      "Johan Cruyff",
+      "Marco van Basten",
+      "Johan Neeskens",
+      "Ruud Gullit"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  }
+]

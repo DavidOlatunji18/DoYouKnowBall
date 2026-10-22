@@ -1,0 +1,1328 @@
+[
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most career receiving yards by a tight end?",
+    "options": [
+      "Shannon Sharpe",
+      "Travis Kelce",
+      "Tony Gonzalez",
+      "Jason Witten"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most career receptions by a tight end?",
+    "options": [
+      "Antonio Gates",
+      "Travis Kelce",
+      "Jason Witten",
+      "Tony Gonzalez"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most career receiving touchdowns by a tight end?",
+    "options": [
+      "Travis Kelce",
+      "Rob Gronkowski",
+      "Antonio Gates",
+      "Tony Gonzalez"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who was the first player to record 1,000 rushing yards and 1,000 receiving yards in the same season?",
+    "options": [
+      "Christian McCaffrey",
+      "Marshall Faulk",
+      "Roger Craig",
+      "Walter Payton"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who set the Super Bowl rushing record with 204 yards in Super Bowl XXII?",
+    "options": [
+      "Marcus Allen",
+      "Timmy Smith",
+      "John Riggins",
+      "Terrell Davis"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who set the Super Bowl receiving record with 215 yards in Super Bowl XXIII?",
+    "options": [
+      "Jerry Rice",
+      "Lynn Swann",
+      "Deion Branch",
+      "Julian Edelman"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who has scored the most career Super Bowl touchdowns?",
+    "options": [
+      "Travis Kelce",
+      "Emmitt Smith",
+      "Jerry Rice",
+      "Rob Gronkowski"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who has thrown the most career Super Bowl touchdown passes?",
+    "options": [
+      "Terry Bradshaw",
+      "Tom Brady",
+      "Joe Montana",
+      "Patrick Mahomes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who is the oldest player to win a Super Bowl?",
+    "options": [
+      "Matt Stafford",
+      "Peyton Manning",
+      "John Elway",
+      "Tom Brady"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who is the youngest starting quarterback to win a Super Bowl?",
+    "options": [
+      "Russell Wilson",
+      "Tom Brady",
+      "Patrick Mahomes",
+      "Ben Roethlisberger"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most Pro Bowl selections?",
+    "options": [
+      "Tom Brady",
+      "Bruce Matthews",
+      "Peyton Manning",
+      "Tony Gonzalez"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Which quarterback has the most career playoff wins?",
+    "options": [
+      "Tom Brady",
+      "Patrick Mahomes",
+      "Joe Montana",
+      "Peyton Manning"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who has the most 5,000-yard passing seasons?",
+    "options": [
+      "Patrick Mahomes",
+      "Drew Brees",
+      "Tom Brady",
+      "Peyton Manning"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-game scoring record of 40 points, set in 1929?",
+    "options": [
+      "Ernie Nevers",
+      "Dub Jones",
+      "Jim Thorpe",
+      "Red Grange"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who set the single-season passer rating record of 122.5 in 2011?",
+    "options": [
+      "Aaron Rodgers",
+      "Tom Brady",
+      "Drew Brees",
+      "Peyton Manning"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most consecutive pass attempts without an interception?",
+    "options": [
+      "Bart Starr",
+      "Aaron Rodgers",
+      "Patrick Mahomes",
+      "Tom Brady"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "What is the NFL record for touchdown passes in a single game?",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "6"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who kicked a record eight field goals in a single game in 2007?",
+    "options": [
+      "Justin Tucker",
+      "Adam Vinatieri",
+      "Rob Bironas",
+      "Stephen Gostkowski"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who set the rookie record for passing yards in a season with 4,374 in 2012?",
+    "options": [
+      "Cam Newton",
+      "C.J. Stroud",
+      "Andrew Luck",
+      "Justin Herbert"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the rookie record for rushing yards in a season, with 1,808?",
+    "options": [
+      "Edgerrin James",
+      "Ezekiel Elliott",
+      "Saquon Barkley",
+      "Eric Dickerson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How long is an NFL quarter?",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "20 minutes",
+      "12 minutes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many timeouts does each team get per half?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many seconds are on the NFL play clock between plays?",
+    "options": [
+      "30",
+      "45",
+      "25",
+      "40"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How wide is an NFL field?",
+    "options": [
+      "53 1/3 yards",
+      "50 yards",
+      "48 1/2 yards",
+      "60 yards"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How deep is each NFL end zone?",
+    "options": [
+      "20 yards",
+      "15 yards",
+      "10 yards",
+      "5 yards"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Since 2015, extra-point kicks are snapped from which yard line?",
+    "options": [
+      "20-yard line",
+      "10-yard line",
+      "2-yard line",
+      "15-yard line"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many players are on a standard NFL regular-season active roster?",
+    "options": [
+      "60",
+      "55",
+      "53",
+      "45"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many points is a two-point conversion worth?",
+    "options": [
+      "3",
+      "2",
+      "6",
+      "1"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career passing yards?",
+    "options": [
+      "Tom Brady",
+      "Drew Brees",
+      "Brett Favre",
+      "Peyton Manning"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career passing touchdowns?",
+    "options": [
+      "Aaron Rodgers",
+      "Tom Brady",
+      "Peyton Manning",
+      "Drew Brees"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career rushing yards?",
+    "options": [
+      "Barry Sanders",
+      "Walter Payton",
+      "Frank Gore",
+      "Emmitt Smith"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career receiving yards?",
+    "options": [
+      "Jerry Rice",
+      "Randy Moss",
+      "Larry Fitzgerald",
+      "Terrell Owens"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career receptions?",
+    "options": [
+      "Larry Fitzgerald",
+      "Jerry Rice",
+      "Tony Gonzalez",
+      "Marvin Harrison"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career sacks (official since 1982)?",
+    "options": [
+      "Bruce Smith",
+      "Julius Peppers",
+      "Kevin Greene",
+      "Reggie White"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career interceptions?",
+    "options": [
+      "Paul Krause",
+      "Ed Reed",
+      "Emlen Tunnell",
+      "Rod Woodson"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career touchdowns?",
+    "options": [
+      "LaDainian Tomlinson",
+      "Randy Moss",
+      "Emmitt Smith",
+      "Jerry Rice"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career points?",
+    "options": [
+      "Morten Andersen",
+      "Gary Anderson",
+      "Jason Hanson",
+      "Adam Vinatieri"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the NFL record for most career field goals made?",
+    "options": [
+      "Gary Anderson",
+      "Justin Tucker",
+      "Adam Vinatieri",
+      "Morten Andersen"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who threw for a record 5,477 yards in a single season in 2013?",
+    "options": [
+      "Patrick Mahomes",
+      "Drew Brees",
+      "Peyton Manning",
+      "Tom Brady"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "What is the single-season record for touchdown passes, set by Peyton Manning in 2013?",
+    "options": [
+      "50",
+      "55",
+      "49",
+      "52"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-season rushing record of 2,105 yards, set in 1984?",
+    "options": [
+      "Barry Sanders",
+      "Eric Dickerson",
+      "Saquon Barkley",
+      "Adrian Peterson"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Saquon Barkley rushed for over 2,000 yards in 2024 for which team?",
+    "options": [
+      "New York Giants",
+      "Dallas Cowboys",
+      "Philadelphia Eagles",
+      "Baltimore Ravens"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-season receiving yards record of 1,964, set in 2012?",
+    "options": [
+      "Cooper Kupp",
+      "Julio Jones",
+      "Jerry Rice",
+      "Calvin Johnson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who set the single-season receptions record with 149 in 2019?",
+    "options": [
+      "Tyreek Hill",
+      "Cooper Kupp",
+      "Marvin Harrison",
+      "Michael Thomas"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who set the single-season rushing touchdowns record with 28 in 2006?",
+    "options": [
+      "Priest Holmes",
+      "Shaun Alexander",
+      "Emmitt Smith",
+      "LaDainian Tomlinson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many total touchdowns did LaDainian Tomlinson score in his record 2006 season?",
+    "options": [
+      "33",
+      "31",
+      "28",
+      "29"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many points did LaDainian Tomlinson score in his record 2006 season?",
+    "options": [
+      "192",
+      "168",
+      "186",
+      "176"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who has won the most Super Bowl MVP awards?",
+    "options": [
+      "Joe Montana",
+      "Tom Brady",
+      "Terry Bradshaw",
+      "Patrick Mahomes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many Super Bowls did Tom Brady play in?",
+    "options": [
+      "8",
+      "11",
+      "10",
+      "9"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who has won the most NFL MVP awards?",
+    "options": [
+      "Aaron Rodgers",
+      "Jim Brown",
+      "Peyton Manning",
+      "Tom Brady"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who won the 2024 NFL MVP award?",
+    "options": [
+      "Joe Burrow",
+      "Saquon Barkley",
+      "Lamar Jackson",
+      "Josh Allen"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who threw a touchdown pass in a record 54 consecutive games?",
+    "options": [
+      "Johnny Unitas",
+      "Peyton Manning",
+      "Drew Brees",
+      "Tom Brady"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Which quarterback has the most career wins?",
+    "options": [
+      "Drew Brees",
+      "Tom Brady",
+      "Brett Favre",
+      "Peyton Manning"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Which head coach has the most career wins?",
+    "options": [
+      "Bill Belichick",
+      "George Halas",
+      "Don Shula",
+      "Tom Landry"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Which team won the most lopsided Super Bowl, by 45 points?",
+    "options": [
+      "Dallas Cowboys",
+      "Seattle Seahawks",
+      "San Francisco 49ers",
+      "Chicago Bears"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Which Super Bowl holds the record for most combined points, with 75?",
+    "options": [
+      "Super Bowl XXVII",
+      "Super Bowl LII",
+      "Super Bowl XXIX",
+      "Super Bowl LVII"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-game rushing record of 296 yards?",
+    "options": [
+      "Adrian Peterson",
+      "Jamal Lewis",
+      "Walter Payton",
+      "Jerome Harrison"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-game passing record of 554 yards, set in 1951?",
+    "options": [
+      "Sammy Baugh",
+      "Y.A. Tittle",
+      "Norm Van Brocklin",
+      "Otto Graham"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Alvin Kamara tied the single-game record for touchdowns in 2020. How many did he score?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-game receiving record of 336 yards?",
+    "options": [
+      "Stephone Paige",
+      "Flipper Anderson",
+      "Jerry Rice",
+      "Calvin Johnson"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many teams are in the NFL?",
+    "options": [
+      "34",
+      "28",
+      "30",
+      "32"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many games does each team play in the NFL regular season?",
+    "options": [
+      "18",
+      "17",
+      "15",
+      "16"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many yards must a team gain for a first down?",
+    "options": [
+      "10",
+      "20",
+      "5",
+      "15"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many points is a touchdown worth?",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "5"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many points is a field goal worth?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many points is a safety worth?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many players does each team have on the field at once?",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How long is an NFL field between the goal lines?",
+    "options": [
+      "100 yards",
+      "110 yards",
+      "90 yards",
+      "120 yards"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How long is a regular-season overtime period, since 2017?",
+    "options": [
+      "15 minutes",
+      "12 minutes",
+      "10 minutes",
+      "8 minutes"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many teams make the NFL playoffs each season?",
+    "options": [
+      "16",
+      "10",
+      "14",
+      "12"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many rounds are in the NFL Draft?",
+    "options": [
+      "7",
+      "8",
+      "5",
+      "10"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who was the first quarterback to throw for 5,000 yards in a season?",
+    "options": [
+      "Dan Fouts",
+      "Drew Brees",
+      "Dan Marino",
+      "Peyton Manning"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many touchdown passes did Dan Marino throw in his record 1984 season?",
+    "options": [
+      "44",
+      "48",
+      "42",
+      "50"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who was the first player to rush for 2,000 yards in a season?",
+    "options": [
+      "Barry Sanders",
+      "Eric Dickerson",
+      "Walter Payton",
+      "O.J. Simpson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "In which season did Barry Sanders rush for 2,053 yards?",
+    "options": [
+      "1995",
+      "1994",
+      "1998",
+      "1997"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Which Titans running back, nicknamed \"CJ2K,\" rushed for 2,006 yards in 2009?",
+    "options": [
+      "Derrick Henry",
+      "LenDale White",
+      "Eddie George",
+      "Chris Johnson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most yards from scrimmage in a season, 2,509 in 2009?",
+    "options": [
+      "Saquon Barkley",
+      "Marshall Faulk",
+      "Christian McCaffrey",
+      "Chris Johnson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "In which year did Emmitt Smith pass Walter Payton for the career rushing record?",
+    "options": [
+      "2000",
+      "2004",
+      "1999",
+      "2002"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most career rushing touchdowns?",
+    "options": [
+      "Marcus Allen",
+      "Emmitt Smith",
+      "LaDainian Tomlinson",
+      "Walter Payton"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many career receiving touchdowns did Jerry Rice score?",
+    "options": [
+      "208",
+      "156",
+      "197",
+      "175"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Which team scored a record 606 points in a single season?",
+    "options": [
+      "2007 New England Patriots",
+      "2011 Green Bay Packers",
+      "2013 Denver Broncos",
+      "1998 Minnesota Vikings"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "The Chicago Bears beat Washington by what score in the 1940 NFL Championship?",
+    "options": [
+      "62-14",
+      "48-0",
+      "73-0",
+      "56-7"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "What is the largest comeback in NFL playoff history?",
+    "options": [
+      "28 points",
+      "32 points",
+      "35 points",
+      "25 points"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "In 2022, the Vikings set the record for the largest comeback in NFL history. How many points were they down?",
+    "options": [
+      "25",
+      "33",
+      "28",
+      "30"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-season rushing record for a quarterback, with 1,206 yards in 2019?",
+    "options": [
+      "Michael Vick",
+      "Lamar Jackson",
+      "Justin Fields",
+      "Jalen Hurts"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most career punt return touchdowns?",
+    "options": [
+      "Brian Mitchell",
+      "Eric Metcalf",
+      "Devin Hester",
+      "Deion Sanders"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most career kickoff return touchdowns?",
+    "options": [
+      "Josh Cribbs",
+      "Cordarrelle Patterson",
+      "Leon Washington",
+      "Devin Hester"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who returned the opening kickoff of Super Bowl XLI for a touchdown?",
+    "options": [
+      "Josh Cribbs",
+      "Devin Hester",
+      "Desmond Howard",
+      "Dante Hall"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-game sack record, with 7?",
+    "options": [
+      "Michael Strahan",
+      "Lawrence Taylor",
+      "Derrick Thomas",
+      "Reggie White"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the single-season interception record, with 14 in 1952?",
+    "options": [
+      "Emlen Tunnell",
+      "Dick \"Night Train\" Lane",
+      "Mel Blount",
+      "Paul Krause"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Including playoffs, how many consecutive games did the Patriots win in 2003 and 2004?",
+    "options": [
+      "18",
+      "23",
+      "21",
+      "19"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most consecutive starts by a quarterback?",
+    "options": [
+      "Eli Manning",
+      "Brett Favre",
+      "Philip Rivers",
+      "Peyton Manning"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who threw the most interceptions in NFL history?",
+    "options": [
+      "George Blanda",
+      "Peyton Manning",
+      "Vinny Testaverde",
+      "Brett Favre"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most games played in NFL history?",
+    "options": [
+      "Morten Andersen",
+      "Adam Vinatieri",
+      "Gary Anderson",
+      "George Blanda"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most passing yards in a single Super Bowl, with 505?",
+    "options": [
+      "Nick Foles",
+      "Kurt Warner",
+      "Patrick Mahomes",
+      "Tom Brady"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many Super Bowls has Patrick Mahomes won?",
+    "options": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "Who was the last defensive player to win NFL MVP, in 1986?",
+    "options": [
+      "Alan Page",
+      "Mike Singletary",
+      "Reggie White",
+      "Lawrence Taylor"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many Super Bowls did Peyton Manning win?",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many Super Bowls did John Elway win?",
+    "options": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many receiving yards did Jerry Rice finish his career with?",
+    "options": [
+      "24,110",
+      "22,895",
+      "19,813",
+      "21,034"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many career sacks did Bruce Smith finish with?",
+    "options": [
+      "198",
+      "200",
+      "180",
+      "212"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Records and Stats",
+    "text": "How many career interceptions did Paul Krause finish with?",
+    "options": [
+      "71",
+      "81",
+      "76",
+      "90"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  }
+]

@@ -8,7 +8,7 @@ A cross-platform sports trivia app: Flutter client, ASP.NET Core API, SQL Server
 |---|---|
 | `api/` | ASP.NET Core Web API |
 | `mobile/` | Flutter app (iOS + Android) |
-| `seed/` | Trivia question JSON and tooling |
+| `seed/` | Trivia questions (JSON), schema, validator, fact-check list |
 
 ## Prerequisites
 
@@ -71,7 +71,19 @@ dotnet test
 4. `POST /games` with the `categoryId`, the `sessionToken` from the quiz, and one answer per question.
 5. `GET /games/history` and `GET /leaderboard?sportId=…`
 
-The database has no questions until Phase 2 adds the seed loader.
+In Development, `dotnet run` applies migrations and loads the seed questions automatically.
+
+### Seed questions
+
+524 questions across Soccer (European Top 5 Leagues, Internationals) and NFL (History, Records and Stats, Players) live in `seed/<sport>/<category>.json`. The format is described in [seed/questions.schema.json](seed/questions.schema.json).
+
+```bash
+python3 seed/validate.py                 # check every file (4 distinct options, valid indexes, no duplicates)
+cd api/Dykb.Api && dotnet run            # Development: migrates and syncs the seed on startup
+dotnet Dykb.Api.dll --seed               # Production (from the publish folder): migrate, sync, exit
+```
+
+The loader can be run any number of times. It adds new questions, updates edited ones, and removes questions deleted from a file. Questions worth fact-checking are listed in [seed/REVIEW.md](seed/REVIEW.md).
 
 | Endpoint | Auth | Notes |
 |---|---|---|

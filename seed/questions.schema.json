@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://doyouknowball.app/seed/questions.schema.json",
+  "title": "Do You Know Ball? seed questions",
+  "description": "Each seed file is an array of trivia questions. Run `python3 seed/validate.py` for the checks a schema can't express (distinct options, duplicate questions).",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["sport", "category", "text", "options", "correctIndex", "difficulty"],
+    "properties": {
+      "sport": { "type": "string", "minLength": 1, "maxLength": 50 },
+      "category": { "type": "string", "minLength": 1, "maxLength": 100 },
+      "text": { "type": "string", "minLength": 1, "maxLength": 500 },
+      "options": {
+        "type": "array",
+        "minItems": 4,
+        "maxItems": 4,
+        "uniqueItems": true,
+        "items": { "type": "string", "minLength": 1, "maxLength": 200 }
+      },
+      "correctIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
+      "difficulty": { "type": "integer", "minimum": 1, "maximum": 3, "description": "1 = easy, 2 = medium, 3 = hard" }
+    }
+  },
+  "examples": [
+    [
+      {
+        "sport": "NFL",
+        "category": "History",
+        "text": "Which team won Super Bowl I?",
+        "options": ["Kansas City Chiefs", "Dallas Cowboys", "Green Bay Packers", "New York Jets"],
+        "correctIndex": 2,
+        "difficulty": 1
+      }
+    ]
+  ]
+}

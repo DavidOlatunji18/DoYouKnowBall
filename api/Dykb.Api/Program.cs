@@ -12,7 +12,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 
-var builder = WebApplication.CreateBuilder(args);
+// `dotnet Dykb.Api.dll --seed` applies migrations, syncs seed questions, and exits (used for prod).
+var seedAndExit = args.Contains("--seed");
+var builder = WebApplication.CreateBuilder(args.Where(a => a != "--seed").ToArray());
 
 var connectionString = builder.Configuration.GetConnectionString("Default")
     ?? throw new InvalidOperationException("ConnectionStrings:Default is not configured.");
@@ -29,6 +31,7 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<QuizService>();
 builder.Services.AddScoped<GameService>();
 builder.Services.AddSingleton<QuizSessionTokens>();
+builder.Services.AddScoped<SeedLoader>();
 
 builder.Services
     .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -96,6 +99,16 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+if (seedAndExit || app.Environment.IsDevelopment())
+{
+    using var scope = app.Services.CreateScope();
+    await scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.MigrateAsync();
+    await scope.ServiceProvider.GetRequiredService<SeedLoader>()
+        .LoadAsync(Path.Combine(AppContext.BaseDirectory, "seed"));
+    if (seedAndExit)
+        return;
+}
 
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 

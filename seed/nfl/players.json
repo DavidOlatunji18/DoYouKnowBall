@@ -1,0 +1,1315 @@
+[
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which running back was nicknamed \"Sweetness\"?",
+    "options": [
+      "Barry Sanders",
+      "Walter Payton",
+      "Gale Sayers",
+      "Tony Dorsett"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which player was nicknamed \"Prime Time\"?",
+    "options": [
+      "Michael Irvin",
+      "Terrell Owens",
+      "Deion Sanders",
+      "Chad Johnson"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which wide receiver was nicknamed \"Megatron\"?",
+    "options": [
+      "Calvin Johnson",
+      "Andre Johnson",
+      "Julio Jones",
+      "Randy Moss"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which running back was nicknamed \"Beast Mode\"?",
+    "options": [
+      "Marshawn Lynch",
+      "Jerome Bettis",
+      "Adrian Peterson",
+      "Derrick Henry"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which running back was nicknamed \"The Bus\"?",
+    "options": [
+      "Brandon Jacobs",
+      "Earl Campbell",
+      "Jerome Bettis",
+      "Christian Okoye"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which quarterback was nicknamed \"Broadway Joe\"?",
+    "options": [
+      "Joe Montana",
+      "Joe Namath",
+      "Joe Flacco",
+      "Joe Theismann"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which Steelers defensive tackle was nicknamed \"Mean Joe\"?",
+    "options": [
+      "Joe Thomas",
+      "Joe Greene",
+      "Joe Schmidt",
+      "Joe Klecko"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which tight end is known as \"Gronk\"?",
+    "options": [
+      "Jason Witten",
+      "Rob Gronkowski",
+      "George Kittle",
+      "Travis Kelce"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which quarterback was nicknamed \"Big Ben\"?",
+    "options": [
+      "Benjamin Watson",
+      "Ben Simmons",
+      "Ben Ijalana",
+      "Ben Roethlisberger"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which quarterback was nicknamed \"Matty Ice\"?",
+    "options": [
+      "Matt Stafford",
+      "Matt Hasselbeck",
+      "Matt Ryan",
+      "Matt Leinart"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which quarterback was nicknamed \"The Sheriff\"?",
+    "options": [
+      "Peyton Manning",
+      "Drew Brees",
+      "Tom Brady",
+      "Brett Favre"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which quarterback was nicknamed \"Joe Cool\"?",
+    "options": [
+      "Joe Burrow",
+      "Joe Montana",
+      "Joe Namath",
+      "Joe Flacco"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which Cowboys quarterback was nicknamed \"Roger the Dodger\"?",
+    "options": [
+      "Craig Morton",
+      "Danny White",
+      "Roger Staubach",
+      "Roger Craig"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which defensive end was nicknamed \"The Minister of Defense\"?",
+    "options": [
+      "Deacon Jones",
+      "Michael Strahan",
+      "Bruce Smith",
+      "Reggie White"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which defensive back is nicknamed \"The Honey Badger\"?",
+    "options": [
+      "Richard Sherman",
+      "Earl Thomas",
+      "Jalen Ramsey",
+      "Tyrann Mathieu"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which receiver legally changed his name to \"Ochocinco\"?",
+    "options": [
+      "Santana Moss",
+      "Terrell Owens",
+      "Chad Johnson",
+      "Steve Smith"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which Bears running back was nicknamed \"The Kansas Comet\"?",
+    "options": [
+      "Bronko Nagurski",
+      "Brian Piccolo",
+      "Walter Payton",
+      "Gale Sayers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which Hall of Famer was nicknamed \"Crazy Legs\"?",
+    "options": [
+      "Hugh McElhenny",
+      "Lenny Moore",
+      "Elroy Hirsch",
+      "Ollie Matson"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which Raiders quarterback was nicknamed \"The Snake\"?",
+    "options": [
+      "Ken Stabler",
+      "Jim Plunkett",
+      "Daryle Lamonica",
+      "George Blanda"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which early NFL star was nicknamed \"The Galloping Ghost\"?",
+    "options": [
+      "Ernie Nevers",
+      "Red Grange",
+      "Bronko Nagurski",
+      "Jim Thorpe"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which receiver is nicknamed \"Cheetah\"?",
+    "options": [
+      "Tyreek Hill",
+      "Xavier Worthy",
+      "Jaylen Waddle",
+      "DeSean Jackson"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which Chargers receiver was nicknamed \"Bambi\"?",
+    "options": [
+      "Lance Alworth",
+      "Charlie Joiner",
+      "John Jefferson",
+      "Kellen Winslow"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which cornerback's side of the field was nicknamed \"Island\"?",
+    "options": [
+      "Champ Bailey",
+      "Deion Sanders",
+      "Richard Sherman",
+      "Darrelle Revis"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which quarterback was nicknamed \"The Mad Bomber\"?",
+    "options": [
+      "Terry Bradshaw",
+      "Joe Namath",
+      "Dan Fouts",
+      "Daryle Lamonica"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "\"The Purple People Eaters\" was the defensive line of which team?",
+    "options": [
+      "Chicago Bears",
+      "Minnesota Vikings",
+      "Los Angeles Rams",
+      "Baltimore Ravens"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "\"The Fearsome Foursome\" was the defensive line of which team?",
+    "options": [
+      "Los Angeles Rams",
+      "Minnesota Vikings",
+      "New York Jets",
+      "Pittsburgh Steelers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "\"The Sack Exchange\" was the defensive line of which team?",
+    "options": [
+      "New York Jets",
+      "Miami Dolphins",
+      "Chicago Bears",
+      "New York Giants"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "\"The Hogs\" was the famous offensive line of which team?",
+    "options": [
+      "Washington",
+      "Oakland Raiders",
+      "Green Bay Packers",
+      "Dallas Cowboys"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "The last player chosen in each NFL Draft is given what title?",
+    "options": [
+      "Mr. Overlooked",
+      "Mr. Undrafted",
+      "Mr. Last Call",
+      "Mr. Irrelevant"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "At which college did Joe Burrow win the Heisman Trophy?",
+    "options": [
+      "Alabama",
+      "LSU",
+      "Clemson",
+      "Ohio State"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Patrick Mahomes attend?",
+    "options": [
+      "Oklahoma",
+      "Texas",
+      "Baylor",
+      "Texas Tech"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Josh Allen attend?",
+    "options": [
+      "Wyoming",
+      "Utah State",
+      "Fresno State",
+      "Boise State"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Lamar Jackson attend?",
+    "options": [
+      "Clemson",
+      "Louisville",
+      "Miami",
+      "Florida State"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "At which school did Jalen Hurts finish his college career?",
+    "options": [
+      "Oklahoma",
+      "Alabama",
+      "Texas",
+      "Houston"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Tom Brady attend?",
+    "options": [
+      "Notre Dame",
+      "Michigan",
+      "Ohio State",
+      "Purdue"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Peyton Manning attend?",
+    "options": [
+      "Florida",
+      "LSU",
+      "Tennessee",
+      "Ole Miss"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Aaron Rodgers attend?",
+    "options": [
+      "Oregon",
+      "Stanford",
+      "Butte College",
+      "California"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Drew Brees attend?",
+    "options": [
+      "Texas",
+      "Iowa",
+      "Purdue",
+      "Michigan"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Joe Montana attend?",
+    "options": [
+      "USC",
+      "Pittsburgh",
+      "Notre Dame",
+      "Penn State"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Dan Marino attend?",
+    "options": [
+      "Pittsburgh",
+      "Boston College",
+      "Miami",
+      "Penn State"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which small college did Jerry Rice attend?",
+    "options": [
+      "Jackson State",
+      "Grambling State",
+      "Alcorn State",
+      "Mississippi Valley State"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Walter Payton attend?",
+    "options": [
+      "Grambling State",
+      "Tennessee State",
+      "Southern",
+      "Jackson State"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Barry Sanders attend?",
+    "options": [
+      "Michigan",
+      "Oklahoma State",
+      "Oklahoma",
+      "Texas"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which college did Travis Kelce attend?",
+    "options": [
+      "Kansas",
+      "Kent State",
+      "Ohio State",
+      "Cincinnati"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "At which college did Caleb Williams win the Heisman Trophy?",
+    "options": [
+      "Oklahoma",
+      "Texas",
+      "UCLA",
+      "USC"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "At which college did Jayden Daniels win the Heisman Trophy?",
+    "options": [
+      "LSU",
+      "Alabama",
+      "Arizona State",
+      "Oregon"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "At which college did two-way star Travis Hunter win the 2024 Heisman Trophy?",
+    "options": [
+      "Colorado",
+      "Georgia",
+      "Jackson State",
+      "Florida State"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team traded up to draft Travis Hunter second overall in 2025?",
+    "options": [
+      "Tennessee Titans",
+      "Cleveland Browns",
+      "New York Giants",
+      "Jacksonville Jaguars"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which quarterback brothers both won two Super Bowls?",
+    "options": [
+      "Jim and John Harbaugh",
+      "Peyton and Eli Manning",
+      "Matt and Tim Hasselbeck",
+      "Tom and Mike Brady"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Peyton and Eli Manning's father, also an NFL quarterback, is who?",
+    "options": [
+      "Archie Manning",
+      "Bert Jones",
+      "Phil Simms",
+      "Cooper Manning"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which brothers faced each other in Super Bowl LVII?",
+    "options": [
+      "Peyton and Eli Manning",
+      "Travis and Jason Kelce",
+      "Nick and Joey Bosa",
+      "J.J. and T.J. Watt"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which position did Jason Kelce play?",
+    "options": [
+      "Fullback",
+      "Guard",
+      "Tight end",
+      "Center"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "J.J. Watt and T.J. Watt are brothers. Which team did T.J. Watt play for through 2024?",
+    "options": [
+      "Houston Texans",
+      "Arizona Cardinals",
+      "Green Bay Packers",
+      "Pittsburgh Steelers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Nick Bosa's older brother Joey played for which team?",
+    "options": [
+      "Miami Dolphins",
+      "San Francisco 49ers",
+      "Arizona Cardinals",
+      "Los Angeles Chargers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Barry Sanders spent his entire career with which team?",
+    "options": [
+      "Chicago Bears",
+      "Dallas Cowboys",
+      "Kansas City Chiefs",
+      "Detroit Lions"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Walter Payton spent his entire career with which team?",
+    "options": [
+      "Chicago Bears",
+      "Green Bay Packers",
+      "Detroit Lions",
+      "New Orleans Saints"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Dan Marino spent his entire career with which team?",
+    "options": [
+      "Pittsburgh Steelers",
+      "New York Jets",
+      "Miami Dolphins",
+      "Buffalo Bills"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Jim Brown spent his entire career with which team?",
+    "options": [
+      "Green Bay Packers",
+      "Cleveland Browns",
+      "Chicago Bears",
+      "Baltimore Colts"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Calvin Johnson spent his entire career with which team?",
+    "options": [
+      "Minnesota Vikings",
+      "Detroit Lions",
+      "Atlanta Falcons",
+      "Houston Texans"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Ray Lewis spent his entire career with which team?",
+    "options": [
+      "Tennessee Titans",
+      "Baltimore Ravens",
+      "Cleveland Browns",
+      "Pittsburgh Steelers"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Ray Lewis was named MVP of which Super Bowl?",
+    "options": [
+      "Super Bowl XLVII",
+      "Super Bowl XXXV",
+      "Super Bowl XXXIV",
+      "Super Bowl XXXVII"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Lawrence Taylor spent his entire career with which team?",
+    "options": [
+      "Dallas Cowboys",
+      "New York Giants",
+      "New York Jets",
+      "Washington"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Aaron Donald spent his entire career with which team?",
+    "options": [
+      "Detroit Lions",
+      "Pittsburgh Steelers",
+      "San Francisco 49ers",
+      "Los Angeles Rams"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Brett Favre is best known for his years with which team?",
+    "options": [
+      "Minnesota Vikings",
+      "Atlanta Falcons",
+      "New York Jets",
+      "Green Bay Packers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team originally drafted Brett Favre?",
+    "options": [
+      "Green Bay Packers",
+      "New York Jets",
+      "Atlanta Falcons",
+      "New Orleans Saints"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Drew Brees began his NFL career with which team?",
+    "options": [
+      "New Orleans Saints",
+      "San Diego Chargers",
+      "Miami Dolphins",
+      "Indianapolis Colts"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Joe Montana finished his career with which team?",
+    "options": [
+      "Denver Broncos",
+      "Kansas City Chiefs",
+      "Seattle Seahawks",
+      "Los Angeles Raiders"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Emmitt Smith finished his career with which team?",
+    "options": [
+      "Dallas Cowboys",
+      "Washington",
+      "Arizona Cardinals",
+      "Oakland Raiders"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team drafted Randy Moss in 1998?",
+    "options": [
+      "New England Patriots",
+      "Dallas Cowboys",
+      "Oakland Raiders",
+      "Minnesota Vikings"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Aaron Rodgers signed with which team in 2025?",
+    "options": [
+      "New York Jets",
+      "Las Vegas Raiders",
+      "Minnesota Vikings",
+      "Pittsburgh Steelers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Micah Parsons was traded from Dallas to which team in 2025?",
+    "options": [
+      "Chicago Bears",
+      "Philadelphia Eagles",
+      "Las Vegas Raiders",
+      "Green Bay Packers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Tyreek Hill was traded from the Chiefs to which team in 2022?",
+    "options": [
+      "Los Angeles Chargers",
+      "Buffalo Bills",
+      "Miami Dolphins",
+      "New York Jets"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Saquon Barkley joined the Eagles in 2024 from which team?",
+    "options": [
+      "Pittsburgh Steelers",
+      "Dallas Cowboys",
+      "New York Giants",
+      "Washington Commanders"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which receiver won the receiving \"triple crown\" in 2024?",
+    "options": [
+      "Puka Nacua",
+      "Justin Jefferson",
+      "CeeDee Lamb",
+      "Ja'Marr Chase"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Who won the 2024 NFL Offensive Rookie of the Year award?",
+    "options": [
+      "Caleb Williams",
+      "Brock Bowers",
+      "Bo Nix",
+      "Jayden Daniels"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Who won the 2024 NFL Defensive Player of the Year award?",
+    "options": [
+      "Patrick Surtain II",
+      "Trey Hendrickson",
+      "T.J. Watt",
+      "Myles Garrett"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Patrick Mahomes's father played which professional sport?",
+    "options": [
+      "Soccer",
+      "Basketball",
+      "Baseball",
+      "Hockey"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which Hall of Fame cornerback also played in a World Series?",
+    "options": [
+      "Champ Bailey",
+      "Darrell Green",
+      "Charles Woodson",
+      "Deion Sanders"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Bo Jackson played in the NFL for the Raiders and in MLB for which team?",
+    "options": [
+      "Kansas City Royals",
+      "Chicago White Sox",
+      "Oakland Athletics",
+      "California Angels"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team drafted Caleb Williams first overall in 2024?",
+    "options": [
+      "New England Patriots",
+      "Chicago Bears",
+      "Arizona Cardinals",
+      "Washington Commanders"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team drafted Cam Ward first overall in 2025?",
+    "options": [
+      "Las Vegas Raiders",
+      "New York Giants",
+      "Cleveland Browns",
+      "Tennessee Titans"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team drafted Bryce Young first overall in 2023?",
+    "options": [
+      "Carolina Panthers",
+      "Houston Texans",
+      "Indianapolis Colts",
+      "Arizona Cardinals"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team drafted Joe Burrow first overall in 2020?",
+    "options": [
+      "Miami Dolphins",
+      "Cincinnati Bengals",
+      "Washington",
+      "Detroit Lions"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which team drafted Trevor Lawrence first overall in 2021?",
+    "options": [
+      "Atlanta Falcons",
+      "San Francisco 49ers",
+      "Jacksonville Jaguars",
+      "New York Jets"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "In which round was Tom Brady drafted in 2000?",
+    "options": [
+      "5th",
+      "4th",
+      "6th",
+      "7th"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "With which pick was Lamar Jackson drafted in 2018?",
+    "options": [
+      "32nd",
+      "1st",
+      "25th",
+      "10th"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "With which pick was Patrick Mahomes drafted in 2017?",
+    "options": [
+      "21st",
+      "2nd",
+      "10th",
+      "12th"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "With which pick was Aaron Rodgers drafted in 2005?",
+    "options": [
+      "24th",
+      "1st",
+      "32nd",
+      "12th"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "With which pick was Josh Allen drafted in 2018?",
+    "options": [
+      "10th",
+      "3rd",
+      "1st",
+      "7th"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "In which round did the Eagles draft Jalen Hurts in 2020?",
+    "options": [
+      "1st",
+      "4th",
+      "2nd",
+      "3rd"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Tom Brady wear?",
+    "options": [
+      "12",
+      "10",
+      "7",
+      "15"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number does Patrick Mahomes wear?",
+    "options": [
+      "12",
+      "5",
+      "15",
+      "10"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Peyton Manning wear?",
+    "options": [
+      "12",
+      "10",
+      "18",
+      "16"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Joe Montana wear with the 49ers?",
+    "options": [
+      "12",
+      "8",
+      "16",
+      "19"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Jerry Rice wear?",
+    "options": [
+      "81",
+      "80",
+      "84",
+      "88"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Walter Payton wear?",
+    "options": [
+      "32",
+      "34",
+      "20",
+      "22"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Barry Sanders wear?",
+    "options": [
+      "32",
+      "28",
+      "20",
+      "21"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Jim Brown wear?",
+    "options": [
+      "44",
+      "22",
+      "34",
+      "32"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Ray Lewis wear?",
+    "options": [
+      "52",
+      "50",
+      "56",
+      "55"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number did Lawrence Taylor wear?",
+    "options": [
+      "56",
+      "52",
+      "58",
+      "54"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "Players",
+    "text": "Which jersey number does Travis Kelce wear?",
+    "options": [
+      "85",
+      "87",
+      "80",
+      "88"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  }
+]

@@ -34,3 +34,16 @@ Choices made where the plan was ambiguous, newest last.
 - **Category deletes are blocked** while games reference the category, so players' history is never silently lost.
 - **Timestamps are UTC**, and JSON timestamps end in `Z`.
 - **Tests use the EF Core in-memory provider**, as the plan allows. I also ran every endpoint once against the real SQL Server to check that `NEWID()` ordering and the leaderboard `GROUP BY` translate correctly.
+
+## Phase 2
+
+- **Soccer replaces NBA** (your call). Soccer has two categories: **European Top 5 Leagues** (Premier League, La Liga, Serie A, Bundesliga, Ligue 1, plus the Champions League) and **Internationals** (World Cup, Euros, Copa América, Nations League, women's tournaments). The leagues aren't split into separate categories. That can be done later by moving questions into new files.
+- **NFL categories:** History, Records and Stats, Players (the plan's examples).
+- **Question count:** 524 (Soccer 108 + 117; NFL 96 + 102 + 101).
+- **Accuracy over freshness:** I avoided totals that change every week, such as active players' career numbers. Time-sensitive questions are worded "as of 2025" or "through 2024-25". My knowledge stops at mid-2026, so nothing asks about 2025-26 season results. Questions I'm less than very confident about are listed in `seed/REVIEW.md`.
+- **Seed layout:** one JSON array per category at `seed/<sport>/<category>.json`. Every item repeats its `sport` and `category`, matching the schema in the plan.
+- **The loader syncs rather than just inserting.** Sports and categories are matched by name and questions by exact text within their category. New questions are added, edited ones are updated in place (same ID), and questions deleted from a file are removed from that category. Sports and categories are never deleted, because games reference them. Changing a question's text counts as removing the old question and adding a new one.
+- **The loader validates before writing anything.** It applies the same rules as `seed/validate.py` and rejects the whole load if any file is bad.
+- **When it runs:** on every startup in Development, which also applies migrations. In production, `dotnet Dykb.Api.dll --seed` applies migrations, syncs the questions, then exits.
+- **Seed files ship with the API:** they're copied into the build and publish output (`seed/` next to the DLL), so App Service has them without a separate upload.
+- **Each question's correct answer is shuffled into a random slot** when the file is generated, so there's no "it's always B" pattern. Options are not reshuffled for each quiz.

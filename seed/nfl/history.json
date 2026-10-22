@@ -1,0 +1,1250 @@
+[
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team won Super Bowl I?",
+    "options": [
+      "Dallas Cowboys",
+      "Kansas City Chiefs",
+      "New York Jets",
+      "Green Bay Packers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team lost to Green Bay in Super Bowl I?",
+    "options": [
+      "Dallas Cowboys",
+      "Baltimore Colts",
+      "Kansas City Chiefs",
+      "Oakland Raiders"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year was Super Bowl I played?",
+    "options": [
+      "1969",
+      "1967",
+      "1970",
+      "1966"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Joe Namath famously guaranteed a Super Bowl III victory for which team?",
+    "options": [
+      "Miami Dolphins",
+      "Oakland Raiders",
+      "New York Jets",
+      "Baltimore Colts"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team completed the NFL's only perfect season, in 1972?",
+    "options": [
+      "Pittsburgh Steelers",
+      "Dallas Cowboys",
+      "Miami Dolphins",
+      "Green Bay Packers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who coached the 1972 Miami Dolphins' perfect season?",
+    "options": [
+      "Don Shula",
+      "Chuck Noll",
+      "Tom Landry",
+      "Vince Lombardi"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team went 16-0 in the 2007 regular season but lost the Super Bowl?",
+    "options": [
+      "Indianapolis Colts",
+      "Dallas Cowboys",
+      "Green Bay Packers",
+      "New England Patriots"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team ended the Patriots' perfect-season bid in Super Bowl XLII?",
+    "options": [
+      "New York Giants",
+      "Philadelphia Eagles",
+      "Seattle Seahawks",
+      "Pittsburgh Steelers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who made the famous \"Helmet Catch\" in Super Bowl XLII?",
+    "options": [
+      "Steve Smith",
+      "Plaxico Burress",
+      "Amani Toomer",
+      "David Tyree"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team's 1970s defense was known as the \"Steel Curtain\"?",
+    "options": [
+      "Dallas Cowboys",
+      "Minnesota Vikings",
+      "Chicago Bears",
+      "Pittsburgh Steelers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who caught the \"Immaculate Reception\"?",
+    "options": [
+      "Franco Harris",
+      "Rocky Bleier",
+      "Lynn Swann",
+      "John Stallworth"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year did the \"Immaculate Reception\" happen?",
+    "options": [
+      "1972",
+      "1976",
+      "1970",
+      "1974"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who caught Joe Montana's pass in \"The Catch\" in January 1982?",
+    "options": [
+      "Freddie Solomon",
+      "Roger Craig",
+      "Dwight Clark",
+      "Jerry Rice"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "\"The Catch\" sent the 49ers to the Super Bowl at the expense of which team?",
+    "options": [
+      "Los Angeles Rams",
+      "Washington",
+      "Dallas Cowboys",
+      "Chicago Bears"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which quarterback led \"The Drive\" against the Cleveland Browns in the 1986 AFC Championship?",
+    "options": [
+      "Joe Montana",
+      "Jim Kelly",
+      "Dan Marino",
+      "John Elway"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which Browns running back lost \"The Fumble\" in the 1987 AFC Championship?",
+    "options": [
+      "Leroy Kelly",
+      "Earnest Byner",
+      "Greg Pruitt",
+      "Kevin Mack"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team won on the \"Music City Miracle\" kickoff return in January 2000?",
+    "options": [
+      "Buffalo Bills",
+      "Tennessee Titans",
+      "Jacksonville Jaguars",
+      "Indianapolis Colts"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who scored on the \"Minneapolis Miracle\" in January 2018?",
+    "options": [
+      "Stefon Diggs",
+      "Adam Thielen",
+      "Dalvin Cook",
+      "Kyle Rudolph"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who caught the \"Philly Special\" touchdown pass in Super Bowl LII?",
+    "options": [
+      "Zach Ertz",
+      "Alshon Jeffery",
+      "Trey Burton",
+      "Nick Foles"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team beat the Patriots in Super Bowl LII?",
+    "options": [
+      "Atlanta Falcons",
+      "Los Angeles Rams",
+      "New York Giants",
+      "Philadelphia Eagles"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The Patriots overcame a 28-3 deficit in Super Bowl LI against which team?",
+    "options": [
+      "Carolina Panthers",
+      "Atlanta Falcons",
+      "Los Angeles Rams",
+      "Seattle Seahawks"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Super Bowl LI was the first Super Bowl to go to what?",
+    "options": [
+      "A replay review",
+      "A tie",
+      "A second-half delay",
+      "Overtime"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team won Super Bowl LVIII in overtime?",
+    "options": [
+      "San Francisco 49ers",
+      "Philadelphia Eagles",
+      "Kansas City Chiefs",
+      "Baltimore Ravens"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Where was Super Bowl LVIII played?",
+    "options": [
+      "Miami",
+      "Phoenix",
+      "Las Vegas",
+      "New Orleans"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team won Super Bowl LIX?",
+    "options": [
+      "Buffalo Bills",
+      "Washington Commanders",
+      "Philadelphia Eagles",
+      "Kansas City Chiefs"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "What was the final score of Super Bowl LIX?",
+    "options": [
+      "Eagles 31, Chiefs 24",
+      "Eagles 27, Chiefs 20",
+      "Eagles 40, Chiefs 22",
+      "Eagles 38, Chiefs 35"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who was named MVP of Super Bowl LIX?",
+    "options": [
+      "Saquon Barkley",
+      "Josh Sweat",
+      "A.J. Brown",
+      "Jalen Hurts"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which city was Super Bowl LIX played?",
+    "options": [
+      "Las Vegas",
+      "Miami",
+      "New Orleans",
+      "Atlanta"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team beat the Eagles in Super Bowl LVII?",
+    "options": [
+      "Kansas City Chiefs",
+      "Buffalo Bills",
+      "Cincinnati Bengals",
+      "San Francisco 49ers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team won Super Bowl LVI at its own home stadium, SoFi Stadium?",
+    "options": [
+      "Los Angeles Rams",
+      "Tampa Bay Buccaneers",
+      "Cincinnati Bengals",
+      "Los Angeles Chargers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In Super Bowl LV, which team became the first to win a Super Bowl in its home stadium?",
+    "options": [
+      "Kansas City Chiefs",
+      "Los Angeles Rams",
+      "Miami Dolphins",
+      "Tampa Bay Buccaneers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team did the Chiefs beat in Super Bowl LIV?",
+    "options": [
+      "Tampa Bay Buccaneers",
+      "Los Angeles Rams",
+      "Philadelphia Eagles",
+      "San Francisco 49ers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Tom Brady's first Super Bowl win came against which team?",
+    "options": [
+      "St. Louis Rams",
+      "Seattle Seahawks",
+      "Carolina Panthers",
+      "Philadelphia Eagles"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who made \"The Tackle\" at the 1-yard line to win Super Bowl XXXIV for the Rams?",
+    "options": [
+      "Todd Lyght",
+      "Mike Jones",
+      "London Fletcher",
+      "Isaac Bruce"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year did the AFL and NFL fully merge?",
+    "options": [
+      "1967",
+      "1966",
+      "1970",
+      "1975"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year was the league that became the NFL founded?",
+    "options": [
+      "1920",
+      "1932",
+      "1946",
+      "1910"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which city is the Pro Football Hall of Fame?",
+    "options": [
+      "Cleveland, Ohio",
+      "Chicago, Illinois",
+      "Green Bay, Wisconsin",
+      "Canton, Ohio"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The Super Bowl trophy is named after which coach?",
+    "options": [
+      "George Halas",
+      "Paul Brown",
+      "Vince Lombardi",
+      "Tom Landry"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The 1967 NFL Championship, played in extreme cold, is known as what?",
+    "options": [
+      "The Ice Bowl",
+      "The Snow Bowl",
+      "The Freezer Bowl",
+      "The Frozen Tundra Game"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team beat Dallas in the \"Ice Bowl\"?",
+    "options": [
+      "Minnesota Vikings",
+      "Cleveland Browns",
+      "Green Bay Packers",
+      "Chicago Bears"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The original Cleveland Browns moved in 1996 and became which team?",
+    "options": [
+      "Baltimore Ravens",
+      "Houston Texans",
+      "Tennessee Titans",
+      "Indianapolis Colts"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year did the Colts move from Baltimore to Indianapolis?",
+    "options": [
+      "1988",
+      "1984",
+      "1976",
+      "1980"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The Tennessee Titans were previously known as what?",
+    "options": [
+      "St. Louis Cardinals",
+      "Memphis Showboats",
+      "Houston Oilers",
+      "Nashville Kats"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The Raiders moved to which city in 2020?",
+    "options": [
+      "Oakland",
+      "San Diego",
+      "Los Angeles",
+      "Las Vegas"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year did the Rams return to Los Angeles from St. Louis?",
+    "options": [
+      "2016",
+      "2014",
+      "2018",
+      "2012"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The Chargers moved to Los Angeles from which city in 2017?",
+    "options": [
+      "Sacramento",
+      "San Antonio",
+      "Las Vegas",
+      "San Diego"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Washington's NFL team adopted which name in 2022?",
+    "options": [
+      "Generals",
+      "Sentinels",
+      "Red Wolves",
+      "Commanders"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year did the expansion Houston Texans play their first season?",
+    "options": [
+      "2004",
+      "1999",
+      "1997",
+      "2002"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which two teams joined the NFL as expansion franchises in 1995?",
+    "options": [
+      "Carolina Panthers and Jacksonville Jaguars",
+      "Baltimore Ravens and Tennessee Titans",
+      "Seattle Seahawks and Tampa Bay Buccaneers",
+      "Houston Texans and Cleveland Browns"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team lost four consecutive Super Bowls in the early 1990s?",
+    "options": [
+      "Denver Broncos",
+      "Minnesota Vikings",
+      "San Diego Chargers",
+      "Buffalo Bills"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which kicker's missed field goal, \"Wide Right,\" cost Buffalo Super Bowl XXV?",
+    "options": [
+      "Adam Vinatieri",
+      "Scott Norwood",
+      "Rian Lindell",
+      "Steve Christie"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team lost four Super Bowls in the 1970s?",
+    "options": [
+      "Los Angeles Rams",
+      "Denver Broncos",
+      "Buffalo Bills",
+      "Minnesota Vikings"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which of these teams has never played in a Super Bowl?",
+    "options": [
+      "Cleveland Browns",
+      "Tennessee Titans",
+      "Atlanta Falcons",
+      "Cincinnati Bengals"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who intercepted Russell Wilson at the goal line to win Super Bowl XLIX?",
+    "options": [
+      "Malcolm Butler",
+      "Darrelle Revis",
+      "Brandon Browner",
+      "Devin McCourty"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team's 2010s secondary was nicknamed the \"Legion of Boom\"?",
+    "options": [
+      "New England Patriots",
+      "San Francisco 49ers",
+      "Seattle Seahawks",
+      "Denver Broncos"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "By what score did Seattle beat Denver in Super Bowl XLVIII?",
+    "options": [
+      "41-17",
+      "35-14",
+      "38-10",
+      "43-8"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Peyton Manning's final NFL game was a win in which Super Bowl?",
+    "options": [
+      "Super Bowl XLVIII",
+      "Super Bowl 50",
+      "Super Bowl XLI",
+      "Super Bowl XLIV"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Super Bowl XLVII was nicknamed the \"Harbaugh Bowl.\" Which team won it?",
+    "options": [
+      "Baltimore Ravens",
+      "New England Patriots",
+      "Indianapolis Colts",
+      "San Francisco 49ers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "What unusual event delayed Super Bowl XLVII at the Superdome?",
+    "options": [
+      "A power outage",
+      "A broken goalpost",
+      "A thunderstorm",
+      "A fire alarm"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who made the toe-tapping game-winning catch for Pittsburgh in Super Bowl XLIII?",
+    "options": [
+      "Antonio Brown",
+      "Santonio Holmes",
+      "Hines Ward",
+      "Plaxico Burress"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who returned an interception 100 yards for a touchdown in Super Bowl XLIII?",
+    "options": [
+      "James Harrison",
+      "LaMarr Woodley",
+      "Ike Taylor",
+      "Troy Polamalu"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team won its first Super Bowl in Super Bowl XLIV?",
+    "options": [
+      "New Orleans Saints",
+      "Arizona Cardinals",
+      "Green Bay Packers",
+      "Indianapolis Colts"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which surprise play did the Saints open the second half of Super Bowl XLIV with?",
+    "options": [
+      "An onside kick",
+      "A fake punt",
+      "A halfback pass",
+      "A flea-flicker"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team recorded \"The Super Bowl Shuffle\" during its 1985 season?",
+    "options": [
+      "Miami Dolphins",
+      "Chicago Bears",
+      "San Francisco 49ers",
+      "New York Giants"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which defensive tackle was nicknamed \"The Refrigerator\"?",
+    "options": [
+      "Dan Hampton",
+      "Steve McMichael",
+      "Richard Dent",
+      "William Perry"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who was the defensive coordinator of the 1985 Bears?",
+    "options": [
+      "Dick LeBeau",
+      "Bill Parcells",
+      "Mike Ditka",
+      "Buddy Ryan"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team did the 1985 Bears beat in Super Bowl XX?",
+    "options": [
+      "Denver Broncos",
+      "Miami Dolphins",
+      "New England Patriots",
+      "Los Angeles Raiders"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "How many Super Bowls did Joe Montana win?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which quarterback threw a record six touchdown passes in Super Bowl XXIX?",
+    "options": [
+      "Steve Young",
+      "Kurt Warner",
+      "Troy Aikman",
+      "Joe Montana"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "How many Super Bowls did the Dallas Cowboys win in the 1990s?",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "2"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Dallas's 1990s \"Triplets\" were Troy Aikman, Emmitt Smith and who?",
+    "options": [
+      "Deion Sanders",
+      "Michael Irvin",
+      "Daryl Johnston",
+      "Jay Novacek"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who coached the Cowboys to their first two Super Bowl wins of the 1990s?",
+    "options": [
+      "Tom Landry",
+      "Jimmy Johnson",
+      "Barry Switzer",
+      "Bill Parcells"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who coached the Steelers to four Super Bowl wins in the 1970s?",
+    "options": [
+      "Bill Cowher",
+      "Chuck Noll",
+      "Mike Tomlin",
+      "Tom Landry"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "How many Super Bowls did Bill Belichick win as a head coach?",
+    "options": [
+      "5",
+      "4",
+      "7",
+      "6"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Bill Belichick became head coach of which college program in 2024?",
+    "options": [
+      "Alabama",
+      "Penn State",
+      "Michigan",
+      "North Carolina"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "How many Super Bowls did Tom Brady win?",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "5"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Tom Brady's final Super Bowl win came with which team?",
+    "options": [
+      "New England Patriots",
+      "Las Vegas Raiders",
+      "Kansas City Chiefs",
+      "Tampa Bay Buccaneers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year did Tom Brady retire for good?",
+    "options": [
+      "2024",
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who was the first Black quarterback to win a Super Bowl?",
+    "options": [
+      "Russell Wilson",
+      "Doug Williams",
+      "Randall Cunningham",
+      "Warren Moon"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who was the first Black head coach to win a Super Bowl?",
+    "options": [
+      "Tony Dungy",
+      "Art Shell",
+      "Lovie Smith",
+      "Mike Tomlin"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team did John Elway refuse to play for after it drafted him in 1983?",
+    "options": [
+      "San Diego Chargers",
+      "New York Jets",
+      "Baltimore Colts",
+      "Denver Broncos"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Eli Manning was traded on draft day in 2004 from which team to the Giants?",
+    "options": [
+      "Arizona Cardinals",
+      "Cleveland Browns",
+      "Oakland Raiders",
+      "San Diego Chargers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Patrick Mahomes won his first Super Bowl in which game?",
+    "options": [
+      "Super Bowl LVII",
+      "Super Bowl LIII",
+      "Super Bowl LIV",
+      "Super Bowl LV"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who became the youngest head coach to win a Super Bowl, in Super Bowl LVI?",
+    "options": [
+      "Zac Taylor",
+      "Sean McVay",
+      "Kyle Shanahan",
+      "Mike Tomlin"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "In which year did Monday Night Football first air?",
+    "options": [
+      "1970",
+      "1978",
+      "1975",
+      "1966"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team has hosted a Thanksgiving Day game almost every year since 1934?",
+    "options": [
+      "Green Bay Packers",
+      "Detroit Lions",
+      "Dallas Cowboys",
+      "Chicago Bears"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which stadium hosted Super Bowl LX?",
+    "options": [
+      "SoFi Stadium",
+      "Mercedes-Benz Stadium",
+      "Levi's Stadium",
+      "Allegiant Stadium"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Super Bowl XLVIII was the first played outdoors in a cold-weather city, at which stadium?",
+    "options": [
+      "Gillette Stadium",
+      "Soldier Field",
+      "Lambeau Field",
+      "MetLife Stadium"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "The 2002 \"Tuck Rule\" playoff game was between the Patriots and which team?",
+    "options": [
+      "Buffalo Bills",
+      "Pittsburgh Steelers",
+      "Oakland Raiders",
+      "Indianapolis Colts"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "\"Deflategate\" arose from the 2015 AFC Championship between the Patriots and which team?",
+    "options": [
+      "Baltimore Ravens",
+      "Denver Broncos",
+      "Pittsburgh Steelers",
+      "Indianapolis Colts"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which Jets quarterback committed the infamous \"Butt Fumble\" in 2012?",
+    "options": [
+      "Geno Smith",
+      "Mark Sanchez",
+      "Ryan Fitzpatrick",
+      "Tim Tebow"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which quarterback popularized the term \"Hail Mary\" after a 1975 playoff touchdown?",
+    "options": [
+      "Fran Tarkenton",
+      "Terry Bradshaw",
+      "Ken Stabler",
+      "Roger Staubach"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who caught Joe Montana's game-winning touchdown pass in Super Bowl XXIII?",
+    "options": [
+      "Brent Jones",
+      "Jerry Rice",
+      "Roger Craig",
+      "John Taylor"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Who was the first president of the American Professional Football Association (now the NFL)?",
+    "options": [
+      "George Halas",
+      "Red Grange",
+      "Jim Thorpe",
+      "Pete Rozelle"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "How many teams have won three consecutive Super Bowls?",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NFL",
+    "category": "History",
+    "text": "Which team won back-to-back Super Bowls after the 1997 and 1998 seasons?",
+    "options": [
+      "Dallas Cowboys",
+      "Denver Broncos",
+      "San Francisco 49ers",
+      "Green Bay Packers"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  }
+]
