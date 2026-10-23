@@ -1,0 +1,18 @@
+# Launch screen: the bulb centred on brand green, "Do You Know Ball?" at the bottom.
+# Regenerate with: dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#05ff85"
+  image: assets/branding/splash-logo.png
+  branding: assets/branding/splash-wordmark.png
+  branding_mode: bottom
+  branding_bottom_padding: 140
+
+  # Android 12+ uses the system splash API: icon in a circle, no full-size image.
+  android_12:
+    color: "#05ff85"
+    icon_background_color: "#05ff85"
+    image: assets/branding/splash-android12.png
+    branding: assets/branding/splash-wordmark.png
+
+  fullscreen: false
+  web: false

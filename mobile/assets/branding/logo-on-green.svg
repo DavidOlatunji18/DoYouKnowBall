@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.0 0.0 1024.0 1024.0" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#05ff85"/>
+  <defs><mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+    <rect width="1024" height="1024" fill="white"/><g fill="none" stroke="black" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"><path d="M 470 640 L 470 500 L 450 420 Q 470 380 490 420 Q 512 460 534 420 Q 554 380 574 420 L 554 500 L 554 640"/></g>
+  </mask></defs>
+  <g transform="translate(0 40)" fill="#000">
+    <path d="M 406 636 C 406 578 296 520 296 392 A 216 216 0 1 1 728 392 C 728 520 618 578 618 636 Z" mask="url(#cut)"/><rect x="400" y="654" width="224" height="40" rx="20"/><rect x="406" y="706" width="212" height="40" rx="20"/><rect x="414" y="758" width="196" height="40" rx="20"/><path d="M 452 810 L 572 810 Q 564 858 512 858 Q 460 858 452 810 Z"/><line x1="512" y1="130" x2="512" y2="70" stroke="#000" stroke-width="30" stroke-linecap="round"/><line x1="662" y1="177" x2="697" y2="128" stroke="#000" stroke-width="30" stroke-linecap="round"/><line x1="758" y1="302" x2="815" y2="282" stroke="#000" stroke-width="30" stroke-linecap="round"/><line x1="765" y1="460" x2="823" y2="475" stroke="#000" stroke-width="30" stroke-linecap="round"/><line x1="362" y1="177" x2="327" y2="128" stroke="#000" stroke-width="30" stroke-linecap="round"/><line x1="266" y1="302" x2="209" y2="282" stroke="#000" stroke-width="30" stroke-linecap="round"/><line x1="259" y1="460" x2="201" y2="475" stroke="#000" stroke-width="30" stroke-linecap="round"/>
+  </g>
+</svg>

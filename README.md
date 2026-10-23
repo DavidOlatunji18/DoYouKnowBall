@@ -110,3 +110,14 @@ cd mobile
 open -a Simulator        # or start an Android emulator
 flutter run
 ```
+
+### Logo, app icon and splash screen
+
+The logo is drawn in code ([design/make_logo.py](design/make_logo.py)). After changing it, regenerate everything:
+
+```bash
+sh design/render_assets.sh                          # SVG -> PNG in mobile/assets/branding (needs Google Chrome)
+cd mobile
+dart run flutter_launcher_icons                     # app icons (iOS + Android)
+dart run flutter_native_splash:create               # green launch screen with "Do You Know Ball?"
+```
