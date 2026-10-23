@@ -63,7 +63,7 @@ public class ApiFactory : WebApplicationFactory<Program>
     {
         var client = CreateClient();
         var response = await client.PostAsJsonAsync("/auth/register", new RegisterRequest(
-            $"{Guid.NewGuid():N}@example.com", "password123", displayName ?? "Player"));
+            $"{Guid.NewGuid():N}@example.com", "hoops-and-dreams", displayName ?? $"player_{Guid.NewGuid():N}"[..19]));
         response.EnsureSuccessStatusCode();
         var auth = await response.Content.ReadFromJsonAsync<AuthResponse>();
         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", auth!.Token);

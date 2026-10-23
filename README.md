@@ -88,6 +88,7 @@ The loader can be run any number of times. It adds new questions, updates edited
 | Endpoint | Auth | Notes |
 |---|---|---|
 | `POST /auth/register`, `POST /auth/login` | — | 409 on duplicate email, 401 on bad login |
+| `GET /me` | JWT | The logged-in account; the app calls it on launch |
 | `GET /sports`, `GET /sports/{id}/categories` | JWT | |
 | `GET /quiz?categoryId=&count=10` | JWT | Up to 10 random questions, no answers |
 | `POST /games` | JWT | Scored on the server; needs the quiz's `sessionToken` |
@@ -109,7 +110,10 @@ The port is 5050 because macOS AirPlay Receiver uses 5000. EF Core CLI is a loca
 cd mobile
 open -a Simulator        # or start an Android emulator
 flutter run
+flutter test             # widget + API-client tests (no server needed)
 ```
+
+The app talks to the local API (start the database and `dotnet run` first). The simulator uses `http://localhost:5050` and the Android emulator `http://10.0.2.2:5050`. For a real phone or production, pass the address: `flutter run --dart-define=API_BASE_URL=http://<your-mac-ip>:5050`.
 
 ### Logo, app icon and splash screen
 

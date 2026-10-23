@@ -180,6 +180,9 @@ namespace Dykb.Api.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DisplayName")
+                        .IsUnique();
+
                     b.HasIndex("Email")
                         .IsUnique();
 

@@ -46,7 +46,8 @@ Base URL: `http://localhost:5050` locally. Android emulator reaches the host at 
 | Method | Route | Request | Response |
 |---|---|---|---|
 | POST | `/auth/register` | `{ email, password, displayName }` | `{ token, user: { id, email, displayName } }` |
-| POST | `/auth/login` | `{ email, password }` | `{ token, user }` |
+| POST | `/auth/login` | `{ emailOrUsername, password }` (either works; changed in Phase 3) | `{ token, user }` |
+| GET | `/me` | | `{ id, email, displayName }` (checks a saved login on launch; added in Phase 3) |
 | GET | `/sports` | | `[{ id, name }]` |
 | GET | `/sports/{sportId}/categories` | | `[{ id, name, sportId }]` |
 | GET | `/quiz?categoryId=&count=10` | | `{ sessionToken, questions: [{ id, text, options: [4 strings] }] }` |

@@ -58,12 +58,18 @@ def logo(background: bool, size: int = 1024, scale: float = 1.0) -> str:
 """
 
 
-def wordmark() -> str:
-    """'Do You Know Ball?' in heavy black type, for the bottom of the splash screen."""
-    return """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="1000" height="160">
-  <text x="500" y="112" text-anchor="middle" fill="#000"
-        font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-        font-weight="900" font-size="92" letter-spacing="-2">Do You Know Ball?</text>
+def wordmark(width: int = 1000, height: int = 160) -> str:
+    """'Do You Know Ball?' in Montserrat ExtraBold, for the bottom of the splash screen.
+
+    The font is loaded from mobile/assets/fonts so the PNG matches the app's text.
+    The text is the same size on every canvas; Android needs an 800x320 canvas.
+    """
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="{(1000 - width) / 2} {(160 - height) / 2} {width} {height}" width="{width}" height="{height}">
+  <style>
+    @font-face {{ font-family: 'Montserrat'; src: url('../fonts/Montserrat.ttf'); font-weight: 100 900; }}
+  </style>
+  <text x="500" y="108" text-anchor="middle" fill="#000"
+        font-family="Montserrat" font-weight="800" font-size="78" letter-spacing="-1.5">Do You Know Ball?</text>
 </svg>
 """
 
@@ -79,5 +85,7 @@ icon = logo(background=False)
 (OUT / "adaptive-foreground.svg").write_text(logo(background=False, scale=0.62))   # Android adaptive icon safe zone
 (OUT / "splash-logo.svg").write_text(logo(background=False, scale=0.8))            # iOS / Android <12 splash
 (OUT / "splash-android12.svg").write_text(logo(background=False, size=960, scale=0.6))  # must fit Android 12's circle
+(OUT / "splash-android.svg").write_text(logo(background=False, size=1152, scale=0.6))  # same art at 288dp for Android < 12
 (OUT / "splash-wordmark.svg").write_text(wordmark())
+(OUT / "splash-wordmark-android.svg").write_text(wordmark(800, 320))  # Android 12+ requires 800x320
 print("ok")

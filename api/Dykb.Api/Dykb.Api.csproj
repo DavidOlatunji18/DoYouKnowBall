@@ -19,6 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Resources/common-passwords.txt" LogicalName="Dykb.Api.Resources.common-passwords.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <!-- Ship the seed questions with the API so the loader works locally and on App Service. -->
     <Content Include="../../seed/**/*.json" Exclude="../../seed/*.schema.json" LinkBase="seed" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>

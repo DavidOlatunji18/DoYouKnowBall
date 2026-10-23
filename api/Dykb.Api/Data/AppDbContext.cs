@@ -29,6 +29,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             e.Property(u => u.Email).HasMaxLength(256);
             e.Property(u => u.DisplayName).HasMaxLength(30);
             e.HasIndex(u => u.Email).IsUnique();
+            e.HasIndex(u => u.DisplayName).IsUnique();
         });
 
         modelBuilder.Entity<Sport>(e =>

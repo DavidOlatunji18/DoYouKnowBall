@@ -197,7 +197,7 @@ public class QuizAndGameTests : IDisposable
 
         var board = (await low.GetFromJsonAsync<List<LeaderboardEntryDto>>($"/leaderboard?sportId={nba.SportId}&top=20"))!;
 
-        Assert.Equal(["HighScore", "MidScore", "LowScore"], board.Select(e => e.DisplayName));
+        Assert.Equal(["highscore", "midscore", "lowscore"], board.Select(e => e.DisplayName));
         Assert.Equal([1, 2, 3], board.Select(e => e.Rank));
         Assert.Equal([9, 6, 3], board.Select(e => e.BestScore));
         Assert.Equal([2, 1, 1], board.Select(e => e.GamesPlayed));

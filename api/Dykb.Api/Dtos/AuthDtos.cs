@@ -4,12 +4,14 @@ namespace Dykb.Api.Dtos;
 
 public record RegisterRequest(
     [Required, EmailAddress, MaxLength(256)] string Email,
-    [Required, MinLength(8, ErrorMessage = "Password must be at least 8 characters."), MaxLength(100)] string Password,
-    [Required, MinLength(2, ErrorMessage = "Display name must be at least 2 characters."), MaxLength(30)] string DisplayName);
+    // Strength rules (length, common passwords, etc.) are checked in AuthService via PasswordRules.
+    [Required(ErrorMessage = "Pick a password.")] string Password,
+    // Instagram-style username rules are checked in AuthService so each one gets a clear message.
+    [Required(ErrorMessage = "Pick a username.")] string DisplayName);
 
 public record LoginRequest(
-    [Required, EmailAddress] string Email,
-    [Required] string Password);
+    [Required(ErrorMessage = "Enter your email or username.")] string EmailOrUsername,
+    [Required(ErrorMessage = "Enter your password.")] string Password);
 
 public record UserDto(int Id, string Email, string DisplayName);
 

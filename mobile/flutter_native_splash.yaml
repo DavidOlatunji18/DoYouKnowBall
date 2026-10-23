@@ -1,18 +1,29 @@
-# Launch screen: the bulb centred on brand green, "Do You Know Ball?" at the bottom.
-# Regenerate with: dart run flutter_native_splash:create
+# Launch screen. Regenerate with: dart run flutter_native_splash:create
+#
+# The bulb centred on brand green with "Do You Know Ball?" near the bottom.
+# Android 12+ squeezes the text image into a fixed 800x320 box, so Android gets its
+# own 800x320 version (same text size). Android uses the same artwork on every
+# version, and the app's own splash (lib/screens/splash_screen.dart) copies each
+# platform's layout so the hand-off doesn't jump.
 flutter_native_splash:
   color: "#05ff85"
-  image: assets/branding/splash-logo.png
-  branding: assets/branding/splash-wordmark.png
-  branding_mode: bottom
-  branding_bottom_padding: 140
 
-  # Android 12+ uses the system splash API: icon in a circle, no full-size image.
+  image_ios: assets/branding/splash-logo.png
+  branding_ios: assets/branding/splash-wordmark.png
+  branding_mode: bottom
+  branding_bottom_padding_ios: 140
+
+  # Android 12+ draws its icon at 288dp; this larger copy makes older versions match.
+  image_android: assets/branding/splash-android.png
+  branding_android: assets/branding/splash-wordmark-android.png
+  branding_bottom_padding_android: 60
+
+  # Android 12+ uses the system splash API: icon centred in a circle, no full-size image.
   android_12:
     color: "#05ff85"
     icon_background_color: "#05ff85"
     image: assets/branding/splash-android12.png
-    branding: assets/branding/splash-wordmark.png
+    branding: assets/branding/splash-wordmark-android.png
 
   fullscreen: false
   web: false
