@@ -1,38 +1,123 @@
-# Do You Know Ball?
+# Do You Know Ball? 💡
 
-A cross-platform sports trivia app: Flutter client, ASP.NET Core API, SQL Server. See [PLAN.md](PLAN.md) for the build plan and [DECISIONS.md](DECISIONS.md) for choices made along the way.
+**Do you actually know ball, or do you just talk a lot?** Do You Know Ball? is a sports trivia app for iOS and Android. Pick a sport, pick a category, and answer 10 quick questions. You see right away whether each answer was right, and your best scores go on the leaderboard.
 
-## Repo layout
+## Features
 
-| Folder | What's in it |
+- **Two sports, five categories, 524 questions**
+  - **Football:** History, Records & Stats, Players
+  - **Soccer:** European Top 5 Leagues, Internationals
+- **Instant feedback.** Every answer is checked by the server the moment you tap it.
+- **Cheat-resistant scoring.** The phone never receives the answers. Scores are computed on the server from answers that are locked in as you play.
+- **Accounts.** Sign up with an email and an Instagram-style username, then log in with either.
+- **Profile and stats.** See your games played, accuracy, best round per sport, and recent games.
+- **Leaderboards.** Each player's best score, ranked by sport.
+- **Polished feel.** Animated splash screen, custom light-bulb branding, and playful motion throughout.
+
+## Tech stack
+
+| Layer | Technology |
 |---|---|
-| `api/` | ASP.NET Core Web API |
-| `mobile/` | Flutter app (iOS + Android) |
-| `seed/` | Trivia questions (JSON), schema, validator, fact-check list |
+| Mobile app | Flutter 3.38 (Dart), iOS + Android |
+| App libraries | go_router (navigation), provider (state), dio (HTTP), flutter_secure_storage (tokens) |
+| API | ASP.NET Core Web API on .NET 10 (C#) |
+| Data access | Entity Framework Core with migrations |
+| Database | SQL Server 2022 (Docker for local development) |
+| Auth | JWT bearer tokens, ASP.NET Identity password hashing |
+| Testing | xUnit + WebApplicationFactory (API), Flutter widget tests (app) |
+| Design tooling | Python scripts that draw the logo and sport icons as SVG |
 
-## Prerequisites
+## System design
 
-- Docker Desktop, with **Settings > General > "Use Rosetta for x86_64/amd64 emulation"** turned on (Apple Silicon only)
-- .NET SDK
-- Flutter 3.38+ and Xcode (iOS) / Android Studio (Android)
+```mermaid
+flowchart LR
+    subgraph Phone["📱 Flutter app"]
+        UI[Screens] --> Session[Session<br/>+ secure token storage]
+        UI --> Client[API client<br/>dio]
+    end
 
-## Running locally
+    Client -- "HTTPS + JWT" --> API
 
-### 1. Database
+    subgraph Server["ASP.NET Core API"]
+        API[Controllers] --> Services[Auth · Quiz · Game<br/>services]
+        Services --> EF[EF Core]
+    end
 
-Create a `.env` file in the repo root (it's git-ignored) with a strong SA password:
-
-```bash
-echo "MSSQL_SA_PASSWORD=<at least 8 chars, upper, lower, digit, symbol>" > .env
-docker compose up -d
-docker compose ps        # wait for "healthy"
+    EF --> DB[(SQL Server)]
+    Seed[seed/*.json<br/>questions] -. "synced on startup" .-> DB
 ```
 
-SQL Server is then on `localhost,1433` (user `sa`). Stop it with `docker compose down`; data persists in the `sqldata` volume.
+### How a round works
 
-### 2. API
+```mermaid
+sequenceDiagram
+    participant App
+    participant API
+    participant DB as SQL Server
 
-Requires the .NET 10 SDK (pinned in `api/global.json`). First-time setup stores dev secrets outside the repo:
+    App->>API: GET /quiz?categoryId=…
+    API->>DB: Pick 10 random questions, open an attempt
+    API-->>App: Questions (no answers) + sessionToken
+
+    loop Each question
+        App->>API: POST /quiz/answer
+        API->>DB: Lock in the answer (once only)
+        API-->>App: Correct? + the right option + running score
+    end
+
+    App->>API: POST /games { sessionToken }
+    API->>DB: Score from the locked answers, save the game
+    API-->>App: Final score
+```
+
+A few design choices behind this:
+
+- **The server is the source of truth.** Correct answers stay in the database. Each answer can be submitted only once per question (a unique index enforces this), and an attempt can be submitted only once (a concurrency token enforces this), so replaying requests doesn't inflate a score.
+- **Attempts expire.** A quiz has to be finished within an hour of being started.
+- **Stateless auth.** The API issues a JWT at login. The app keeps it in the iOS Keychain or Android Keystore and restores the session on launch with `GET /me`.
+- **Consistent errors.** Every error response has the same shape, `{ "error": "message" }`, so the app can show it directly.
+- **Questions live in version control.** Trivia is stored as JSON under `seed/`, checked by a validator, and synced into the database by an idempotent loader. Questions added, edited or deleted in the files are reflected on the next run.
+
+## Project structure
+
+```
+dykb/
+├── mobile/            Flutter app
+│   ├── lib/
+│   │   ├── api/       API client and models
+│   │   ├── auth/      Session, username and password rules
+│   │   ├── screens/   Splash, welcome, auth, home, categories, profile…
+│   │   └── widgets/   Shared UI (buttons, cards, header, nav bar…)
+│   └── test/          Widget and client tests
+├── api/
+│   ├── Dykb.Api/      Controllers, services, EF models, migrations
+│   └── Dykb.Api.Tests/ Integration tests
+├── seed/              Trivia questions (JSON), schema and validator
+├── design/            Logo and icon generators
+└── docker-compose.yml Local SQL Server
+```
+
+## Running it locally
+
+### Prerequisites
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/). On Apple Silicon, turn on **Settings › General › Use Rosetta for x86_64/amd64 emulation**, because SQL Server only ships an x86 image.
+- [.NET 10 SDK](https://dotnet.microsoft.com/download)
+- [Flutter 3.38+](https://docs.flutter.dev/get-started/install), plus Xcode (iOS) and/or the Android SDK (Android)
+
+### 1. Start the database
+
+Create a `.env` file in the repo root (it's git-ignored) with a strong password, then start SQL Server:
+
+```bash
+echo "MSSQL_SA_PASSWORD=<8+ chars with upper, lower, digit and symbol>" > .env
+docker compose up -d
+docker compose ps        # wait until it says "healthy"
+```
+
+### 2. Start the API
+
+Store the dev secrets outside the repo (one-time setup):
 
 ```bash
 cd api/Dykb.Api
@@ -41,87 +126,67 @@ dotnet user-secrets set "ConnectionStrings:Default" \
   "Server=localhost,1433;Database=Dykb;User Id=sa;Password=<your MSSQL_SA_PASSWORD>;TrustServerCertificate=True"
 ```
 
-Create the database tables (and re-run after pulling new migrations):
-
-```bash
-cd api
-dotnet tool restore
-dotnet ef database update --project Dykb.Api
-```
-
 Then run it:
 
 ```bash
-cd api/Dykb.Api
 dotnet run
 ```
 
-Run the integration tests (they use an in-memory database, so neither Docker nor user-secrets are needed):
+In development, the API creates the tables and loads all the questions automatically on startup. It listens on **http://localhost:5050**. Port 5000 is avoided because macOS AirPlay uses it.
 
-```bash
-cd api
-dotnet test
-```
-
-### Trying the API in Swagger
-
-1. `POST /auth/register` with an email, password (8+ chars) and display name.
-2. Copy the `token` from the response, click **Authorize**, and paste it in.
-3. `GET /sports` → `GET /sports/{id}/categories` → `GET /quiz?categoryId=…`
-4. `POST /games` with the `categoryId`, the `sessionToken` from the quiz, and one answer per question.
-5. `GET /games/history` and `GET /leaderboard?sportId=…`
-
-In Development, `dotnet run` applies migrations and loads the seed questions automatically.
-
-### Seed questions
-
-524 questions across Soccer (European Top 5 Leagues, Internationals) and NFL (History, Records and Stats, Players) live in `seed/<sport>/<category>.json`. The format is described in [seed/questions.schema.json](seed/questions.schema.json).
-
-```bash
-python3 seed/validate.py                 # check every file (4 distinct options, valid indexes, no duplicates)
-cd api/Dykb.Api && dotnet run            # Development: migrates and syncs the seed on startup
-dotnet Dykb.Api.dll --seed               # Production (from the publish folder): migrate, sync, exit
-```
-
-The loader can be run any number of times. It adds new questions, updates edited ones, and removes questions deleted from a file. Questions worth fact-checking are listed in [seed/REVIEW.md](seed/REVIEW.md).
-
-| Endpoint | Auth | Notes |
-|---|---|---|
-| `POST /auth/register`, `POST /auth/login` | — | 409 on duplicate email, 401 on bad login |
-| `GET /me` | JWT | The logged-in account; the app calls it on launch |
-| `GET /sports`, `GET /sports/{id}/categories` | JWT | |
-| `GET /quiz?categoryId=&count=10` | JWT | Up to 10 random questions, no answers |
-| `POST /games` | JWT | Scored on the server; needs the quiz's `sessionToken` |
-| `GET /games/history` | JWT | Your 50 most recent games |
-| `GET /leaderboard?sportId=&top=20` | JWT | Best score per player in that sport |
-| `GET /health` | — | |
-
-Errors always look like `{ "error": "message" }`.
-
-- Swagger: http://localhost:5050/swagger
+- Swagger UI: http://localhost:5050/swagger
 - Health check: http://localhost:5050/health
-- Android emulator reaches it at `http://10.0.2.2:5050`
 
-The port is 5050 because macOS AirPlay Receiver uses 5000. EF Core CLI is a local tool: run `dotnet tool restore` once in `api/`, then `dotnet ef ...`.
-
-### 3. Mobile
+### 3. Run the app
 
 ```bash
 cd mobile
+flutter pub get
 open -a Simulator        # or start an Android emulator
 flutter run
-flutter test             # widget + API-client tests (no server needed)
 ```
 
-The app talks to the local API (start the database and `dotnet run` first). The simulator uses `http://localhost:5050` and the Android emulator `http://10.0.2.2:5050`. For a real phone or production, pass the address: `flutter run --dart-define=API_BASE_URL=http://<your-mac-ip>:5050`.
-
-### Logo, app icon and splash screen
-
-The logo is drawn in code ([design/make_logo.py](design/make_logo.py)). After changing it, regenerate everything:
+The iOS simulator reaches the API at `localhost:5050` and the Android emulator at `10.0.2.2:5050`. Both work without any setup. To use a real phone on the same Wi-Fi network, pass your computer's IP address:
 
 ```bash
-sh design/render_assets.sh                          # SVG -> PNG in mobile/assets/branding (needs Google Chrome)
+flutter run --dart-define=API_BASE_URL=http://<your-computer-ip>:5050
+```
+
+## Running the tests
+
+Neither test suite needs Docker or a running server.
+
+```bash
+cd api && dotnet test        # API integration tests (in-memory database)
+cd mobile && flutter test    # widget and API-client tests
+python3 seed/validate.py     # checks every question file
+```
+
+## API at a glance
+
+| Endpoint | Auth | What it does |
+|---|---|---|
+| `POST /auth/register` | — | Create an account |
+| `POST /auth/login` | — | Log in with email or username |
+| `GET /me` | JWT | The signed-in account |
+| `GET /sports` | JWT | All sports |
+| `GET /sports/{id}/categories` | JWT | Categories for a sport |
+| `GET /quiz?categoryId=` | JWT | Start a round of 10 questions |
+| `POST /quiz/answer` | JWT | Lock in an answer and get feedback |
+| `POST /games` | JWT | Finish the round and save the score |
+| `GET /games/history` | JWT | Your recent games |
+| `GET /leaderboard?sportId=` | JWT | Top players in a sport |
+| `GET /health` | — | Liveness check |
+
+Full request and response details are in Swagger while the API is running.
+
+## Regenerating the logo and icons
+
+The logo and sport icons are drawn in code under `design/`. After changing them:
+
+```bash
+sh design/render_assets.sh                # SVG → PNG (needs Google Chrome)
 cd mobile
-dart run flutter_launcher_icons                     # app icons (iOS + Android)
-dart run flutter_native_splash:create               # green launch screen with "Do You Know Ball?"
+dart run flutter_launcher_icons           # app icons
+dart run flutter_native_splash:create     # launch screen
 ```
