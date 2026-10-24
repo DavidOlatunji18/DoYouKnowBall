@@ -11,6 +11,8 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Category> Categories => Set<Category>();
     public DbSet<Question> Questions => Set<Question>();
     public DbSet<GameSession> GameSessions => Set<GameSession>();
+    public DbSet<QuizAttempt> QuizAttempts => Set<QuizAttempt>();
+    public DbSet<QuizAnswer> QuizAnswers => Set<QuizAnswer>();
 
     protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
     {
@@ -64,6 +66,23 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             e.HasIndex(g => new { g.UserId, g.CategoryId });
             // Deleting a category must not silently wipe players' history.
             e.HasOne(g => g.Category).WithMany().OnDelete(DeleteBehavior.Restrict);
+        });
+
+        modelBuilder.Entity<QuizAttempt>(e =>
+        {
+            e.Property(a => a.QuestionIds).HasMaxLength(200);
+            // Two submits racing each other: only the first one's update matches.
+            e.Property(a => a.SubmittedAt).IsConcurrencyToken();
+            e.HasIndex(a => a.UserId);
+            e.HasOne(a => a.Category).WithMany().OnDelete(DeleteBehavior.Restrict);
+            // The user cascade already reaches game sessions, so this link can't cascade too.
+            e.HasOne(a => a.GameSession).WithMany().OnDelete(DeleteBehavior.ClientSetNull);
+        });
+
+        modelBuilder.Entity<QuizAnswer>(e =>
+        {
+            // One answer per question per round, enforced by the database too.
+            e.HasIndex(a => new { a.QuizAttemptId, a.QuestionId }).IsUnique();
         });
     }
 }

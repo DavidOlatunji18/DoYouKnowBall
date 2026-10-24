@@ -8,7 +8,7 @@ abstract final class AppColors {
   static const ink = Color(0xFF121212);
   static const muted = Color(0xFF5F5E6E);
   static const card = Color(0xFFFFFFFF);
-  static const danger = Color(0xFFD93B3B);
+  static const danger = Color(0xFFC62F2F);
   static const dangerSoft = Color(0xFFFFE3DE);
 }
 
@@ -30,6 +30,24 @@ TextStyle appFont(
     fontWeight: FontWeight.values[((weight / 100).round() - 1).clamp(0, 8)],
     fontVariations: [FontVariation.weight(weight)],
   );
+}
+
+/// Fredoka: a soft, rounded font for the friendly touches (the "dykb?" wordmark
+/// and the welcome line). Also variable, so weight works the same way.
+TextStyle funFont(
+  double size, {
+  double weight = 600,
+  Color color = AppColors.ink,
+  double? height,
+  double letterSpacing = 0,
+}) {
+  return appFont(
+    size,
+    weight: weight,
+    color: color,
+    height: height,
+    letterSpacing: letterSpacing,
+  ).copyWith(fontFamily: 'Fredoka');
 }
 
 ThemeData buildTheme() {

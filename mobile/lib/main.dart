@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import 'api/api_client.dart';
 import 'auth/session.dart';
 import 'config.dart';
+import 'game_events.dart';
 import 'router.dart';
 import 'theme.dart';
 
@@ -38,10 +39,12 @@ class DykbApp extends StatefulWidget {
 
 class _DykbAppState extends State<DykbApp> {
   late final GoRouter _router = createRouter(widget.session);
+  final _gameEvents = GameEvents();
 
   @override
   void dispose() {
     _router.dispose();
+    _gameEvents.dispose();
     super.dispose();
   }
 
@@ -51,6 +54,7 @@ class _DykbAppState extends State<DykbApp> {
       providers: [
         ChangeNotifierProvider.value(value: widget.session),
         Provider.value(value: widget.api),
+        ChangeNotifierProvider.value(value: _gameEvents),
       ],
       child: MaterialApp.router(
         title: 'Do You Know Ball?',

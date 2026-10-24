@@ -24,13 +24,11 @@ if (Encoding.UTF8.GetByteCount(jwt.Key) < 32)
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection(JwtOptions.Section));
-builder.Services.AddDataProtection();
 
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<QuizService>();
 builder.Services.AddScoped<GameService>();
-builder.Services.AddSingleton<QuizSessionTokens>();
 builder.Services.AddScoped<SeedLoader>();
 
 builder.Services

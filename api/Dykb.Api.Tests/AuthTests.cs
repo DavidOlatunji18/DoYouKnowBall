@@ -177,6 +177,7 @@ public class AuthTests : IDisposable
     [InlineData("GET", "/sports/1/categories")]
     [InlineData("GET", "/quiz?categoryId=1")]
     [InlineData("POST", "/games")]
+    [InlineData("POST", "/quiz/answer")]
     [InlineData("GET", "/games/history")]
     [InlineData("GET", "/leaderboard?sportId=1")]
     [InlineData("GET", "/me")]

@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import 'auth/session.dart';
+import 'screens/app_shell.dart';
 import 'screens/auth_screen.dart';
+import 'screens/categories_screen.dart';
 import 'screens/home_screen.dart';
+import 'screens/profile_screen.dart';
 import 'screens/splash_screen.dart';
+import 'screens/tab_screens.dart';
 import 'screens/welcome_screen.dart';
 
 const _signedOutRoutes = {'/welcome', '/signup', '/login'};
@@ -13,6 +17,9 @@ const _signedOutRoutes = {'/welcome', '/signup', '/login'};
 /// After that, signed-out players can only see Welcome, Sign up and Log in, and
 /// signed-in players skip those and land on Home. Re-checked whenever the session
 /// changes, so logging in or out moves the player automatically.
+///
+/// Signed-in screens live in three tabs (Home, Leaderboard, Profile) under
+/// a shared nav bar; the quiz opens full-screen on top of them.
 GoRouter createRouter(Session session) => GoRouter(
   initialLocation: '/splash',
   refreshListenable: session,
@@ -42,9 +49,50 @@ GoRouter createRouter(Session session) => GoRouter(
       builder: (context, state) =>
           const AuthScreen(initialMode: AuthMode.logIn),
     ),
+    StatefulShellRoute.indexedStack(
+      pageBuilder: (context, state, shell) =>
+          _fade(state, AppShell(navigationShell: shell)),
+      branches: [
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              path: '/home',
+              builder: (context, state) => const HomeScreen(),
+              routes: [
+                GoRoute(
+                  path: 'sport/:sportId',
+                  builder: (context, state) => CategoriesScreen(
+                    sportId: int.parse(state.pathParameters['sportId']!),
+                    sportName: state.uri.queryParameters['name'] ?? 'Sport',
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              path: '/leaderboard',
+              builder: (context, state) => const LeaderboardScreen(),
+            ),
+          ],
+        ),
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              path: '/profile',
+              builder: (context, state) => const ProfileScreen(),
+            ),
+          ],
+        ),
+      ],
+    ),
     GoRoute(
-      path: '/home',
-      pageBuilder: (context, state) => _fade(state, const HomeScreen()),
+      path: '/play/:categoryId',
+      builder: (context, state) => QuizPlaceholderScreen(
+        categoryName: state.uri.queryParameters['name'] ?? 'Category',
+      ),
     ),
   ],
 );

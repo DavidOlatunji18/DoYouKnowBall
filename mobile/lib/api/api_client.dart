@@ -53,6 +53,62 @@ class AuthResult {
   final AppUser user;
 }
 
+class Sport {
+  const Sport({required this.id, required this.name});
+
+  factory Sport.fromJson(Map<String, dynamic> json) =>
+      Sport(id: json['id'] as int, name: json['name'] as String);
+
+  final int id;
+  final String name;
+}
+
+class SportCategory {
+  const SportCategory({
+    required this.id,
+    required this.name,
+    required this.sportId,
+  });
+
+  factory SportCategory.fromJson(Map<String, dynamic> json) => SportCategory(
+    id: json['id'] as int,
+    name: json['name'] as String,
+    sportId: json['sportId'] as int,
+  );
+
+  final int id;
+  final String name;
+  final int sportId;
+}
+
+/// One finished round, as listed in the player's history.
+class GameRecord {
+  const GameRecord({
+    required this.gameId,
+    required this.sportName,
+    required this.categoryName,
+    required this.score,
+    required this.total,
+    required this.playedAt,
+  });
+
+  factory GameRecord.fromJson(Map<String, dynamic> json) => GameRecord(
+    gameId: json['gameId'] as int,
+    sportName: json['sportName'] as String,
+    categoryName: json['categoryName'] as String,
+    score: json['score'] as int,
+    total: json['total'] as int,
+    playedAt: DateTime.parse(json['playedAt'] as String).toLocal(),
+  );
+
+  final int gameId;
+  final String sportName;
+  final String categoryName;
+  final int score;
+  final int total;
+  final DateTime playedAt;
+}
+
 /// Talks to the Do You Know Ball? API. Attaches the saved JWT to every request
 /// and calls [onUnauthorized] when the server rejects it (expired or revoked),
 /// so the app can send the player back to log in.
@@ -110,10 +166,27 @@ class ApiClient {
   }, AuthResult.fromJson);
 
   /// The account behind the saved token; a 401 means the login is no longer valid.
-  Future<AppUser> me() async {
+  Future<AppUser> me() async =>
+      AppUser.fromJson(await _get<Map<String, dynamic>>('/me'));
+
+  Future<List<Sport>> sports() async => (await _get<List<dynamic>>(
+    '/sports',
+  )).map((j) => Sport.fromJson(j as Map<String, dynamic>)).toList();
+
+  Future<List<SportCategory>> categories(int sportId) async =>
+      (await _get<List<dynamic>>(
+        '/sports/$sportId/categories',
+      )).map((j) => SportCategory.fromJson(j as Map<String, dynamic>)).toList();
+
+  /// The player's most recent rounds, newest first (the API returns up to 50).
+  Future<List<GameRecord>> history() async => (await _get<List<dynamic>>(
+    '/games/history',
+  )).map((j) => GameRecord.fromJson(j as Map<String, dynamic>)).toList();
+
+  Future<T> _get<T>(String path) async {
     try {
-      final response = await _dio.get<Map<String, dynamic>>('/me');
-      return AppUser.fromJson(response.data!);
+      final response = await _dio.get<T>(path);
+      return response.data as T;
     } on DioException catch (e) {
       throw _toApiError(e);
     }

@@ -71,3 +71,6 @@ flutter:
     - family: Montserrat
       fonts:
         - asset: assets/fonts/Montserrat.ttf
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/Fredoka.ttf

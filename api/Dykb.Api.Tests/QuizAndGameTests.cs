@@ -86,96 +86,155 @@ public class QuizAndGameTests : IDisposable
     }
 
     [Fact]
-    public async Task SubmitGame_ScoresServerSideAndSavesHistory()
+    public async Task Answer_GivesInstantFeedbackAndARunningScore()
     {
         var category = await _factory.SeedCategoryAsync();
         var client = await _factory.CreateAuthenticatedClientAsync();
         var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
         var correct = await CorrectIndexesAsync(quiz);
+        var first = quiz.Questions[0].Id;
+        var second = quiz.Questions[1].Id;
 
-        // Answer the first 7 correctly and the last 3 wrong.
-        var answers = quiz.Questions
-            .Select((q, i) => new AnswerDto(q.Id, i < 7 ? correct[q.Id] : (correct[q.Id] + 1) % 4))
-            .ToList();
-        var response = await client.PostAsJsonAsync("/games", new SubmitGameRequest(category.Id, quiz.SessionToken, answers));
+        var right = await AnswerAsync(client, quiz, first, correct[first]);
+        var wrong = await AnswerAsync(client, quiz, second, (correct[second] + 1) % 4);
 
-        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-        var result = (await response.Content.ReadFromJsonAsync<GameResultResponse>())!;
-        Assert.Equal(7, result.Score);
-        Assert.Equal(10, result.Total);
-        Assert.Equal(quiz.Questions.Select(q => q.Id), result.Review.Select(r => r.QuestionId));
-        Assert.All(result.Review, r =>
-        {
-            Assert.Equal(correct[r.QuestionId], r.CorrectIndex);
-            Assert.Equal(answers.Single(a => a.QuestionId == r.QuestionId).SelectedIndex, r.SelectedIndex);
-            Assert.Equal(r.CorrectIndex == r.SelectedIndex, r.Correct);
-        });
-
-        var history = (await client.GetFromJsonAsync<List<HistoryItemDto>>("/games/history"))!;
-        var entry = Assert.Single(history);
-        Assert.Equal(result.GameId, entry.GameId);
-        Assert.Equal("History", entry.CategoryName);
-        Assert.Equal(7, entry.Score);
-        Assert.Equal(10, entry.Total);
-        Assert.Equal(DateTimeKind.Utc, entry.PlayedAt.Kind);
+        Assert.Equal(new AnswerResultDto(true, correct[first], Score: 1, Answered: 1, Total: 10), right);
+        Assert.Equal(new AnswerResultDto(false, correct[second], Score: 1, Answered: 2, Total: 10), wrong);
     }
 
     [Fact]
-    public async Task SubmitGame_AnswersForQuestionsNotInQuiz_Returns400()
+    public async Task Answer_IsLockedIn_SecondAttemptReturns409()
+    {
+        var category = await _factory.SeedCategoryAsync();
+        var client = await _factory.CreateAuthenticatedClientAsync();
+        var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
+        var correct = await CorrectIndexesAsync(quiz);
+        var question = quiz.Questions[0].Id;
+
+        await AnswerAsync(client, quiz, question, (correct[question] + 1) % 4);  // wrong, and now we know the answer
+        var retry = await client.PostAsJsonAsync("/quiz/answer", new AnswerRequest(quiz.SessionToken, question, correct[question]));
+
+        Assert.Equal(HttpStatusCode.Conflict, retry.StatusCode);
+        var game = await SubmitAsync(client, quiz);
+        Assert.Equal(0, game.Score);
+    }
+
+    [Fact]
+    public async Task Answer_RecordsServerMeasuredTime()
+    {
+        var category = await _factory.SeedCategoryAsync();
+        var client = await _factory.CreateAuthenticatedClientAsync();
+        var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
+
+        await Task.Delay(60);
+        await AnswerAsync(client, quiz, quiz.Questions[0].Id, 0);
+
+        var answer = await _factory.WithDbAsync(db => db.QuizAnswers.SingleAsync());
+        Assert.InRange(answer.ElapsedMs, 50, 10_000);
+    }
+
+    [Fact]
+    public async Task Answer_ForQuestionNotInQuiz_Returns400()
     {
         var category = await _factory.SeedCategoryAsync(questionCount: 20);
         var client = await _factory.CreateAuthenticatedClientAsync();
         var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
         var servedIds = quiz.Questions.Select(q => q.Id).ToHashSet();
-        var otherIds = await _factory.WithDbAsync(db => db.Questions
-            .Where(q => !servedIds.Contains(q.Id)).Select(q => q.Id).Take(10).ToListAsync());
+        var otherId = await _factory.WithDbAsync(db => db.Questions.Where(q => !servedIds.Contains(q.Id)).Select(q => q.Id).FirstAsync());
 
-        var response = await client.PostAsJsonAsync("/games", new SubmitGameRequest(
-            category.Id, quiz.SessionToken, otherIds.Select(id => new AnswerDto(id, 0)).ToList()));
+        var response = await client.PostAsJsonAsync("/quiz/answer", new AnswerRequest(quiz.SessionToken, otherId, 0));
 
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
-        Assert.Equal(0, await _factory.WithDbAsync(db => db.GameSessions.CountAsync()));
+        Assert.Equal("That question isn't part of this quiz.", (await response.Content.ReadFromJsonAsync<ErrorResponse>())!.Error);
     }
 
     [Fact]
-    public async Task SubmitGame_WithAnotherUsersSessionToken_Returns400()
-    {
-        var category = await _factory.SeedCategoryAsync();
-        var alice = await _factory.CreateAuthenticatedClientAsync("Alice");
-        var bob = await _factory.CreateAuthenticatedClientAsync("Bob");
-        var quiz = (await alice.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
-
-        var response = await bob.PostAsJsonAsync("/games", new SubmitGameRequest(
-            category.Id, quiz.SessionToken, quiz.Questions.Select(q => new AnswerDto(q.Id, 0)).ToList()));
-
-        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
-    }
-
-    [Fact]
-    public async Task SubmitGame_TamperedSessionToken_Returns400()
+    public async Task Answer_SelectedIndexOutOfRange_Returns400()
     {
         var category = await _factory.SeedCategoryAsync();
         var client = await _factory.CreateAuthenticatedClientAsync();
         var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
 
-        var response = await client.PostAsJsonAsync("/games", new SubmitGameRequest(
-            category.Id, quiz.SessionToken + "x", quiz.Questions.Select(q => new AnswerDto(q.Id, 0)).ToList()));
+        var response = await client.PostAsJsonAsync("/quiz/answer", new AnswerRequest(quiz.SessionToken, quiz.Questions[0].Id, 4));
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+    }
+
+    [Theory]
+    [InlineData("/quiz/answer")]
+    [InlineData("/games")]
+    public async Task AnotherPlayersQuiz_IsRejected(string path)
+    {
+        var category = await _factory.SeedCategoryAsync();
+        var alice = await _factory.CreateAuthenticatedClientAsync("alice");
+        var bob = await _factory.CreateAuthenticatedClientAsync("bob");
+        var quiz = (await alice.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
+
+        var response = path == "/games"
+            ? await bob.PostAsJsonAsync(path, new SubmitGameRequest(quiz.SessionToken))
+            : await bob.PostAsJsonAsync(path, new AnswerRequest(quiz.SessionToken, quiz.Questions[0].Id, 0));
 
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
         Assert.Contains("expired", (await response.Content.ReadFromJsonAsync<ErrorResponse>())!.Error);
     }
 
     [Fact]
-    public async Task SubmitGame_SelectedIndexOutOfRange_Returns400()
+    public async Task UnknownSessionToken_Returns400()
+    {
+        var client = await _factory.CreateAuthenticatedClientAsync();
+
+        var response = await client.PostAsJsonAsync("/games", new SubmitGameRequest("not-a-real-token"));
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+    }
+
+    [Fact]
+    public async Task SubmitGame_ScoresFromLockedAnswersAndSavesHistory()
     {
         var category = await _factory.SeedCategoryAsync();
         var client = await _factory.CreateAuthenticatedClientAsync();
         var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
+        var correct = await CorrectIndexesAsync(quiz);
 
-        var response = await client.PostAsJsonAsync("/games", new SubmitGameRequest(
-            category.Id, quiz.SessionToken, quiz.Questions.Select(q => new AnswerDto(q.Id, 4)).ToList()));
+        // First 7 right, next 2 wrong, last one never answered.
+        for (var i = 0; i < 9; i++)
+        {
+            var id = quiz.Questions[i].Id;
+            await AnswerAsync(client, quiz, id, i < 7 ? correct[id] : (correct[id] + 1) % 4);
+        }
+        var result = await SubmitAsync(client, quiz);
 
-        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.Equal(7, result.Score);
+        Assert.Equal(10, result.Total);
+        Assert.Equal(quiz.Questions.Select(q => q.Id), result.Review.Select(r => r.QuestionId));
+        Assert.All(result.Review, r => Assert.Equal(correct[r.QuestionId], r.CorrectIndex));
+        var unanswered = result.Review.Last();
+        Assert.Equal(-1, unanswered.SelectedIndex);
+        Assert.False(unanswered.Correct);
+
+        var history = (await client.GetFromJsonAsync<List<HistoryItemDto>>("/games/history"))!;
+        var entry = Assert.Single(history);
+        Assert.Equal(result.GameId, entry.GameId);
+        Assert.Equal("NBA", entry.SportName);
+        Assert.Equal("History", entry.CategoryName);
+        Assert.Equal(7, entry.Score);
+        Assert.Equal(DateTimeKind.Utc, entry.PlayedAt.Kind);
+    }
+
+    [Fact]
+    public async Task SubmitGame_Twice_Returns409AndCountsOnce()
+    {
+        var category = await _factory.SeedCategoryAsync();
+        var client = await _factory.CreateAuthenticatedClientAsync();
+        var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={category.Id}"))!;
+        await SubmitAsync(client, quiz);
+
+        var again = await client.PostAsJsonAsync("/games", new SubmitGameRequest(quiz.SessionToken));
+        var lateAnswer = await client.PostAsJsonAsync("/quiz/answer", new AnswerRequest(quiz.SessionToken, quiz.Questions[0].Id, 0));
+
+        Assert.Equal(HttpStatusCode.Conflict, again.StatusCode);
+        Assert.Equal(HttpStatusCode.Conflict, lateAnswer.StatusCode);
+        Assert.Equal(1, await _factory.WithDbAsync(db => db.GameSessions.CountAsync()));
     }
 
     [Fact]
@@ -226,14 +285,29 @@ public class QuizAndGameTests : IDisposable
             .ToDictionaryAsync(q => q.Id, q => q.CorrectIndex));
     }
 
+    private static async Task<AnswerResultDto> AnswerAsync(HttpClient client, QuizResponse quiz, int questionId, int selectedIndex)
+    {
+        var response = await client.PostAsJsonAsync("/quiz/answer", new AnswerRequest(quiz.SessionToken, questionId, selectedIndex));
+        response.EnsureSuccessStatusCode();
+        return (await response.Content.ReadFromJsonAsync<AnswerResultDto>())!;
+    }
+
+    private static async Task<GameResultResponse> SubmitAsync(HttpClient client, QuizResponse quiz)
+    {
+        var response = await client.PostAsJsonAsync("/games", new SubmitGameRequest(quiz.SessionToken));
+        response.EnsureSuccessStatusCode();
+        return (await response.Content.ReadFromJsonAsync<GameResultResponse>())!;
+    }
+
     private async Task PlayAsync(HttpClient client, int categoryId, int correctCount)
     {
         var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={categoryId}"))!;
         var correct = await CorrectIndexesAsync(quiz);
-        var answers = quiz.Questions
-            .Select((q, i) => new AnswerDto(q.Id, i < correctCount ? correct[q.Id] : (correct[q.Id] + 1) % 4))
-            .ToList();
-        var response = await client.PostAsJsonAsync("/games", new SubmitGameRequest(categoryId, quiz.SessionToken, answers));
-        response.EnsureSuccessStatusCode();
+        for (var i = 0; i < quiz.Questions.Count; i++)
+        {
+            var id = quiz.Questions[i].Id;
+            await AnswerAsync(client, quiz, id, i < correctCount ? correct[id] : (correct[id] + 1) % 4);
+        }
+        await SubmitAsync(client, quiz);
     }
 }

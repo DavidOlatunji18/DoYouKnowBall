@@ -50,7 +50,7 @@ void main() {
     await tester.tap(find.text('Create account'));
     await settleRequest(tester);
 
-    final request = app.adapter.requests.single;
+    final request = app.adapter.requestTo('/auth/register');
     expect(request.path, '/auth/register');
     expect(request.data, {
       'email': 'kobe@example.com',
@@ -59,7 +59,10 @@ void main() {
     });
     expect(app.session.isLoggedIn, isTrue);
     expect(await app.store.read('auth_token'), 'jwt-token');
-    expect(find.text('@kobe.'), findsOneWidget); // "You're in, @kobe." on Home
+    expect(
+      find.bySemanticsLabel('Welcome @kobe'),
+      findsOneWidget,
+    ); // greeting on Home
   });
 
   testWidgets('A guessable password is flagged live and blocked on submit', (
@@ -127,10 +130,11 @@ void main() {
               w.properties.button == true,
         ),
       );
-      await settle(tester);
+      // Logging in lands on Home, which loads sports; let that finish too.
+      await settleRequest(tester);
 
-      expect(app.adapter.requests.single.path, '/auth/login');
-      expect(app.adapter.requests.single.data, {
+      expect(app.adapter.requestTo('/auth/login'), isNotNull);
+      expect(app.adapter.requestTo('/auth/login').data, {
         'emailOrUsername': 'kobe24',
         'password': 'mamba-mentality',
       });
@@ -151,8 +155,12 @@ void main() {
     await launch(tester, app);
     await settle(tester);
 
-    expect(find.text('@returning.'), findsOneWidget);
-    expect(find.text('Log out'), findsOneWidget);
+    expect(find.bySemanticsLabel('Welcome @returning'), findsOneWidget);
+
+    // Log out lives on the Profile tab.
+    await tester.tap(find.bySemanticsLabel('Profile'));
+    await settle(tester);
+    expect(find.text('@returning'), findsOneWidget);
 
     await tester.tap(find.text('Log out'));
     await settle(tester);

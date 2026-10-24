@@ -6,24 +6,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Dykb.Api.Services;
 
-public class GameService(AppDbContext db, QuizSessionTokens sessionTokens)
+public class GameService(AppDbContext db, QuizService quiz)
 {
     private const int HistoryLimit = 50;
     private const int MaxLeaderboardSize = 100;
 
+    /// <summary>
+    /// Finishes a round, scored from the answers locked in by <see cref="QuizService.AnswerAsync"/>.
+    /// Questions never answered count as wrong. A round can only be submitted once.
+    /// </summary>
     public async Task<GameResultResponse> SubmitAsync(int userId, SubmitGameRequest request)
     {
-        var session = sessionTokens.Read(request.SessionToken)
-            ?? throw ApiException.BadRequest("This quiz has expired. Please start a new one.");
-        if (session.UserId != userId || session.CategoryId != request.CategoryId)
-            throw ApiException.BadRequest("These answers don't match the quiz you were given.");
-
-        var served = session.QuestionIds;
-        var answers = request.Answers
-            .GroupBy(a => a.QuestionId)
-            .ToDictionary(g => g.Key, g => g.Count() == 1 ? g.Single().SelectedIndex : -1);
-        if (answers.Count != served.Count || answers.Values.Contains(-1) || !served.All(answers.ContainsKey))
-            throw ApiException.BadRequest("Answer each question in the quiz exactly once.");
+        var attempt = await quiz.GetOpenAttemptAsync(userId, request.SessionToken);
+        var served = attempt.ServedQuestionIds();
 
         var correctById = await db.Questions
             .Where(q => served.Contains(q.Id))
@@ -31,20 +26,35 @@ public class GameService(AppDbContext db, QuizSessionTokens sessionTokens)
         if (correctById.Count != served.Count)
             throw ApiException.BadRequest("Some questions in this quiz are no longer available. Please start a new one.");
 
+        var locked = attempt.Answers.ToDictionary(a => a.QuestionId);
         var review = served
-            .Select(id => new ReviewItemDto(id, correctById[id], answers[id], correctById[id] == answers[id]))
+            .Select(id => locked.TryGetValue(id, out var a)
+                ? new ReviewItemDto(id, correctById[id], a.SelectedIndex, a.Correct)
+                : new ReviewItemDto(id, correctById[id], -1, false))
             .ToList();
 
+        var now = DateTime.UtcNow;
         var game = new GameSession
         {
             UserId = userId,
-            CategoryId = session.CategoryId,
+            CategoryId = attempt.CategoryId,
             Score = review.Count(r => r.Correct),
             Total = review.Count,
-            PlayedAt = DateTime.UtcNow,
+            PlayedAt = now,
         };
         db.GameSessions.Add(game);
-        await db.SaveChangesAsync();
+        attempt.GameSession = game;
+        attempt.SubmittedAt = now;
+
+        try
+        {
+            await db.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            // Another request submitted this round first; nothing from this one was saved.
+            throw ApiException.Conflict("This quiz was already submitted.");
+        }
 
         return new GameResultResponse(game.Id, game.Score, game.Total, review);
     }
@@ -54,7 +64,7 @@ public class GameService(AppDbContext db, QuizSessionTokens sessionTokens)
             .Where(g => g.UserId == userId)
             .OrderByDescending(g => g.PlayedAt)
             .Take(HistoryLimit)
-            .Select(g => new HistoryItemDto(g.Id, g.Category.Name, g.Score, g.Total, g.PlayedAt))
+            .Select(g => new HistoryItemDto(g.Id, g.Category.Sport.Name, g.Category.Name, g.Score, g.Total, g.PlayedAt))
             .ToListAsync();
 
     public async Task<List<LeaderboardEntryDto>> GetLeaderboardAsync(int sportId, int top)

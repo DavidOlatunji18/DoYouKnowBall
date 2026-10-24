@@ -51,8 +51,9 @@ Base URL: `http://localhost:5050` locally. Android emulator reaches the host at 
 | GET | `/sports` | | `[{ id, name }]` |
 | GET | `/sports/{sportId}/categories` | | `[{ id, name, sportId }]` |
 | GET | `/quiz?categoryId=&count=10` | | `{ sessionToken, questions: [{ id, text, options: [4 strings] }] }` |
-| POST | `/games` | `{ categoryId, sessionToken, answers: [{ questionId, selectedIndex }] }` (`sessionToken` from `/quiz`; see DECISIONS.md) | `{ gameId, score, total, review: [{ questionId, correctIndex, selectedIndex, correct }] }` |
-| GET | `/games/history` | | `[{ gameId, categoryName, score, total, playedAt }]` |
+| POST | `/quiz/answer` | `{ sessionToken, questionId, selectedIndex }` | `{ correct, correctIndex, score, answered, total }` (instant feedback; the answer is locked in; 409 if already answered; added in Phase 3) |
+| POST | `/games` | `{ sessionToken }` (scored from the locked-in answers; changed in Phase 3) | `{ gameId, score, total, review: [{ questionId, correctIndex, selectedIndex, correct }] }` (`selectedIndex` is -1 if unanswered; 409 if already submitted) |
+| GET | `/games/history` | | `[{ gameId, sportName, categoryName, score, total, playedAt }]` (`sportName` added in Phase 3) |
 | GET | `/leaderboard?sportId=&top=20` | | `[{ rank, displayName, bestScore, gamesPlayed }]` |
 
 Errors use a consistent shape: `{ error: "message" }` with correct status codes (400, 401, 404, 409 for duplicate email).

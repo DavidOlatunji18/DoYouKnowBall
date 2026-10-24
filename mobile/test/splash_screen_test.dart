@@ -91,12 +91,12 @@ void main() {
 
     await launch(tester, app);
 
-    expect(app.adapter.requests.single.path, '/me');
+    expect(app.adapter.requestTo('/me'), isNotNull);
     expect(
-      app.adapter.requests.single.headers['Authorization'],
+      app.adapter.requestTo('/me').headers['Authorization'],
       'Bearer saved-token',
     );
-    expect(find.text('@new_name.'), findsOneWidget);
+    expect(find.bySemanticsLabel('Welcome @new_name'), findsOneWidget);
     expect(await app.store.read('auth_user'), contains('new_name'));
   });
 
@@ -129,6 +129,6 @@ void main() {
     await launch(tester, app);
 
     expect(app.session.isLoggedIn, isTrue);
-    expect(find.text('@old_name.'), findsOneWidget);
+    expect(find.bySemanticsLabel('Welcome @old_name'), findsOneWidget);
   });
 }

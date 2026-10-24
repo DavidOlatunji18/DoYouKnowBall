@@ -12,12 +12,16 @@ class ChunkyButton extends StatefulWidget {
     required this.onPressed,
     this.loading = false,
     this.color = AppColors.green,
+    this.textColor = AppColors.ink,
+    this.height = 58,
   });
 
   final String label;
   final VoidCallback? onPressed;
   final bool loading;
   final Color color;
+  final Color textColor;
+  final double height;
 
   static const _depth = 4.0;
 
@@ -56,7 +60,7 @@ class _ChunkyButtonState extends State<ChunkyButton> {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 90),
           curve: Curves.easeOut,
-          height: 58,
+          height: widget.height,
           transform: Matrix4.translationValues(
             ChunkyButton._depth - depth,
             ChunkyButton._depth - depth,
@@ -82,7 +86,14 @@ class _ChunkyButtonState extends State<ChunkyButton> {
                     color: AppColors.ink,
                   ),
                 )
-              : Text(widget.label, style: appFont(18, weight: 700)),
+              : Text(
+                  widget.label,
+                  style: appFont(
+                    widget.height < 54 ? 16 : 18,
+                    weight: 700,
+                    color: widget.textColor,
+                  ),
+                ),
         ),
       ),
     );

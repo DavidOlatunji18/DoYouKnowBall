@@ -189,9 +189,15 @@ class _SpiralLoaderState extends State<SpiralLoader>
     vsync: this,
     duration: const Duration(milliseconds: 900),
   );
+  // Waits ~120ms, then fades in over 250ms; the wait is part of the animation so
+  // there's no timer left behind if the loader disappears quickly.
   late final AnimationController _fadeIn = AnimationController(
     vsync: this,
-    duration: const Duration(milliseconds: 250),
+    duration: const Duration(milliseconds: 370),
+  );
+  late final Animation<double> _opacity = CurvedAnimation(
+    parent: _fadeIn,
+    curve: const Interval(0.32, 1),
   );
 
   @override
@@ -203,9 +209,7 @@ class _SpiralLoaderState extends State<SpiralLoader>
       _fadeIn.value = 1;
     } else {
       _spin.repeat();
-      Future<void>.delayed(const Duration(milliseconds: 120), () {
-        if (mounted) _fadeIn.forward();
-      });
+      _fadeIn.forward();
     }
   }
 
@@ -219,7 +223,7 @@ class _SpiralLoaderState extends State<SpiralLoader>
   @override
   Widget build(BuildContext context) {
     return FadeTransition(
-      opacity: _fadeIn,
+      opacity: _opacity,
       child: RepaintBoundary(
         child: AnimatedBuilder(
           animation: _spin,

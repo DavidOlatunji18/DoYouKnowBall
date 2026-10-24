@@ -16,6 +16,10 @@ class FakeAdapter implements HttpClientAdapter {
   final ResponseBody Function(RequestOptions request) handler;
   final requests = <RequestOptions>[];
 
+  /// The one request made to [path]; fails if there were none or several.
+  RequestOptions requestTo(String path) =>
+      requests.where((r) => r.path == path).single;
+
   @override
   Future<ResponseBody> fetch(
     RequestOptions options,
