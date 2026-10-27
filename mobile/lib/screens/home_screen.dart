@@ -39,14 +39,14 @@ class HomeScreen extends StatelessWidget {
                 child: Text.rich(
                   TextSpan(
                     text: 'Welcome ',
-                    style: funFont(30, weight: 600, height: 1.2),
+                    style: funFont(26, weight: 500, height: 1.2),
                     children: [
                       WidgetSpan(
                         alignment: PlaceholderAlignment.baseline,
                         baseline: TextBaseline.alphabetic,
                         child: OutlinedText(
                           '@$username',
-                          style: funFont(30, weight: 700, height: 1.2),
+                          style: funFont(26, weight: 600, height: 1.2),
                           strokeWidth: 4,
                         ),
                       ),
@@ -191,7 +191,7 @@ class _SportRow extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(name, style: appFont(24, weight: 800, letterSpacing: -0.5)),
+              Text(name, style: appFont(20, weight: 700, letterSpacing: -0.3)),
               const SizedBox(height: 4),
               Text(
                 blurb,

@@ -12,7 +12,7 @@ class MarkerHeadline extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final style = appFont(40, weight: 800, height: 1.08, letterSpacing: -1.1);
+    final style = appFont(32, weight: 700, height: 1.1, letterSpacing: -0.6);
     final animate = !MediaQuery.disableAnimationsOf(context);
 
     return Semantics(

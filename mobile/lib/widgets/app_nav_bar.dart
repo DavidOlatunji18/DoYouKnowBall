@@ -22,6 +22,7 @@ class AppNavBar extends StatelessWidget {
 
   static const tabs = [
     NavItem('Home', Icons.home_rounded),
+    NavItem('Challenge', Icons.sports_mma_rounded),
     NavItem('Leaderboard', Icons.emoji_events_rounded),
     NavItem('Profile', Icons.person_rounded),
   ];

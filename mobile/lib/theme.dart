@@ -73,13 +73,13 @@ ThemeData buildTheme() {
           borderRadius: BorderRadius.circular(18),
           side: const BorderSide(color: AppColors.ink, width: 2),
         ),
-        textStyle: appFont(18, weight: 700),
+        textStyle: appFont(16, weight: 600),
       ),
     ),
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
         foregroundColor: AppColors.ink,
-        textStyle: appFont(15, weight: 700),
+        textStyle: appFont(14.5, weight: 600),
       ),
     ),
   );

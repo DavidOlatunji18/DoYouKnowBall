@@ -89,8 +89,8 @@ class _ChunkyButtonState extends State<ChunkyButton> {
               : Text(
                   widget.label,
                   style: appFont(
-                    widget.height < 54 ? 16 : 18,
-                    weight: 700,
+                    widget.height < 54 ? 15 : 16.5,
+                    weight: 600,
                     color: widget.textColor,
                   ),
                 ),

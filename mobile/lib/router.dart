@@ -18,7 +18,7 @@ const _signedOutRoutes = {'/welcome', '/signup', '/login'};
 /// signed-in players skip those and land on Home. Re-checked whenever the session
 /// changes, so logging in or out moves the player automatically.
 ///
-/// Signed-in screens live in three tabs (Home, Leaderboard, Profile) under
+/// Signed-in screens live in four tabs (Home, Challenge, Leaderboard, Profile) under
 /// a shared nav bar; the quiz opens full-screen on top of them.
 GoRouter createRouter(Session session) => GoRouter(
   initialLocation: '/splash',
@@ -67,6 +67,14 @@ GoRouter createRouter(Session session) => GoRouter(
                   ),
                 ),
               ],
+            ),
+          ],
+        ),
+        StatefulShellBranch(
+          routes: [
+            GoRoute(
+              path: '/challenge',
+              builder: (context, state) => const ChallengeScreen(),
             ),
           ],
         ),

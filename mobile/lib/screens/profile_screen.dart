@@ -53,7 +53,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 Text(
                   '@${user.displayName}',
                   textAlign: TextAlign.center,
-                  style: appFont(24, weight: 900, letterSpacing: -0.4),
+                  style: appFont(22, weight: 700, letterSpacing: -0.3),
                 ),
                 const SizedBox(height: 4),
                 Text(
@@ -146,7 +146,7 @@ class _StatsAndRecent extends StatelessWidget {
           'BEST BY SPORT',
           style: appFont(
             12,
-            weight: 800,
+            weight: 700,
             letterSpacing: 1.2,
             color: AppColors.muted,
           ),
@@ -214,7 +214,7 @@ class _SectionTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      Text(text, style: appFont(22, weight: 900, letterSpacing: -0.4));
+      Text(text, style: appFont(20, weight: 700, letterSpacing: -0.3));
 }
 
 class _StatTile extends StatelessWidget {
@@ -241,7 +241,7 @@ class _StatTile extends StatelessWidget {
             fit: BoxFit.scaleDown,
             child: Text(
               value,
-              style: appFont(26, weight: 900, letterSpacing: -0.6),
+              style: appFont(22, weight: 700, letterSpacing: -0.4),
             ),
           ),
           const SizedBox(height: 2),
@@ -249,7 +249,7 @@ class _StatTile extends StatelessWidget {
             label.toUpperCase(),
             style: appFont(
               11,
-              weight: 800,
+              weight: 700,
               letterSpacing: 1,
               color: AppColors.muted,
             ),
@@ -303,7 +303,7 @@ class _GameRow extends StatelessWidget {
               children: [
                 Text(
                   title,
-                  style: appFont(15.5, weight: 800),
+                  style: appFont(15, weight: 600),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),
@@ -325,7 +325,7 @@ class _GameRow extends StatelessWidget {
               borderRadius: BorderRadius.circular(999),
               border: Border.all(color: AppColors.ink, width: 2),
             ),
-            child: Text('$score/$total', style: appFont(14, weight: 900)),
+            child: Text('$score/$total', style: appFont(13.5, weight: 700)),
           ),
         ],
       ),

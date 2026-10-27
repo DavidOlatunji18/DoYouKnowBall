@@ -86,7 +86,7 @@ void main() {
       usePhoneScreen(tester);
       await launch(tester, await loggedInApp());
 
-      for (final tab in ['Home', 'Leaderboard', 'Profile']) {
+      for (final tab in ['Home', 'Challenge', 'Leaderboard', 'Profile']) {
         await tester.tap(find.bySemanticsLabel(tab));
         await settle(tester);
         expect(find.text('dykb?'), findsWidgets, reason: '$tab tab');
@@ -125,25 +125,30 @@ void main() {
     },
   );
 
-  testWidgets('The tabs switch between Home, Leaderboard and Profile', (
-    tester,
-  ) async {
-    usePhoneScreen(tester);
-    await launch(tester, await loggedInApp());
+  testWidgets(
+    'The tabs switch between Home, Challenge, Leaderboard and Profile',
+    (tester) async {
+      usePhoneScreen(tester);
+      await launch(tester, await loggedInApp());
 
-    await tester.tap(find.bySemanticsLabel('Leaderboard'));
-    await settle(tester);
-    expect(find.text('leaderboard.'), findsOneWidget);
+      await tester.tap(find.bySemanticsLabel('Challenge'));
+      await settle(tester);
+      expect(find.text('friend.'), findsOneWidget);
 
-    await tester.tap(find.bySemanticsLabel('Profile'));
-    await settle(tester);
-    expect(find.text('@kobe24'), findsOneWidget);
-    expect(find.text('k@b.co'), findsOneWidget);
+      await tester.tap(find.bySemanticsLabel('Leaderboard'));
+      await settle(tester);
+      expect(find.text('leaderboard.'), findsOneWidget);
 
-    await tester.tap(find.bySemanticsLabel('Home'));
-    await settle(tester);
-    expect(find.bySemanticsLabel('Welcome @kobe24'), findsOneWidget);
-  });
+      await tester.tap(find.bySemanticsLabel('Profile'));
+      await settle(tester);
+      expect(find.text('@kobe24'), findsOneWidget);
+      expect(find.text('k@b.co'), findsOneWidget);
+
+      await tester.tap(find.bySemanticsLabel('Home'));
+      await settle(tester);
+      expect(find.bySemanticsLabel('Welcome @kobe24'), findsOneWidget);
+    },
+  );
 
   testWidgets('A failed load shows a friendly message and Try again works', (
     tester,

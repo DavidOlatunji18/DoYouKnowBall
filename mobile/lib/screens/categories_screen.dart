@@ -50,8 +50,8 @@ class CategoriesScreen extends StatelessWidget {
             Text(
               sportName.toUpperCase(),
               style: appFont(
-                13,
-                weight: 800,
+                12,
+                weight: 700,
                 letterSpacing: 1.4,
                 color: AppColors.muted,
               ),
@@ -105,8 +105,8 @@ class _CategoryCard extends StatelessWidget {
                 Text(
                   category.name,
                   style: appFont(
-                    19,
-                    weight: 800,
+                    17.5,
+                    weight: 700,
                     letterSpacing: -0.3,
                     height: 1.2,
                   ),
@@ -136,7 +136,7 @@ class _CategoryCard extends StatelessWidget {
                   color: AppColors.ink,
                 ),
                 const SizedBox(width: 2),
-                Text('Play', style: appFont(14.5, weight: 800)),
+                Text('Play', style: appFont(14, weight: 700)),
               ],
             ),
           ),

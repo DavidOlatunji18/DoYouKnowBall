@@ -72,7 +72,7 @@ class _AuthFieldState extends State<AuthField> {
       children: [
         Text(
           widget.label.toUpperCase(),
-          style: appFont(12, weight: 800, letterSpacing: 1.2),
+          style: appFont(12, weight: 700, letterSpacing: 1.2),
         ),
         const SizedBox(height: 8),
         AnimatedContainer(
@@ -114,7 +114,7 @@ class _AuthFieldState extends State<AuthField> {
               border: InputBorder.none,
               hintText: widget.hint,
               prefixText: widget.prefixText,
-              prefixStyle: appFont(17, weight: 700),
+              prefixStyle: appFont(17, weight: 600),
               hintStyle: appFont(
                 17,
                 color: AppColors.muted.withValues(alpha: 0.7),

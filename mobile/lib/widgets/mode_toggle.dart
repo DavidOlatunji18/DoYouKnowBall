@@ -62,7 +62,7 @@ class ModeToggle extends StatelessWidget {
                           duration: const Duration(milliseconds: 200),
                           style: appFont(
                             15.5,
-                            weight: i == selected ? 800 : 600,
+                            weight: i == selected ? 700 : 500,
                             color: i == selected
                                 ? AppColors.ink
                                 : AppColors.muted,
