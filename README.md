@@ -20,9 +20,9 @@
 |---|---|
 | Mobile app | Flutter 3.38 (Dart), iOS + Android |
 | App libraries | go_router (navigation), provider (state), dio (HTTP), flutter_secure_storage (tokens) |
-| API | ASP.NET Core Web API on .NET 10 (C#) |
+| API | ASP.NET Core Web API on .NET 10 (C#), hosted on Azure App Service |
 | Data access | Entity Framework Core with migrations |
-| Database | SQL Server 2022 (Docker for local development) |
+| Database | SQL Server 2022 (Docker locally, Azure SQL in production) |
 | Auth | JWT bearer tokens, ASP.NET Identity password hashing |
 | Testing | xUnit + WebApplicationFactory (API), Flutter widget tests (app) |
 | Design tooling | Python scripts that draw the logo and sport icons as SVG |
@@ -150,6 +150,21 @@ The iOS simulator reaches the API at `localhost:5050` and the Android emulator a
 
 ```bash
 flutter run --dart-define=API_BASE_URL=http://<your-computer-ip>:5050
+```
+
+## Deployment
+
+The API runs on **Azure App Service** with an **Azure SQL** database, both on free tiers. Release builds of the app point at it automatically.
+
+- Live API: https://dykb-api-csbb.azurewebsites.net/health
+- To redeploy after changes: `az login`, then `sh infra/deploy.sh` (add `--seed` when there are new migrations or questions)
+- Full setup, limits and commands: [infra/deploy.md](infra/deploy.md)
+
+To play against the live API from a simulator:
+
+```bash
+cd mobile
+flutter run --dart-define=API_BASE_URL=https://dykb-api-csbb.azurewebsites.net
 ```
 
 ## Running the tests
