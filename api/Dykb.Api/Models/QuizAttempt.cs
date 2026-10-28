@@ -16,6 +16,14 @@ public class QuizAttempt
     /// <summary>Comma-separated question ids, in the order they were served.</summary>
     public string QuestionIds { get; set; } = "";
 
+    /// <summary>
+    /// How each question's options were shuffled for this round, comma-separated in the
+    /// same order as <see cref="QuestionIds"/>. Each entry is four digits: the digit at
+    /// position p is the stored option shown at position p (so "2013" shows Option3 first).
+    /// Empty for rounds started before shuffling existed, which used the stored order.
+    /// </summary>
+    public string OptionOrders { get; set; } = "";
+
     public DateTime CreatedAt { get; set; }
 
     /// <summary>When the quiz started or the last answer arrived; answer times are measured from here.</summary>
@@ -30,4 +38,18 @@ public class QuizAttempt
     public List<QuizAnswer> Answers { get; set; } = [];
 
     public List<int> ServedQuestionIds() => QuestionIds.Split(',').Select(int.Parse).ToList();
+
+    /// <summary>The stored option index shown at each position for a question in this round.</summary>
+    public int[] OptionOrderFor(int questionId)
+    {
+        var position = ServedQuestionIds().IndexOf(questionId);
+        var orders = OptionOrders.Split(',', StringSplitOptions.RemoveEmptyEntries);
+        return position >= 0 && position < orders.Length
+            ? orders[position].Select(c => c - '0').ToArray()
+            : [0, 1, 2, 3];
+    }
+
+    /// <summary>Where the stored option <paramref name="storedIndex"/> was shown to the player.</summary>
+    public int ShownIndexOf(int questionId, int storedIndex) =>
+        Array.IndexOf(OptionOrderFor(questionId), storedIndex);
 }

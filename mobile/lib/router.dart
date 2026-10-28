@@ -6,7 +6,9 @@ import 'screens/app_shell.dart';
 import 'screens/auth_screen.dart';
 import 'screens/categories_screen.dart';
 import 'screens/home_screen.dart';
+import 'screens/leaderboard_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/quiz_screen.dart';
 import 'screens/splash_screen.dart';
 import 'screens/tab_screens.dart';
 import 'screens/welcome_screen.dart';
@@ -98,9 +100,15 @@ GoRouter createRouter(Session session) => GoRouter(
     ),
     GoRoute(
       path: '/play/:categoryId',
-      builder: (context, state) => QuizPlaceholderScreen(
-        categoryName: state.uri.queryParameters['name'] ?? 'Category',
-      ),
+      builder: (context, state) {
+        final query = state.uri.queryParameters;
+        return QuizScreen(
+          categoryId: int.parse(state.pathParameters['categoryId']!),
+          categoryName: query['name'] ?? 'Category',
+          sportId: int.tryParse(query['sportId'] ?? ''),
+          sportName: query['sport'] ?? '',
+        );
+      },
     ),
   ],
 );

@@ -5,10 +5,16 @@ import '../theme.dart';
 /// A big headline whose last word gets a green highlighter streak that sweeps
 /// across it when it appears, e.g. "Join the league."
 class MarkerHeadline extends StatelessWidget {
-  const MarkerHeadline({super.key, required this.lead, required this.marked});
+  const MarkerHeadline({
+    super.key,
+    required this.lead,
+    required this.marked,
+    this.textAlign = TextAlign.start,
+  });
 
   final String lead;
   final String marked;
+  final TextAlign textAlign;
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +26,7 @@ class MarkerHeadline extends StatelessWidget {
       label: '$lead $marked',
       excludeSemantics: true,
       child: Text.rich(
+        textAlign: textAlign,
         TextSpan(
           style: style,
           children: [

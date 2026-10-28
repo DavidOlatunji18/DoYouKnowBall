@@ -109,6 +109,128 @@ class GameRecord {
   final DateTime playedAt;
 }
 
+/// A question as the API sends it: the text and four options, never the answer.
+class QuizQuestion {
+  const QuizQuestion({
+    required this.id,
+    required this.text,
+    required this.options,
+  });
+
+  factory QuizQuestion.fromJson(Map<String, dynamic> json) => QuizQuestion(
+    id: json['id'] as int,
+    text: json['text'] as String,
+    options: (json['options'] as List<dynamic>).cast<String>(),
+  );
+
+  final int id;
+  final String text;
+  final List<String> options;
+}
+
+/// A round in progress. [sessionToken] ties each answer and the final
+/// submission to this round on the server.
+class Quiz {
+  const Quiz({required this.sessionToken, required this.questions});
+
+  factory Quiz.fromJson(Map<String, dynamic> json) => Quiz(
+    sessionToken: json['sessionToken'] as String,
+    questions: (json['questions'] as List<dynamic>)
+        .map((j) => QuizQuestion.fromJson(j as Map<String, dynamic>))
+        .toList(),
+  );
+
+  final String sessionToken;
+  final List<QuizQuestion> questions;
+}
+
+/// The server's verdict on one answer, plus the running score.
+class AnswerResult {
+  const AnswerResult({
+    required this.correct,
+    required this.correctIndex,
+    required this.score,
+  });
+
+  factory AnswerResult.fromJson(Map<String, dynamic> json) => AnswerResult(
+    correct: json['correct'] as bool,
+    correctIndex: json['correctIndex'] as int,
+    score: json['score'] as int,
+  );
+
+  final bool correct;
+  final int correctIndex;
+  final int score;
+}
+
+/// One question in a finished round. [selectedIndex] is -1 if it was skipped.
+class ReviewItem {
+  const ReviewItem({
+    required this.questionId,
+    required this.correctIndex,
+    required this.selectedIndex,
+    required this.correct,
+  });
+
+  factory ReviewItem.fromJson(Map<String, dynamic> json) => ReviewItem(
+    questionId: json['questionId'] as int,
+    correctIndex: json['correctIndex'] as int,
+    selectedIndex: json['selectedIndex'] as int,
+    correct: json['correct'] as bool,
+  );
+
+  final int questionId;
+  final int correctIndex;
+  final int selectedIndex;
+  final bool correct;
+}
+
+/// A finished, saved round, scored by the server.
+class GameResult {
+  const GameResult({
+    required this.gameId,
+    required this.score,
+    required this.total,
+    required this.review,
+  });
+
+  factory GameResult.fromJson(Map<String, dynamic> json) => GameResult(
+    gameId: json['gameId'] as int,
+    score: json['score'] as int,
+    total: json['total'] as int,
+    review: (json['review'] as List<dynamic>)
+        .map((j) => ReviewItem.fromJson(j as Map<String, dynamic>))
+        .toList(),
+  );
+
+  final int gameId;
+  final int score;
+  final int total;
+  final List<ReviewItem> review;
+}
+
+class LeaderboardEntry {
+  const LeaderboardEntry({
+    required this.rank,
+    required this.displayName,
+    required this.bestScore,
+    required this.gamesPlayed,
+  });
+
+  factory LeaderboardEntry.fromJson(Map<String, dynamic> json) =>
+      LeaderboardEntry(
+        rank: json['rank'] as int,
+        displayName: json['displayName'] as String,
+        bestScore: json['bestScore'] as int,
+        gamesPlayed: json['gamesPlayed'] as int,
+      );
+
+  final int rank;
+  final String displayName;
+  final int bestScore;
+  final int gamesPlayed;
+}
+
 /// Talks to the Do You Know Ball? API. Attaches the saved JWT to every request
 /// and calls [onUnauthorized] when the server rejects it (expired or revoked),
 /// so the app can send the player back to log in.
@@ -182,6 +304,34 @@ class ApiClient {
   Future<List<GameRecord>> history() async => (await _get<List<dynamic>>(
     '/games/history',
   )).map((j) => GameRecord.fromJson(j as Map<String, dynamic>)).toList();
+
+  /// Starts a round: up to 10 random questions from the category.
+  Future<Quiz> quiz(int categoryId) async => Quiz.fromJson(
+    await _get<Map<String, dynamic>>('/quiz?categoryId=$categoryId'),
+  );
+
+  /// Locks in one answer and returns whether it was right.
+  Future<AnswerResult> answer({
+    required String sessionToken,
+    required int questionId,
+    required int selectedIndex,
+  }) => _post('/quiz/answer', {
+    'sessionToken': sessionToken,
+    'questionId': questionId,
+    'selectedIndex': selectedIndex,
+  }, AnswerResult.fromJson);
+
+  /// Finishes the round; the server scores it from the locked-in answers.
+  Future<GameResult> submitGame(String sessionToken) =>
+      _post('/games', {'sessionToken': sessionToken}, GameResult.fromJson);
+
+  /// Each player's best score in a sport, ranked.
+  Future<List<LeaderboardEntry>> leaderboard(
+    int sportId, {
+    int top = 100,
+  }) async => (await _get<List<dynamic>>(
+    '/leaderboard?sportId=$sportId&top=$top',
+  )).map((j) => LeaderboardEntry.fromJson(j as Map<String, dynamic>)).toList();
 
   Future<T> _get<T>(String path) async {
     try {

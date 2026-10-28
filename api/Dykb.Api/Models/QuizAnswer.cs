@@ -10,6 +10,7 @@ public class QuizAnswer
     /// <summary>Not a foreign key: seed updates may remove questions, but answers are history.</summary>
     public int QuestionId { get; set; }
 
+    /// <summary>The position the player tapped, as shown in their shuffled round (0-3).</summary>
     public int SelectedIndex { get; set; }
     public bool Correct { get; set; }
     public DateTime AnsweredAt { get; set; }

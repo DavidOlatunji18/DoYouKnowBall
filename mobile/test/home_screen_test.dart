@@ -116,7 +116,7 @@ void main() {
 
       await tester.tap(find.text('Players'));
       await settle(tester);
-      expect(find.text('The quiz screen is next.'), findsOneWidget);
+      expect(find.bySemanticsLabel('Do you know ball?'), findsOneWidget);
       expect(
         find.byType(AppNavBar),
         findsNothing,
@@ -137,7 +137,7 @@ void main() {
 
       await tester.tap(find.bySemanticsLabel('Leaderboard'));
       await settle(tester);
-      expect(find.text('leaderboard.'), findsOneWidget);
+      expect(find.bySemanticsLabel('Who knows ball?'), findsOneWidget);
 
       await tester.tap(find.bySemanticsLabel('Profile'));
       await settle(tester);

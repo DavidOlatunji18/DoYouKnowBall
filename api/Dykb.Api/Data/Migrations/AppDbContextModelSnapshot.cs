@@ -184,6 +184,11 @@ namespace Dykb.Api.Data.Migrations
                     b.Property<DateTime>("LastActivityAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("OptionOrders")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
                     b.Property<string>("QuestionIds")
                         .IsRequired()
                         .HasMaxLength(200)

@@ -71,6 +71,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
         modelBuilder.Entity<QuizAttempt>(e =>
         {
             e.Property(a => a.QuestionIds).HasMaxLength(200);
+            e.Property(a => a.OptionOrders).HasMaxLength(60);
             // Two submits racing each other: only the first one's update matches.
             e.Property(a => a.SubmittedAt).IsConcurrencyToken();
             e.HasIndex(a => a.UserId);

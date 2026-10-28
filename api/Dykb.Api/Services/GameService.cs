@@ -27,10 +27,15 @@ public class GameService(AppDbContext db, QuizService quiz)
             throw ApiException.BadRequest("Some questions in this quiz are no longer available. Please start a new one.");
 
         var locked = attempt.Answers.ToDictionary(a => a.QuestionId);
+        // Indexes are positions as shown in this round's shuffled options.
         var review = served
-            .Select(id => locked.TryGetValue(id, out var a)
-                ? new ReviewItemDto(id, correctById[id], a.SelectedIndex, a.Correct)
-                : new ReviewItemDto(id, correctById[id], -1, false))
+            .Select(id =>
+            {
+                var shownCorrect = attempt.ShownIndexOf(id, correctById[id]);
+                return locked.TryGetValue(id, out var a)
+                    ? new ReviewItemDto(id, shownCorrect, a.SelectedIndex, a.Correct)
+                    : new ReviewItemDto(id, shownCorrect, -1, false);
+            })
             .ToList();
 
         var now = DateTime.UtcNow;

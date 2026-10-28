@@ -10,6 +10,29 @@ abstract final class AppColors {
   static const card = Color(0xFFFFFFFF);
   static const danger = Color(0xFFC62F2F);
   static const dangerSoft = Color(0xFFFFE3DE);
+
+  /// Warm cream for cards that should stand apart from white ones (the question,
+  /// the score ring, result tiles).
+  static const cream = Color(0xFFF4F1EA);
+
+  /// A deeper green for small "correct" marks that sit on light backgrounds.
+  static const correctMark = Color(0xFF0FA958);
+
+  /// The A, B, C and D letter colors. None are green or red, which mean right and wrong.
+  static const answerLetters = [
+    Color(0xFFFFD60A), // yellow
+    Color(0xFF3A86FF), // blue
+    Color(0xFFFF8A3D), // orange
+    Color(0xFFFF5FA2), // pink
+  ];
+
+  /// A round's color by score: red for 0-4, yellow for 5-7, green for 8-10 (out of 10).
+  static Color forScore(int score, int total) {
+    final outOf10 = total == 0 ? 0 : score * 10 / total;
+    if (outOf10 >= 8) return green;
+    if (outOf10 >= 5) return const Color(0xFFFFC83D);
+    return danger;
+  }
 }
 
 /// Montserrat text. It's a variable font, so the weight is set on its 'wght' axis

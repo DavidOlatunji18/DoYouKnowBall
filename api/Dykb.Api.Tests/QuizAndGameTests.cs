@@ -277,12 +277,17 @@ public class QuizAndGameTests : IDisposable
         Assert.Equal(2, top2.Count);
     }
 
-    private Task<Dictionary<int, int>> CorrectIndexesAsync(QuizResponse quiz)
+    /// <summary>
+    /// Where each question's correct option was shown in this round. Options are shuffled per
+    /// round, so this finds the correct option's text among the options the player was sent.
+    /// </summary>
+    private async Task<Dictionary<int, int>> CorrectIndexesAsync(QuizResponse quiz)
     {
         var ids = quiz.Questions.Select(q => q.Id).ToList();
-        return _factory.WithDbAsync(db => db.Questions
+        var correctText = await _factory.WithDbAsync(db => db.Questions
             .Where(q => ids.Contains(q.Id))
-            .ToDictionaryAsync(q => q.Id, q => q.CorrectIndex));
+            .ToDictionaryAsync(q => q.Id, q => new[] { q.Option1, q.Option2, q.Option3, q.Option4 }[q.CorrectIndex]));
+        return quiz.Questions.ToDictionary(q => q.Id, q => Array.IndexOf(q.Options, correctText[q.Id]));
     }
 
     private static async Task<AnswerResultDto> AnswerAsync(HttpClient client, QuizResponse quiz, int questionId, int selectedIndex)

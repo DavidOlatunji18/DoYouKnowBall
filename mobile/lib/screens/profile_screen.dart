@@ -261,7 +261,7 @@ class _StatTile extends StatelessWidget {
 }
 
 /// A row for one round: the sport's ball, a title and subtitle, and the score
-/// in a pill that turns green for 7 or better out of 10.
+/// in a pill colored like the results ring: green for 8+, yellow for 5-7, red below.
 class _GameRow extends StatelessWidget {
   const _GameRow({
     required this.sportName,
@@ -279,8 +279,6 @@ class _GameRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final strong = score / total >= 0.7;
-
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
       decoration: BoxDecoration(
@@ -321,7 +319,11 @@ class _GameRow extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
             decoration: BoxDecoration(
-              color: strong ? AppColors.green : AppColors.background,
+              // Ink on the full red is hard to read, so low scores get the soft red.
+              color: switch (AppColors.forScore(score, total)) {
+                AppColors.danger => AppColors.dangerSoft,
+                final color => color,
+              },
               borderRadius: BorderRadius.circular(999),
               border: Border.all(color: AppColors.ink, width: 2),
             ),

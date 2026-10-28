@@ -68,7 +68,10 @@ class CategoriesScreen extends StatelessWidget {
                       padding: const EdgeInsets.only(bottom: 16),
                       child: StaggerIn(
                         index: i,
-                        child: _CategoryCard(category: categories[i]),
+                        child: _CategoryCard(
+                          category: categories[i],
+                          sportName: sportName,
+                        ),
                       ),
                     ),
                 ],
@@ -82,9 +85,10 @@ class CategoriesScreen extends StatelessWidget {
 }
 
 class _CategoryCard extends StatelessWidget {
-  const _CategoryCard({required this.category});
+  const _CategoryCard({required this.category, required this.sportName});
 
   final SportCategory category;
+  final String sportName;
 
   @override
   Widget build(BuildContext context) {
@@ -93,7 +97,11 @@ class _CategoryCard extends StatelessWidget {
       onTap: () => context.push(
         Uri(
           path: '/play/${category.id}',
-          queryParameters: {'name': category.name},
+          queryParameters: {
+            'name': category.name,
+            'sport': sportName,
+            'sportId': '${category.sportId}',
+          },
         ).toString(),
       ),
       child: Row(
