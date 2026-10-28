@@ -33,7 +33,30 @@ To see or change the settings:
 az webapp config appsettings list -g dykb-rg -n dykb-api-csbb -o table
 ```
 
-## Deploying an update
+## Automatic deploys (GitHub Actions)
+
+Every push to `main` that changes `api/`, `seed/` or the workflow runs `.github/workflows/deploy-api.yml`:
+
+1. Runs the API tests. A failing test stops the deploy.
+2. Builds the API and signs in to Azure.
+3. Lets the runner through the SQL firewall, applies migrations and syncs seed questions, then removes the firewall rule.
+4. Deploys to App Service and checks `/health`.
+
+It can also be run by hand from the repo's **Actions** tab (**Deploy API → Run workflow**).
+
+**How it signs in:** OpenID Connect. An Azure identity, `dykb-github-deploy`, trusts only GitHub Actions runs from `main` of `DavidOlatunji18/DoYouKnowBall` and can only manage the `dykb-rg` resource group. No Azure password is stored in GitHub.
+
+**GitHub secrets it uses:** `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`, `AZURE_SUBSCRIPTION_ID` (identifiers, not passwords) and `DYKB_PROD_CONNECTION` (the database connection string, for migrations).
+
+**One-time setup,** already done once; rerunning it is safe:
+
+```bash
+az login
+gh auth login
+sh infra/setup-github-deploy.sh
+```
+
+## Deploying an update by hand
 
 ```bash
 az login                      # once per machine

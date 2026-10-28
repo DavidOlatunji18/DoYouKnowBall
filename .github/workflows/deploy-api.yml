@@ -1,0 +1,97 @@
+# Tests the API and deploys it to Azure App Service on every push to main that
+# touches the API or the seed questions. Can also be run by hand from the Actions tab.
+#
+# Signs in to Azure with OpenID Connect (no stored Azure password). One-time setup:
+# infra/setup-github-deploy.sh. Details in infra/deploy.md.
+name: Deploy API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "api/**"
+      - "seed/**"
+      - ".github/workflows/deploy-api.yml"
+  workflow_dispatch:
+
+permissions:
+  id-token: write # lets the job sign in to Azure with OIDC
+  contents: read
+
+# Never run two deploys at once; a newer push waits for the current one.
+concurrency:
+  group: deploy-api
+  cancel-in-progress: false
+
+env:
+  RESOURCE_GROUP: dykb-rg
+  APP_NAME: dykb-api-csbb
+  SQL_SERVER: dykb-sql-csbb
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: api/global.json
+      - name: Run API tests
+        run: dotnet test api --configuration Release
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: api/global.json
+
+      - name: Build
+        run: dotnet publish api/Dykb.Api -c Release -o publish
+
+      - name: Sign in to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      # The database only accepts known IPs, so this runner is let in for the
+      # migration step and removed again straight after.
+      - name: Let this runner reach the database
+        run: |
+          ip=$(curl -s https://api.ipify.org)
+          az sql server firewall-rule create -g "$RESOURCE_GROUP" -s "$SQL_SERVER" \
+            -n github-runner --start-ip-address "$ip" --end-ip-address "$ip" -o none
+
+      # Runs before the new code goes live, so the schema is ready for it. Safe to
+      # repeat: migrations already applied are skipped, and the seed sync only
+      # changes questions that changed.
+      - name: Apply migrations and sync seed questions
+        working-directory: publish
+        env:
+          ConnectionStrings__Default: ${{ secrets.DYKB_PROD_CONNECTION }}
+          ASPNETCORE_ENVIRONMENT: Production
+        run: |
+          # The JWT key isn't used when seeding, but the API refuses to start without one.
+          Jwt__Key=$(openssl rand -base64 48) dotnet Dykb.Api.dll --seed \
+            --Logging:LogLevel:Microsoft.EntityFrameworkCore=Warning
+
+      - name: Close the database firewall again
+        if: always()
+        run: |
+          az sql server firewall-rule delete -g "$RESOURCE_GROUP" -s "$SQL_SERVER" \
+            -n github-runner -o none || true
+
+      - name: Deploy to App Service
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ env.APP_NAME }}
+          package: publish
+
+      - name: Check health
+        run: |
+          curl -sf --retry 10 --retry-delay 6 --retry-all-errors \
+            "https://$APP_NAME.azurewebsites.net/health"
