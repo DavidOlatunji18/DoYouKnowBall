@@ -15,18 +15,21 @@ public class LevelsTests
 
     [Theory]
     [InlineData(1, 0)]
-    [InlineData(2, 100)]
-    [InlineData(3, 225)]   // each level needs 25 more than the last: 100, then 125
-    [InlineData(4, 375)]
-    [InlineData(5, 550)]
-    public void XpToReach_GrowsBy25EachLevel(int level, int xp) => Assert.Equal(xp, Levels.XpToReach(level));
+    [InlineData(2, 300)]     // the first level-up takes 300
+    [InlineData(3, 800)]     // the second another 500
+    [InlineData(4, 1800)]    // then 1,000 each
+    [InlineData(100, 97800)]
+    public void XpToReach_StartsQuickThen1000PerLevel(int level, int xp) => Assert.Equal(xp, Levels.XpToReach(level));
 
     [Theory]
     [InlineData(0, 1)]
-    [InlineData(99, 1)]
-    [InlineData(100, 2)]
-    [InlineData(224, 2)]
-    [InlineData(225, 3)]
+    [InlineData(299, 1)]
+    [InlineData(300, 2)]
+    [InlineData(799, 2)]
+    [InlineData(800, 3)]
+    [InlineData(1799, 3)]
+    [InlineData(1800, 4)]
+    [InlineData(97800, 100)]
     public void LevelFor_ChangesExactlyAtTheThreshold(int xp, int level) => Assert.Equal(level, Levels.LevelFor(xp));
 
     [Theory]
@@ -46,7 +49,9 @@ public class LevelsTests
     [Fact]
     public void Progress_SplitsXpIntoTheCurrentLevel()
     {
-        // 640 XP: level 5 starts at 550 and level 6 at 750.
-        Assert.Equal(new ProgressDto(640, 5, 90, 200, "Benchwarmer"), Levels.Progress(640));
+        // 4,640 XP: level 6 starts at 3,800 and level 7 at 4,800.
+        Assert.Equal(new ProgressDto(4640, 6, 840, 1000, "Benchwarmer"), Levels.Progress(4640));
+        // Early levels report their own, smaller targets.
+        Assert.Equal(new ProgressDto(450, 2, 150, 500, "Waterboy"), Levels.Progress(450));
     }
 }

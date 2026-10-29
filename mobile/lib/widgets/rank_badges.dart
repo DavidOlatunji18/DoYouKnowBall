@@ -435,19 +435,31 @@ class LevelSummary extends StatelessWidget {
                 RankPill(rank: rank),
                 const SizedBox(width: 6),
                 Text('Lv ${progress.level}', style: appFont(12, weight: 600)),
-                const Spacer(),
-                Text.rich(
-                  TextSpan(
-                    style: appFont(10.5, weight: 500, color: AppColors.muted),
-                    children: [
+                const SizedBox(width: 10),
+                // Shrinks a little rather than overflowing on narrow screens.
+                Expanded(
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerRight,
+                    child: Text.rich(
                       TextSpan(
-                        text: formatXp(progress.levelXp),
-                        style: appFont(10.5, weight: 600),
+                        style: appFont(
+                          10.5,
+                          weight: 500,
+                          color: AppColors.muted,
+                        ),
+                        children: [
+                          TextSpan(
+                            text: formatXp(progress.levelXp),
+                            style: appFont(10.5, weight: 600),
+                          ),
+                          TextSpan(
+                            text:
+                                ' / ${formatXp(progress.levelXpNeeded)} XP to Lv ${progress.level + 1}',
+                          ),
+                        ],
                       ),
-                      TextSpan(
-                        text: ' / ${formatXp(progress.levelXpNeeded)} XP',
-                      ),
-                    ],
+                    ),
                   ),
                 ),
               ],

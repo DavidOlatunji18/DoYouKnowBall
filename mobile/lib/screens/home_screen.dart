@@ -149,7 +149,7 @@ class _SportCard extends StatelessWidget {
         blurb: style.blurb,
         asset: style.asset,
         badge: const _Badge(
-          icon: Icons.arrow_forward_rounded,
+          icon: Icons.play_arrow_rounded,
           color: AppColors.green,
         ),
       ),

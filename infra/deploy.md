@@ -1,6 +1,6 @@
 # Deploying to Azure
 
-The API runs on Azure App Service and the database on Azure SQL. Both are on free tiers, so production costs $0 a month.
+The API runs on Azure App Service (Basic B1, always on, about $13 a month) and the database on Azure SQL (Basic, about $5 a month). Neither sleeps.
 
 **Live API:** https://dykb-api-csbb.azurewebsites.net (health check at `/health`, docs at `/swagger`)
 
@@ -10,13 +10,11 @@ The API runs on Azure App Service and the database on Azure SQL. Both are on fre
 |---|---|---|---|
 | Resource group | `dykb-rg` | — | East US 2 (metadata only) |
 | SQL server | `dykb-sql-csbb` | — | Central US |
-| SQL database | `dykb` | Free offer, serverless (GP_S_Gen5, 2 vCores max) | Central US |
-| App Service plan | `dykb-plan` | F1 Free, Linux | Central US |
+| SQL database | `dykb` | Basic (5 DTUs, 2 GB max; about $5/month) | Central US |
+| App Service plan | `dykb-plan` | B1 Basic, Linux, Always On (about $13/month) | Central US |
 | Web app | `dykb-api-csbb` | .NET 10 | Central US |
 
-**Free tier limits:**
-- **Database:** 100,000 vCore-seconds of compute and 32 GB of storage a month. If the compute runs out, the database pauses until the next month instead of charging. It also pauses itself when idle and resumes on the next request, which takes a few seconds.
-- **API:** 60 CPU minutes a day, and it sleeps after about 20 minutes idle. The first request after a sleep can take 10–30 seconds.
+**Tiers:** the database started on the free serverless offer, which paused after an hour idle; it moved to Basic (5 DTUs, 2 GB) in late October 2026 so it never pauses. The data is about 8 MB. The API's connection retries stay in place for brief outages.
 
 **Why Central US:** East US 2 and East US weren't accepting new SQL servers for this subscription when it was set up, so everything went to the nearest region that was.
 
@@ -96,11 +94,7 @@ az webapp restart -g dykb-rg -n dykb-api-csbb      # restart the API
 az webapp stop -g dykb-rg -n dykb-api-csbb         # take it offline
 ```
 
-**Upgrading later:** to stop the API from sleeping, move the plan to B1 (about $13 a month):
-
-```bash
-az appservice plan update -g dykb-rg -n dykb-plan --sku B1
-```
+**Going back to free:** the API with `az appservice plan update -g dykb-rg -n dykb-plan --sku F1`. The database can't return to the free offer in place; it would need a new free database and a copy of the data.
 
 **Removing everything** (permanent, deletes all live accounts and scores):
 

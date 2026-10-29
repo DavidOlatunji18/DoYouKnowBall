@@ -4,14 +4,19 @@ namespace Dykb.Api.Services;
 
 /// <summary>
 /// XP and levels. A round earns 10 XP per correct answer, 20 for finishing and 30 more
-/// for a perfect score. Level 2 takes 100 XP and each level after needs 25 more than the
-/// one before. Every level falls in a rank, from Waterboy up to YKB ("You Know Ball").
+/// for a perfect score. The first levels come quickly: level 2 takes 300 XP and level 3 another
+/// 500; every level after that takes 1,000. Every level falls in a rank, from Waterboy up to
+/// YKB ("You Know Ball").
 /// </summary>
 public static class Levels
 {
     public const int XpPerCorrect = 10;
     public const int XpPerRound = 20;
     public const int PerfectBonus = 30;
+    public const int XpPerLevel = 1000;
+
+    /// <summary>XP for the first level-ups (level 1 to 2, then 2 to 3), before every level takes <see cref="XpPerLevel"/>.</summary>
+    private static readonly int[] EarlyLevels = [300, 500];
 
     /// <summary>Ranks by the level they start at, lowest first.</summary>
     public static readonly (int FromLevel, string Name)[] Ranks =
@@ -37,15 +42,21 @@ public static class Levels
     public static int XpToReach(int level)
     {
         var steps = Math.Max(level - 1, 0);
-        return 100 * steps + 25 * steps * (steps - 1) / 2;
+        var early = EarlyLevels.Take(steps).Sum();
+        return early + XpPerLevel * Math.Max(steps - EarlyLevels.Length, 0);
     }
 
     public static int LevelFor(int xp)
     {
         var level = 1;
-        while (XpToReach(level + 1) <= xp)
+        foreach (var cost in EarlyLevels)
+        {
+            if (xp < cost)
+                return level;
+            xp -= cost;
             level++;
-        return level;
+        }
+        return level + xp / XpPerLevel;
     }
 
     public static string RankFor(int level) => Ranks.Last(r => level >= r.FromLevel).Name;

@@ -247,13 +247,12 @@ public class QuizAndGameTests : IDisposable
         var second = await PlayAsync(client, category.Id, correctCount: 10);
 
         Assert.Equal(new XpEarnedDto(Correct: 70, Round: 20, Perfect: 0, Total: 90), first.Xp);
-        Assert.Equal(new ProgressDto(0, 1, 0, 100, "Waterboy"), first.Before);
-        Assert.Equal(new ProgressDto(90, 1, 90, 100, "Waterboy"), first.After);
+        Assert.Equal(new ProgressDto(0, 1, 0, 300, "Waterboy"), first.Before);
+        Assert.Equal(new ProgressDto(90, 1, 90, 300, "Waterboy"), first.After);
 
         Assert.Equal(new XpEarnedDto(Correct: 100, Round: 20, Perfect: 30, Total: 150), second.Xp);
         Assert.Equal(first.After, second.Before);
-        // 240 XP: level 2 starts at 100, level 3 at 225.
-        Assert.Equal(new ProgressDto(240, 3, 15, 150, "Waterboy"), second.After);
+        Assert.Equal(new ProgressDto(240, 1, 240, 300, "Waterboy"), second.After);
 
         var progress = await client.GetFromJsonAsync<ProgressDto>("/me/progress");
         Assert.Equal(second.After, progress);
@@ -267,7 +266,7 @@ public class QuizAndGameTests : IDisposable
 
         var progress = await client.GetFromJsonAsync<ProgressDto>("/me/progress");
 
-        Assert.Equal(new ProgressDto(0, 1, 0, 100, "Waterboy"), progress);
+        Assert.Equal(new ProgressDto(0, 1, 0, 300, "Waterboy"), progress);
     }
 
     [Fact]
@@ -311,12 +310,12 @@ public class QuizAndGameTests : IDisposable
 
         Assert.Equal(["both", "one"], global.Top.Select(e => e.DisplayName));
         Assert.Equal([300, 150], global.Top.Select(e => e.Xp));
-        Assert.Equal([3, 2], global.Top.Select(e => e.Level));
+        Assert.Equal([2, 1], global.Top.Select(e => e.Level));   // 300 XP reaches level 2
         Assert.All(global.Top, e => Assert.Null(e.BestScore));
         // On a sport board the XP is that sport's, but the level stays overall.
         var bothOnNfl = nflBoard.Top.Single(e => e.DisplayName == "both");
         Assert.Equal(150, bothOnNfl.Xp);
-        Assert.Equal(3, bothOnNfl.Level);
+        Assert.Equal(2, bothOnNfl.Level);
         Assert.Equal("Waterboy", bothOnNfl.RankName);
     }
 
