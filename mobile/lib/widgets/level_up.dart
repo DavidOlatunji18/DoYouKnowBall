@@ -48,6 +48,8 @@ class _LevelUp extends StatelessWidget {
     return Material(
       color: AppColors.ink,
       child: Stack(
+        // Stretch the content to full width so the column centers on screen.
+        fit: StackFit.expand,
         children: [
           const Positioned.fill(child: Confetti()),
           SafeArea(

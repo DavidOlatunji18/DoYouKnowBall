@@ -101,7 +101,7 @@ Leaderboard is a query over `GameSessions`, not a table. Add indexes on `Questio
 - [ ] Generate about 100 questions per category as JSON files in `/seed` for Soccer (European Top 5 Leagues, Internationals) and NFL (History, Records and Stats, Players). Mix difficulties 1-3.
 - [ ] Write a validation script: exactly 4 distinct options, `correctIndex` in range, no duplicate question text, no empty fields.
 - [ ] Write an idempotent seed loader (runs on startup in Development, and via a CLI flag for prod).
-- [ ] Produce `seed/REVIEW.md` listing any question you are less than very confident about, so I can fact-check them.
+- [x] Produce `seed/REVIEW.md` listing any question you are less than very confident about, so I can fact-check them.
 
 **Done when:** validation passes and the DB contains the seeded questions.
 

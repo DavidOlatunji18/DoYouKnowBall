@@ -236,6 +236,19 @@
   {
     "sport": "Soccer",
     "category": "European Top 5 Leagues",
+    "text": "Who set the record for most assists in a single Premier League season, with 21 in 2025-26?",
+    "options": [
+      "Kevin De Bruyne",
+      "Thierry Henry",
+      "Bruno Fernandes",
+      "Mohamed Salah"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "Soccer",
+    "category": "European Top 5 Leagues",
     "text": "Who holds the record for most Premier League clean sheets?",
     "options": [
       "Edwin van der Sar",

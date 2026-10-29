@@ -771,10 +771,10 @@
     "category": "Internationals",
     "text": "Who is the all-time top scorer in World Cup history?",
     "options": [
-      "Gerd Müller",
-      "Ronaldo",
       "Miroslav Klose",
-      "Lionel Messi"
+      "Lionel Messi",
+      "Kylian Mbappé",
+      "Ronaldo"
     ],
     "correctIndex": 2,
     "difficulty": 1

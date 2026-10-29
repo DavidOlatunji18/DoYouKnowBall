@@ -15,7 +15,7 @@ To fix one, edit its JSON file in this folder, run `python3 seed/validate.py`, t
 | Soccer | Internationals | Which country won the 2025 Women's European Championship? | England | Recent (July 2025); I believe England beat Spain on penalties |
 | NFL | History | Which of these teams has never played in a Super Bowl? | Cleveland Browns | True through Super Bowl LIX (Feb 2025); please confirm Super Bowl LX |
 | NFL | History | How many teams have won three consecutive Super Bowls? | 0 | True through Super Bowl LIX; confirm Super Bowl LX |
-| NFL | Records and Stats | Who holds the record for most career receiving yards by a tight end? | Tony Gonzalez | Travis Kelce was closing in; confirm after the 2025 season |
+| NFL | Records and Stats | Counting regular season and playoffs, who has the most career receiving yards by a tight end? | Travis Kelce | Updated October 2026: Kelce passed Gonzalez on combined yards in Week 7 of 2025. Gonzalez still leads regular season only |
 | NFL | Records and Stats | Who set the rookie record for passing yards in a season with 4,374 in 2012? | Andrew Luck | Confirm no 2025 rookie passed it |
 | NFL | Records and Stats | Who holds the single-season rushing record of 2,105 yards, set in 1984? | Eric Dickerson | Stood through 2024; check the 2025 season |
 | NFL | Records and Stats | Who holds the single-season receiving yards record of 1,964, set in 2012? | Calvin Johnson | Stood through 2024; check the 2025 season |
@@ -26,7 +26,7 @@ To fix one, edit its JSON file in this folder, run `python3 seed/validate.py`, t
 | NBA | History | Which team won the 2025 NBA championship? | Oklahoma City Thunder | Recent (June 2025) |
 | NBA | History | Which team did the Oklahoma City Thunder beat in the 2025 NBA Finals? | Indiana Pacers | Recent (June 2025) |
 | NBA | History | Which team won the 2024 NBA Cup? | Milwaukee Bucks | Recent (December 2024) |
-| NBA | Records and Stats | Who has the most triple-doubles in NBA history? | Russell Westbrook | Nikola Jokic was closing in; check after the 2025-26 season |
+| NBA | Records and Stats | Counting regular season and playoffs, who has the most triple-doubles in NBA history? | Nikola Jokic | Updated October 2026: Jokic reached 221 combined in the 2026 playoffs, tying Westbrook; passing him confirmed by hand (I could only find the tie). Westbrook still leads regular season only (209 to 198) |
 | NBA | Records and Stats | Who holds the record for most seasons played in the NBA? | LeBron James | Assumes LeBron played a 23rd season in 2025-26 |
 | NBA | Records and Stats | Klay Thompson set the record for three-pointers in a game in 2018 with how many? | 14 | Confirm no one has made 15 since |
 | NBA | Players | How many NBA MVP awards did Nikola Jokic win through the 2025 season? | 3 | Worded "through 2025" on purpose; 2026 may add one |
@@ -48,3 +48,5 @@ To fix one, edit its JSON file in this folder, run `python3 seed/validate.py`, t
 | NHL | Players | Who won the Conn Smythe Trophy in 2025? | Sam Bennett | Recent (June 2025) |
 | NHL | Players | Which goalie won both the Hart and Vezina Trophies in 2025? | Connor Hellebuyck | Recent (June 2025) |
 | NHL | Players | Steven Stamkos spent 16 seasons with which team before joining Nashville in 2024? | Tampa Bay Lightning | Recent (July 2024) |
+| Soccer | Internationals | Who is the all-time top scorer in World Cup history? | Kylian Mbappé | Updated October 2026: Mbappé reached 22 at the 2026 World Cup, passing Klose (16) and Messi (21) |
+| Soccer | European Top 5 Leagues | Who set the record for most assists in a single Premier League season, with 21 in 2025-26? | Bruno Fernandes | Added October 2026; passed the 20 shared by Henry and De Bruyne |

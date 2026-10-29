@@ -2,14 +2,14 @@
   {
     "sport": "NFL",
     "category": "Records and Stats",
-    "text": "Who holds the record for most career receiving yards by a tight end?",
+    "text": "Counting regular season and playoffs, who has the most career receiving yards by a tight end?",
     "options": [
       "Shannon Sharpe",
       "Travis Kelce",
       "Tony Gonzalez",
       "Jason Witten"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "difficulty": 2
   },
   {

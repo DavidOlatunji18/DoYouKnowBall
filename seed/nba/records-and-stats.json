@@ -470,14 +470,14 @@
   {
     "sport": "NBA",
     "category": "Records and Stats",
-    "text": "Who has the most triple-doubles in NBA history?",
+    "text": "Counting regular season and playoffs, who has the most triple-doubles in NBA history?",
     "options": [
       "Oscar Robertson",
       "Russell Westbrook",
       "Magic Johnson",
       "Nikola Jokic"
     ],
-    "correctIndex": 1,
+    "correctIndex": 3,
     "difficulty": 1
   },
   {
