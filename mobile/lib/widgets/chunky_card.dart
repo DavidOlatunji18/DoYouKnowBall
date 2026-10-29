@@ -11,7 +11,7 @@ class ChunkyCard extends StatefulWidget {
     required this.child,
     required this.onTap,
     this.semanticLabel,
-    this.padding = const EdgeInsets.all(18),
+    this.padding = const EdgeInsets.all(14),
   });
 
   final Widget child;

@@ -340,8 +340,8 @@ class _CloseButton extends StatelessWidget {
       child: GestureDetector(
         onTap: onTap,
         child: Container(
-          width: 42,
-          height: 42,
+          width: 38,
+          height: 38,
           decoration: BoxDecoration(
             color: AppColors.card,
             shape: BoxShape.circle,
@@ -595,11 +595,11 @@ class _QuestionView extends StatelessWidget {
                     ),
                     const SizedBox(height: 10),
                     Container(
-                      constraints: const BoxConstraints(minHeight: 112),
+                      constraints: const BoxConstraints(minHeight: 92),
                       alignment: Alignment.centerLeft,
                       padding: const EdgeInsets.symmetric(
-                        horizontal: 18,
-                        vertical: 22,
+                        horizontal: 16,
+                        vertical: 18,
                       ),
                       decoration: BoxDecoration(
                         color: AppColors.cream,
@@ -614,7 +614,7 @@ class _QuestionView extends StatelessWidget {
                         child: Text(
                           question.text,
                           style: appFont(
-                            20,
+                            17.5,
                             weight: 700,
                             height: 1.3,
                             letterSpacing: -0.3,
@@ -625,7 +625,7 @@ class _QuestionView extends StatelessWidget {
                     const SizedBox(height: 18),
                     for (var i = 0; i < question.options.length; i++)
                       Padding(
-                        padding: const EdgeInsets.only(bottom: 10),
+                        padding: const EdgeInsets.only(bottom: 8),
                         child: _AnswerButton(
                           index: i,
                           text: question.options[i],
@@ -841,7 +841,7 @@ class _AnswerButtonState extends State<_AnswerButton> {
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 120),
               transform: Matrix4.translationValues(3 - depth, 3 - depth, 0),
-              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
               decoration: BoxDecoration(
                 color: background,
                 borderRadius: BorderRadius.circular(16),
@@ -853,8 +853,8 @@ class _AnswerButtonState extends State<_AnswerButton> {
               child: Row(
                 children: [
                   Container(
-                    width: 30,
-                    height: 30,
+                    width: 26,
+                    height: 26,
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
                       color: letterColor,
@@ -864,7 +864,7 @@ class _AnswerButtonState extends State<_AnswerButton> {
                     child: Text(
                       letter,
                       style: appFont(
-                        13,
+                        11.5,
                         weight: 700,
                         color: wrong ? AppColors.danger : AppColors.ink,
                       ),
@@ -875,7 +875,7 @@ class _AnswerButtonState extends State<_AnswerButton> {
                     child: Text(
                       widget.text,
                       style: appFont(
-                        15.5,
+                        14.5,
                         weight: 600,
                         color: wrong ? AppColors.danger : AppColors.ink,
                       ),
@@ -977,7 +977,7 @@ class _FeedbackBar extends StatelessWidget {
                   children: [
                     Text(
                       correct ? 'Nice!' : 'Not quite',
-                      style: funFont(19, weight: 600, color: foreground),
+                      style: funFont(17, weight: 600, color: foreground),
                     ),
                     Text(
                       correct ? 'You know ball.' : 'Lock in twin',

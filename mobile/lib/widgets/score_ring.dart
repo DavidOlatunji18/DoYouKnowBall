@@ -11,7 +11,7 @@ class ScoreRing extends StatelessWidget {
     super.key,
     required this.score,
     required this.total,
-    this.size = 176,
+    this.size = 148,
   });
 
   final int score;
@@ -39,11 +39,11 @@ class ScoreRing extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('$score', style: funFont(56, weight: 700, height: 1)),
+              Text('$score', style: funFont(46, weight: 700, height: 1)),
               const SizedBox(height: 2),
               Text(
                 'out of $total',
-                style: appFont(14, weight: 600, color: AppColors.muted),
+                style: appFont(12.5, weight: 600, color: AppColors.muted),
               ),
             ],
           ),

@@ -43,7 +43,7 @@ class AppNavBar extends StatelessWidget {
         bottomInset > 0 ? bottomInset : 16,
       ),
       child: Container(
-        height: 66,
+        height: 58,
         padding: const EdgeInsets.symmetric(horizontal: 8),
         decoration: BoxDecoration(
           color: AppColors.card,
@@ -99,8 +99,8 @@ class _NavButton extends StatelessWidget {
           child: AnimatedContainer(
             duration: const Duration(milliseconds: 260),
             curve: Curves.easeOutBack,
-            width: 48,
-            height: 48,
+            width: 42,
+            height: 42,
             decoration: BoxDecoration(
               color: selected ? AppColors.green : Colors.transparent,
               shape: BoxShape.circle,
@@ -114,7 +114,7 @@ class _NavButton extends StatelessWidget {
               duration: const Duration(milliseconds: 200),
               child: Icon(
                 item.icon,
-                size: 26,
+                size: 23,
                 color: selected ? AppColors.ink : AppColors.muted,
               ),
             ),

@@ -55,7 +55,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
           onRefresh: _refresh,
           child: ListView(
             physics: const AlwaysScrollableScrollPhysics(),
-            padding: const EdgeInsets.fromLTRB(24, 12, 24, 120),
+            padding: const EdgeInsets.fromLTRB(20, 12, 20, 120),
             children: [
               const BrandHeader(),
               const SizedBox(height: 22),

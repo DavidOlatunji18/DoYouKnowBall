@@ -47,10 +47,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
               _history.currentState?.reload(quiet: true) ?? Future.value(),
           child: ListView(
             physics: const AlwaysScrollableScrollPhysics(),
-            padding: const EdgeInsets.fromLTRB(24, 12, 24, 120),
+            padding: const EdgeInsets.fromLTRB(20, 12, 20, 120),
             children: [
               const BrandHeader(),
-              const SizedBox(height: 32),
+              const SizedBox(height: 24),
               if (user != null) ...[
                 // The rank shield sits on the avatar once progress loads.
                 ProgressBuilder(
@@ -76,7 +76,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 Text(
                   '@${user.displayName}',
                   textAlign: TextAlign.center,
-                  style: appFont(22, weight: 700, letterSpacing: -0.3),
+                  style: appFont(19, weight: 700, letterSpacing: -0.3),
                 ),
                 const SizedBox(height: 4),
                 Text(
@@ -104,7 +104,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     label: 'Log out',
                     color: AppColors.danger,
                     textColor: AppColors.card,
-                    height: 48,
+                    height: 44,
                     onPressed: session.signOut,
                   ),
                 ),
@@ -248,7 +248,7 @@ class _SectionTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      Text(text, style: appFont(20, weight: 700, letterSpacing: -0.3));
+      Text(text, style: appFont(18, weight: 700, letterSpacing: -0.3));
 }
 
 class _StatTile extends StatelessWidget {
@@ -275,7 +275,7 @@ class _StatTile extends StatelessWidget {
             fit: BoxFit.scaleDown,
             child: Text(
               value,
-              style: appFont(22, weight: 700, letterSpacing: -0.4),
+              style: appFont(19, weight: 700, letterSpacing: -0.4),
             ),
           ),
           const SizedBox(height: 2),
@@ -378,8 +378,8 @@ class _Avatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 104,
-      height: 104,
+      width: 84,
+      height: 84,
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: AppColors.green,
@@ -391,7 +391,7 @@ class _Avatar extends StatelessWidget {
       ),
       child: Text(
         name.isEmpty ? '?' : name[0].toUpperCase(),
-        style: appFont(50, weight: 900),
+        style: appFont(40, weight: 900),
       ),
     );
   }

@@ -238,7 +238,7 @@ class _ResultsViewState extends State<ResultsView> {
               child: Text(
                 title,
                 textAlign: TextAlign.center,
-                style: appFont(28, weight: 700, letterSpacing: -0.5),
+                style: appFont(23, weight: 700, letterSpacing: -0.4),
               ),
             ),
             const SizedBox(height: 4),
@@ -379,7 +379,7 @@ class _XpCard extends StatelessWidget {
                 ),
                 Text(
                   '+${xp.total}',
-                  style: funFont(26, weight: 600, height: 1),
+                  style: funFont(22, weight: 600, height: 1),
                 ),
               ],
             ),
@@ -465,7 +465,7 @@ class _StatTile extends StatelessWidget {
               children: [
                 FittedBox(
                   fit: BoxFit.scaleDown,
-                  child: Text(value, style: appFont(20, weight: 700)),
+                  child: Text(value, style: appFont(17, weight: 700)),
                 ),
                 const SizedBox(height: 2),
                 FittedBox(

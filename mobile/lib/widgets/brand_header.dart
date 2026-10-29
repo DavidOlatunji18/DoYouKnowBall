@@ -30,12 +30,12 @@ class BrandHeader extends StatelessWidget {
                 children: [
                   // The bulb on a green rounded square, like an app icon.
                   Container(
-                    width: 46,
-                    height: 46,
-                    padding: const EdgeInsets.all(5),
+                    width: 38,
+                    height: 38,
+                    padding: const EdgeInsets.all(4),
                     decoration: BoxDecoration(
                       color: AppColors.green,
-                      borderRadius: BorderRadius.circular(13),
+                      borderRadius: BorderRadius.circular(11),
                       border: Border.all(color: AppColors.ink, width: 2),
                       boxShadow: const [
                         BoxShadow(color: AppColors.ink, offset: Offset(2, 2)),
@@ -46,8 +46,8 @@ class BrandHeader extends StatelessWidget {
                   const SizedBox(width: 10),
                   OutlinedText(
                     'dykb?',
-                    style: funFont(26, weight: 700, letterSpacing: 0.4),
-                    strokeWidth: 4,
+                    style: funFont(22, weight: 700, letterSpacing: 0.4),
+                    strokeWidth: 3.5,
                   ),
                 ],
               ),
@@ -56,7 +56,7 @@ class BrandHeader extends StatelessWidget {
             ?trailing,
           ],
         ),
-        const SizedBox(height: 14),
+        const SizedBox(height: 12),
         Container(height: 1.5, color: AppColors.ink.withValues(alpha: 0.12)),
       ],
     );

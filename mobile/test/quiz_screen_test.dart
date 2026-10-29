@@ -268,7 +268,7 @@ void main() {
       expect(find.text('LEVEL UP'), findsNothing, reason: 'still level 1');
 
       await tester.scrollUntilVisible(
-        find.text('YOUR ANSWERS'),
+        find.bySemanticsLabel(RegExp(r'^Missed\. In which year')),
         200,
         scrollable: find.byType(Scrollable).last,
       );

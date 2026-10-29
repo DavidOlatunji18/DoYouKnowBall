@@ -32,7 +32,7 @@ class CategoriesScreen extends StatelessWidget {
       body: SafeArea(
         bottom: false,
         child: ListView(
-          padding: const EdgeInsets.fromLTRB(24, 12, 24, 120),
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 120),
           children: [
             BrandHeader(
               leading: CircleBackButton(
@@ -65,7 +65,7 @@ class CategoriesScreen extends StatelessWidget {
                 children: [
                   for (var i = 0; i < categories.length; i++)
                     Padding(
-                      padding: const EdgeInsets.only(bottom: 16),
+                      padding: const EdgeInsets.only(bottom: 12),
                       child: StaggerIn(
                         index: i,
                         child: _CategoryCard(
@@ -113,7 +113,7 @@ class _CategoryCard extends StatelessWidget {
                 Text(
                   category.name,
                   style: appFont(
-                    17.5,
+                    16,
                     weight: 700,
                     letterSpacing: -0.3,
                     height: 1.2,
@@ -122,14 +122,14 @@ class _CategoryCard extends StatelessWidget {
                 const SizedBox(height: 4),
                 Text(
                   '10 questions',
-                  style: appFont(13.5, weight: 500, color: AppColors.muted),
+                  style: appFont(12.5, weight: 500, color: AppColors.muted),
                 ),
               ],
             ),
           ),
           const SizedBox(width: 12),
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
             decoration: BoxDecoration(
               color: AppColors.green,
               borderRadius: BorderRadius.circular(999),
@@ -144,7 +144,7 @@ class _CategoryCard extends StatelessWidget {
                   color: AppColors.ink,
                 ),
                 const SizedBox(width: 2),
-                Text('Play', style: appFont(14, weight: 700)),
+                Text('Play', style: appFont(13, weight: 600)),
               ],
             ),
           ),

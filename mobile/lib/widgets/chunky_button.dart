@@ -13,7 +13,7 @@ class ChunkyButton extends StatefulWidget {
     this.loading = false,
     this.color = AppColors.green,
     this.textColor = AppColors.ink,
-    this.height = 58,
+    this.height = 52,
   });
 
   final String label;
@@ -89,7 +89,7 @@ class _ChunkyButtonState extends State<ChunkyButton> {
               : Text(
                   widget.label,
                   style: appFont(
-                    widget.height < 54 ? 15 : 16.5,
+                    widget.height < 50 ? 14.5 : 15.5,
                     weight: 600,
                     color: widget.textColor,
                   ),

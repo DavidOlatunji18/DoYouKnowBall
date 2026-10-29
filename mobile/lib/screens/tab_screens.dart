@@ -35,7 +35,7 @@ class _ComingSoon extends StatelessWidget {
       body: SafeArea(
         bottom: false,
         child: ListView(
-          padding: const EdgeInsets.fromLTRB(24, 12, 24, 120),
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 120),
           children: [
             const BrandHeader(),
             const SizedBox(height: 22),

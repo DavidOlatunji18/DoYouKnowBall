@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
         bottom: false,
         child: ListView(
           // Bottom padding keeps the last card clear of the floating nav bar.
-          padding: const EdgeInsets.fromLTRB(24, 12, 24, 120),
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 120),
           children: [
             const BrandHeader(),
             const SizedBox(height: 22),
@@ -49,14 +49,14 @@ class HomeScreen extends StatelessWidget {
                       child: Text.rich(
                         TextSpan(
                           text: 'Welcome ',
-                          style: funFont(24, weight: 500, height: 1.2),
+                          style: funFont(21, weight: 500, height: 1.2),
                           children: [
                             WidgetSpan(
                               alignment: PlaceholderAlignment.baseline,
                               baseline: TextBaseline.alphabetic,
                               child: OutlinedText(
                                 '@$username',
-                                style: funFont(24, weight: 600, height: 1.2),
+                                style: funFont(21, weight: 600, height: 1.2),
                                 strokeWidth: 4,
                               ),
                             ),
@@ -87,7 +87,7 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 22),
             ],
             const MarkerHeadline(lead: 'Pick your', marked: 'sport.'),
-            const SizedBox(height: 26),
+            const SizedBox(height: 20),
             LoadView<List<Sport>>(
               load: api.sports,
               builder: (context, sports) {
@@ -102,7 +102,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     for (final sport in sports)
                       Padding(
-                        padding: const EdgeInsets.only(bottom: 18),
+                        padding: const EdgeInsets.only(bottom: 12),
                         child: StaggerIn(
                           index: index++,
                           child: _SportCard(sport: sport),
@@ -110,7 +110,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     for (final style in comingSoon)
                       Padding(
-                        padding: const EdgeInsets.only(bottom: 18),
+                        padding: const EdgeInsets.only(bottom: 12),
                         child: StaggerIn(
                           index: index++,
                           child: _ComingSoonCard(style: style),
@@ -215,17 +215,17 @@ class _SportRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Image.asset(asset, width: 62, height: 62, excludeFromSemantics: true),
-        const SizedBox(width: 16),
+        Image.asset(asset, width: 46, height: 46, excludeFromSemantics: true),
+        const SizedBox(width: 14),
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(name, style: appFont(20, weight: 700, letterSpacing: -0.3)),
+              Text(name, style: appFont(17, weight: 700, letterSpacing: -0.2)),
               const SizedBox(height: 4),
               Text(
                 blurb,
-                style: appFont(14, weight: 500, color: AppColors.muted),
+                style: appFont(12.5, weight: 500, color: AppColors.muted),
               ),
             ],
           ),
@@ -246,14 +246,14 @@ class _Badge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 40,
-      height: 40,
+      width: 34,
+      height: 34,
       decoration: BoxDecoration(
         color: color,
         shape: BoxShape.circle,
         border: Border.all(color: AppColors.ink, width: 2),
       ),
-      child: Icon(icon, color: AppColors.ink, size: 22),
+      child: Icon(icon, color: AppColors.ink, size: 20),
     );
   }
 }
