@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../api/api_client.dart';
-import '../auth/session.dart';
+import '../ranks.dart';
 import '../sports.dart';
 import '../theme.dart';
 import '../widgets/chunky_button.dart';
 import '../widgets/confetti.dart';
+import '../widgets/level_up.dart';
+import '../widgets/rank_badges.dart';
 import '../widgets/score_ring.dart';
 
 /// The end of a round: the score in a colored ring, a verdict, your best in this
@@ -76,6 +78,20 @@ class _ResultsViewState extends State<ResultsView> {
     super.initState();
     _loadBest();
     _loadRank();
+    final game = widget.game;
+    if (game.after.level > game.before.level) {
+      // Celebrate once the results are on screen behind it.
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) {
+          showLevelUp(
+            context,
+            before: game.before,
+            after: game.after,
+            xpEarned: game.xp.total,
+          );
+        }
+      });
+    }
   }
 
   Future<void> _loadBest() async {
@@ -102,13 +118,14 @@ class _ResultsViewState extends State<ResultsView> {
 
   Future<void> _loadRank() async {
     final sportId = widget.sportId;
-    final me = context.read<Session>().user?.displayName;
-    if (sportId == null || me == null) return;
+    if (sportId == null) return;
     try {
-      final board = await context.read<ApiClient>().leaderboard(sportId);
+      final board = await context.read<ApiClient>().leaderboard(
+        sportId: sportId,
+      );
       if (!mounted) return;
       setState(() {
-        _rank = board.where((e) => e.displayName == me).firstOrNull?.rank;
+        _rank = board.me?.rank;
         _rankLoaded = true;
       });
     } on ApiError {
@@ -253,6 +270,8 @@ class _ResultsViewState extends State<ResultsView> {
                 ),
               ],
             ),
+            const SizedBox(height: 16),
+            _XpCard(game: game),
             const SizedBox(height: 22),
             ChunkyButton(label: 'Play again', onPressed: widget.onPlayAgain),
             const SizedBox(height: 12),
@@ -296,6 +315,106 @@ class _ResultsViewState extends State<ResultsView> {
         if (AppColors.forScore(game.score, game.total) == AppColors.green)
           const Positioned.fill(child: Confetti()),
       ],
+    );
+  }
+}
+
+/// The XP this round earned and where it came from, with the level bar after it.
+class _XpCard extends StatelessWidget {
+  const _XpCard({required this.game});
+
+  final GameResult game;
+
+  @override
+  Widget build(BuildContext context) {
+    final xp = game.xp;
+    final after = game.after;
+    final rank = RankStyle.of(after.rank);
+
+    Widget line(String label, int amount, {bool dim = false}) => Opacity(
+      opacity: dim ? 0.4 : 1,
+      child: Padding(
+        padding: const EdgeInsets.only(top: 4),
+        child: Row(
+          children: [
+            Expanded(child: Text(label, style: appFont(12.5, weight: 500))),
+            Text('+$amount', style: appFont(12.5, weight: 600)),
+          ],
+        ),
+      ),
+    );
+
+    return Semantics(
+      container: true,
+      label:
+          '${xp.total} XP earned. Level ${after.level}, ${after.levelXp} of '
+          '${after.levelXpNeeded} XP to the next level',
+      excludeSemantics: true,
+      child: Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: AppColors.cream,
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(color: AppColors.ink, width: 2),
+          boxShadow: const [
+            BoxShadow(color: AppColors.ink, offset: Offset(3, 3)),
+          ],
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Text(
+                    'XP EARNED',
+                    style: appFont(
+                      11,
+                      weight: 700,
+                      letterSpacing: 1.1,
+                      color: AppColors.muted,
+                    ),
+                  ),
+                ),
+                Text(
+                  '+${xp.total}',
+                  style: funFont(26, weight: 600, height: 1),
+                ),
+              ],
+            ),
+            const SizedBox(height: 6),
+            line('${game.score} correct × 10', xp.correct),
+            line('Round complete', xp.round),
+            line(
+              'Perfect round',
+              xp.perfect == 0 ? 30 : xp.perfect,
+              dim: xp.perfect == 0,
+            ),
+            const SizedBox(height: 12),
+            Row(
+              children: [
+                Text('Lv ${after.level}', style: appFont(12, weight: 600)),
+                const Spacer(),
+                Text.rich(
+                  TextSpan(
+                    style: appFont(10.5, weight: 500, color: AppColors.muted),
+                    children: [
+                      TextSpan(
+                        text: formatXp(after.levelXp),
+                        style: appFont(10.5, weight: 600),
+                      ),
+                      TextSpan(text: ' / ${formatXp(after.levelXpNeeded)} XP'),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 6),
+            LevelBar(fraction: after.fraction, rank: rank),
+          ],
+        ),
+      ),
     );
   }
 }

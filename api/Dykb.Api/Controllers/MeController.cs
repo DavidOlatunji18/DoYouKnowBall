@@ -5,11 +5,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Dykb.Api.Controllers;
 
-/// <summary>Lets the app check on launch that a saved login is still valid.</summary>
+/// <summary>The logged-in player: who they are (checked on launch) and their progress.</summary>
 [ApiController]
 [Route("me")]
-public class MeController(AuthService auth) : ControllerBase
+public class MeController(AuthService auth, GameService games) : ControllerBase
 {
     [HttpGet]
     public Task<UserDto> Get() => auth.GetUserAsync(User.GetUserId());
+
+    /// <summary>The player's XP, level and rank.</summary>
+    [HttpGet("progress")]
+    public Task<ProgressDto> Progress() => games.GetProgressAsync(User.GetUserId());
 }

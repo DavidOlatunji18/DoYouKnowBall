@@ -238,43 +238,128 @@ public class QuizAndGameTests : IDisposable
     }
 
     [Fact]
-    public async Task Leaderboard_OrdersByBestScorePerSport()
+    public async Task SubmitGame_AwardsXpAndReportsProgressBeforeAndAfter()
     {
-        var nba = await _factory.SeedCategoryAsync("NBA", "History");
-        var nfl = await _factory.SeedCategoryAsync("NFL", "History");
+        var category = await _factory.SeedCategoryAsync();
+        var client = await _factory.CreateAuthenticatedClientAsync();
 
-        var low = await _factory.CreateAuthenticatedClientAsync("LowScore");
-        var high = await _factory.CreateAuthenticatedClientAsync("HighScore");
-        var mid = await _factory.CreateAuthenticatedClientAsync("MidScore");
-        var nflOnly = await _factory.CreateAuthenticatedClientAsync("NflOnly");
+        var first = await PlayAsync(client, category.Id, correctCount: 7);
+        var second = await PlayAsync(client, category.Id, correctCount: 10);
 
-        await PlayAsync(low, nba.Id, correctCount: 3);
-        await PlayAsync(high, nba.Id, correctCount: 9);
-        await PlayAsync(high, nba.Id, correctCount: 2);   // a worse later game must not lower the best score
-        await PlayAsync(mid, nba.Id, correctCount: 6);
-        await PlayAsync(nflOnly, nfl.Id, correctCount: 10);
+        Assert.Equal(new XpEarnedDto(Correct: 70, Round: 20, Perfect: 0, Total: 90), first.Xp);
+        Assert.Equal(new ProgressDto(0, 1, 0, 100, "Waterboy"), first.Before);
+        Assert.Equal(new ProgressDto(90, 1, 90, 100, "Waterboy"), first.After);
 
-        var board = (await low.GetFromJsonAsync<List<LeaderboardEntryDto>>($"/leaderboard?sportId={nba.SportId}&top=20"))!;
+        Assert.Equal(new XpEarnedDto(Correct: 100, Round: 20, Perfect: 30, Total: 150), second.Xp);
+        Assert.Equal(first.After, second.Before);
+        // 240 XP: level 2 starts at 100, level 3 at 225.
+        Assert.Equal(new ProgressDto(240, 3, 15, 150, "Waterboy"), second.After);
 
-        Assert.Equal(["highscore", "midscore", "lowscore"], board.Select(e => e.DisplayName));
-        Assert.Equal([1, 2, 3], board.Select(e => e.Rank));
-        Assert.Equal([9, 6, 3], board.Select(e => e.BestScore));
-        Assert.Equal([2, 1, 1], board.Select(e => e.GamesPlayed));
+        var progress = await client.GetFromJsonAsync<ProgressDto>("/me/progress");
+        Assert.Equal(second.After, progress);
+        Assert.Equal([90, 150], await _factory.WithDbAsync(db => db.GameSessions.OrderBy(g => g.Id).Select(g => g.XpEarned).ToListAsync()));
     }
 
     [Fact]
-    public async Task Leaderboard_TiedScoresShareRank_AndTopLimitsResults()
+    public async Task Progress_NewPlayerStartsAtLevelOne()
+    {
+        var client = await _factory.CreateAuthenticatedClientAsync();
+
+        var progress = await client.GetFromJsonAsync<ProgressDto>("/me/progress");
+
+        Assert.Equal(new ProgressDto(0, 1, 0, 100, "Waterboy"), progress);
+    }
+
+    [Fact]
+    public async Task Leaderboard_SportBoardRanksByXpInThatSport()
+    {
+        var nba = await _factory.SeedCategoryAsync("NBA", "History");
+        var nfl = await _factory.SeedCategoryAsync("NFL", "History");
+        var grinder = await _factory.CreateAuthenticatedClientAsync("grinder");
+        var sharp = await _factory.CreateAuthenticatedClientAsync("sharp");
+        var nflOnly = await _factory.CreateAuthenticatedClientAsync("nflonly");
+
+        // Three average rounds (3 x 70 XP) beat one perfect round (150 XP).
+        for (var i = 0; i < 3; i++)
+            await PlayAsync(grinder, nba.Id, correctCount: 5);
+        await PlayAsync(sharp, nba.Id, correctCount: 10);
+        await PlayAsync(nflOnly, nfl.Id, correctCount: 10);
+
+        var board = (await sharp.GetFromJsonAsync<LeaderboardResponse>($"/leaderboard?sportId={nba.SportId}"))!;
+
+        Assert.Equal(["grinder", "sharp"], board.Top.Select(e => e.DisplayName));
+        Assert.Equal([210, 150], board.Top.Select(e => e.Xp));
+        Assert.Equal([5, 10], board.Top.Select(e => e.BestScore));
+        Assert.Equal([3, 1], board.Top.Select(e => e.GamesPlayed));
+        Assert.Equal(board.Top[1], board.Me);
+    }
+
+    [Fact]
+    public async Task Leaderboard_GlobalBoardAddsUpEverySport_AndShowsOverallLevel()
+    {
+        var nba = await _factory.SeedCategoryAsync("NBA", "History");
+        var nfl = await _factory.SeedCategoryAsync("NFL", "History");
+        var both = await _factory.CreateAuthenticatedClientAsync("both");
+        var one = await _factory.CreateAuthenticatedClientAsync("one");
+
+        await PlayAsync(both, nba.Id, correctCount: 10);   // 150
+        await PlayAsync(both, nfl.Id, correctCount: 10);   // 150
+        await PlayAsync(one, nfl.Id, correctCount: 10);    // 150
+
+        var global = (await one.GetFromJsonAsync<LeaderboardResponse>("/leaderboard"))!;
+        var nflBoard = (await one.GetFromJsonAsync<LeaderboardResponse>($"/leaderboard?sportId={nfl.SportId}"))!;
+
+        Assert.Equal(["both", "one"], global.Top.Select(e => e.DisplayName));
+        Assert.Equal([300, 150], global.Top.Select(e => e.Xp));
+        Assert.Equal([3, 2], global.Top.Select(e => e.Level));
+        Assert.All(global.Top, e => Assert.Null(e.BestScore));
+        // On a sport board the XP is that sport's, but the level stays overall.
+        var bothOnNfl = nflBoard.Top.Single(e => e.DisplayName == "both");
+        Assert.Equal(150, bothOnNfl.Xp);
+        Assert.Equal(3, bothOnNfl.Level);
+        Assert.Equal("Waterboy", bothOnNfl.RankName);
+    }
+
+    [Fact]
+    public async Task Leaderboard_TiedXpSharesRank_AndTopLimitsResults()
     {
         var category = await _factory.SeedCategoryAsync();
-        foreach (var (name, score) in new[] { ("Ann", 8), ("Ben", 8), ("Cal", 5) })
+        foreach (var (name, score) in new[] { ("ann", 8), ("ben", 8), ("cal", 5) })
             await PlayAsync(await _factory.CreateAuthenticatedClientAsync(name), category.Id, score);
         var client = await _factory.CreateAuthenticatedClientAsync();
 
-        var full = (await client.GetFromJsonAsync<List<LeaderboardEntryDto>>($"/leaderboard?sportId={category.SportId}"))!;
-        var top2 = (await client.GetFromJsonAsync<List<LeaderboardEntryDto>>($"/leaderboard?sportId={category.SportId}&top=2"))!;
+        var full = (await client.GetFromJsonAsync<LeaderboardResponse>($"/leaderboard?sportId={category.SportId}"))!;
+        var top2 = (await client.GetFromJsonAsync<LeaderboardResponse>($"/leaderboard?sportId={category.SportId}&top=2"))!;
 
-        Assert.Equal([1, 1, 3], full.Select(e => e.Rank));
-        Assert.Equal(2, top2.Count);
+        Assert.Equal([1, 1, 3], full.Top.Select(e => e.Rank));
+        Assert.Equal(2, top2.Top.Count);
+        Assert.Null(full.Me);   // this player hasn't played yet
+    }
+
+    [Fact]
+    public async Task Leaderboard_ShowsTopTenByDefault_AndYourRowWhenYouAreBelowIt()
+    {
+        var category = await _factory.SeedCategoryAsync();
+        for (var i = 0; i < 11; i++)
+            await PlayAsync(await _factory.CreateAuthenticatedClientAsync($"pro{i:00}"), category.Id, correctCount: 9);
+        var me = await _factory.CreateAuthenticatedClientAsync("rookie");
+        await PlayAsync(me, category.Id, correctCount: 1);
+
+        var board = (await me.GetFromJsonAsync<LeaderboardResponse>("/leaderboard"))!;
+
+        Assert.Equal(10, board.Top.Count);
+        Assert.DoesNotContain(board.Top, e => e.DisplayName == "rookie");
+        Assert.Equal(new LeaderboardEntryDto(12, "rookie", 30, 1, "Waterboy", null, 1), board.Me);
+    }
+
+    [Fact]
+    public async Task Leaderboard_UnknownSport_Returns404()
+    {
+        var client = await _factory.CreateAuthenticatedClientAsync();
+
+        var response = await client.GetAsync("/leaderboard?sportId=999");
+
+        Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
     }
 
     /// <summary>
@@ -304,7 +389,7 @@ public class QuizAndGameTests : IDisposable
         return (await response.Content.ReadFromJsonAsync<GameResultResponse>())!;
     }
 
-    private async Task PlayAsync(HttpClient client, int categoryId, int correctCount)
+    private async Task<GameResultResponse> PlayAsync(HttpClient client, int categoryId, int correctCount)
     {
         var quiz = (await client.GetFromJsonAsync<QuizResponse>($"/quiz?categoryId={categoryId}"))!;
         var correct = await CorrectIndexesAsync(quiz);
@@ -313,6 +398,6 @@ public class QuizAndGameTests : IDisposable
             var id = quiz.Questions[i].Id;
             await AnswerAsync(client, quiz, id, i < correctCount ? correct[id] : (correct[id] + 1) % 4);
         }
-        await SubmitAsync(client, quiz);
+        return await SubmitAsync(client, quiz);
     }
 }

@@ -1,7 +1,7 @@
 using Dykb.Api.Dtos;
+using Dykb.Api.Infrastructure;
 using Dykb.Api.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Dykb.Api.Controllers;
 
@@ -9,7 +9,8 @@ namespace Dykb.Api.Controllers;
 [Route("leaderboard")]
 public class LeaderboardController(GameService games) : ControllerBase
 {
+    /// <summary>Top players by XP: across all sports, or in one sport when sportId is given.</summary>
     [HttpGet]
-    public Task<List<LeaderboardEntryDto>> Get([BindRequired] int sportId, int top = 20) =>
-        games.GetLeaderboardAsync(sportId, top);
+    public Task<LeaderboardResponse> Get(int? sportId, int top = GameService.DefaultLeaderboardSize) =>
+        games.GetLeaderboardAsync(User.GetUserId(), sportId, top);
 }

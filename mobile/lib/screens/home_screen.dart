@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../api/api_client.dart';
 import '../auth/session.dart';
+import '../ranks.dart';
 import '../sports.dart';
 import '../theme.dart';
 import '../widgets/brand_header.dart';
@@ -11,6 +12,9 @@ import '../widgets/chunky_card.dart';
 import '../widgets/load_view.dart';
 import '../widgets/marker_headline.dart';
 import '../widgets/outlined_text.dart';
+import '../widgets/progress_builder.dart';
+import '../widgets/rank_badges.dart';
+import '../widgets/rank_ladder.dart';
 import '../widgets/stagger_in.dart';
 
 /// The Home tab: welcomes the player and lists the sports to play, followed by
@@ -33,28 +37,54 @@ class HomeScreen extends StatelessWidget {
             const BrandHeader(),
             const SizedBox(height: 22),
             if (username != null) ...[
-              Semantics(
-                label: 'Welcome @$username',
-                excludeSemantics: true,
-                child: Text.rich(
-                  TextSpan(
-                    text: 'Welcome ',
-                    style: funFont(26, weight: 500, height: 1.2),
-                    children: [
-                      WidgetSpan(
-                        alignment: PlaceholderAlignment.baseline,
-                        baseline: TextBaseline.alphabetic,
-                        child: OutlinedText(
-                          '@$username',
-                          style: funFont(26, weight: 600, height: 1.2),
-                          strokeWidth: 4,
+              // The welcome line gets the rank shield and level once progress loads.
+              ProgressBuilder(
+                builder: (context, progress) => Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Semantics(
+                      container: true,
+                      label: 'Welcome @$username',
+                      excludeSemantics: true,
+                      child: Text.rich(
+                        TextSpan(
+                          text: 'Welcome ',
+                          style: funFont(24, weight: 500, height: 1.2),
+                          children: [
+                            WidgetSpan(
+                              alignment: PlaceholderAlignment.baseline,
+                              baseline: TextBaseline.alphabetic,
+                              child: OutlinedText(
+                                '@$username',
+                                style: funFont(24, weight: 600, height: 1.2),
+                                strokeWidth: 4,
+                              ),
+                            ),
+                            if (progress != null)
+                              WidgetSpan(
+                                alignment: PlaceholderAlignment.middle,
+                                child: Padding(
+                                  padding: const EdgeInsets.only(left: 8),
+                                  child: RankShield(
+                                    rank: RankStyle.of(progress.rank),
+                                  ),
+                                ),
+                              ),
+                          ],
                         ),
                       ),
+                    ),
+                    if (progress != null) ...[
+                      const SizedBox(height: 12),
+                      LevelSummary(
+                        progress: progress,
+                        onTap: () => showRankLadder(context, progress),
+                      ),
                     ],
-                  ),
+                  ],
                 ),
               ),
-              const SizedBox(height: 18),
+              const SizedBox(height: 22),
             ],
             const MarkerHeadline(lead: 'Pick your', marked: 'sport.'),
             const SizedBox(height: 26),

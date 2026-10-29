@@ -8,9 +8,21 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'support/fakes.dart';
 
+/// A player's progress as the API sends it: level 1 below 100 XP.
+Map<String, dynamic> progress({required int xp}) => {
+  'xp': xp,
+  'level': xp >= 100 ? 2 : 1,
+  'levelXp': xp >= 100 ? xp - 100 : xp,
+  'levelXpNeeded': xp >= 100 ? 125 : 100,
+  'rank': 'Waterboy',
+};
+
 /// A logged-in app whose fake API serves a two-question NFL Players round.
 /// Question 1's answer is "Tom Brady" (index 1), question 2's is "1967" (index 1).
-Future<TestApp> quizApp({List<Map<String, dynamic>> history = const []}) async {
+Future<TestApp> quizApp({
+  List<Map<String, dynamic>> history = const [],
+  int startXp = 0,
+}) async {
   final answers = <int, int>{};
   const correct = {101: 1, 102: 1};
 
@@ -76,29 +88,50 @@ Future<TestApp> quizApp({List<Map<String, dynamic>> history = const []}) async {
               'correct': correct[id] == answers[id],
             },
         ];
+        final score = review.where((r) => r['correct'] == true).length;
         return jsonResponse(200, {
           'gameId': 50,
-          'score': review.where((r) => r['correct'] == true).length,
+          'score': score,
           'total': 2,
           'review': review,
+          'xp': {
+            'correct': score * 10,
+            'round': 20,
+            'perfect': 0,
+            'total': score * 10 + 20,
+          },
+          'before': progress(xp: startXp),
+          'after': progress(xp: startXp + score * 10 + 20),
         });
+      case '/me/progress':
+        return jsonResponse(200, progress(xp: startXp));
       case '/games/history':
         return jsonResponse(200, history);
-      case '/leaderboard?sportId=2&top=100':
-        return jsonResponse(200, [
-          {
-            'rank': 1,
-            'displayName': 'lebron',
-            'bestScore': 10,
-            'gamesPlayed': 4,
-          },
-          {
-            'rank': 3,
-            'displayName': 'kobe24',
-            'bestScore': 1,
-            'gamesPlayed': 2,
-          },
-        ]);
+      case '/leaderboard?sportId=2':
+        final me = {
+          'rank': 3,
+          'displayName': 'kobe24',
+          'xp': 60,
+          'level': 1,
+          'rankName': 'Waterboy',
+          'bestScore': 1,
+          'gamesPlayed': 2,
+        };
+        return jsonResponse(200, {
+          'top': [
+            {
+              'rank': 1,
+              'displayName': 'lebron',
+              'xp': 600,
+              'level': 4,
+              'rankName': 'Waterboy',
+              'bestScore': 10,
+              'gamesPlayed': 4,
+            },
+            me,
+          ],
+          'me': me,
+        });
     }
     return jsonResponse(404, {'error': 'Not found'});
   });
@@ -226,6 +259,13 @@ void main() {
       expect(find.bySemanticsLabel('Your best: 1/2, new best'), findsOneWidget);
       expect(find.bySemanticsLabel('Streak: 1'), findsOneWidget);
       expect(find.bySemanticsLabel('Rank: #3'), findsOneWidget);
+      expect(
+        find.bySemanticsLabel(
+          '30 XP earned. Level 1, 30 of 100 XP to the next level',
+        ),
+        findsOneWidget,
+      );
+      expect(find.text('LEVEL UP'), findsNothing, reason: 'still level 1');
 
       await tester.scrollUntilVisible(
         find.text('YOUR ANSWERS'),
@@ -246,6 +286,33 @@ void main() {
       );
     },
   );
+
+  testWidgets('A round that crosses a level shows the level-up screen', (
+    tester,
+  ) async {
+    usePhoneScreen(tester);
+    // 90 XP before; one right answer (+30) reaches level 2 at 100.
+    await launch(tester, await quizApp(startXp: 90));
+    await startRound(tester);
+
+    await tester.tap(find.text('Tom Brady'));
+    await settle(tester);
+    await tester.pump(QuizScreen.rightPause);
+    await settle(tester);
+    await tester.tap(find.text('1969'));
+    await settle(tester);
+    await tester.tap(find.text('Results'));
+    await settleRequest(tester);
+
+    expect(find.text('LEVEL UP'), findsOneWidget);
+    expect(find.text('Level 2'), findsOneWidget);
+    expect(find.text('+30 XP this round'), findsOneWidget);
+
+    await tester.tap(find.text('Nice'));
+    await settle(tester);
+    expect(find.text('LEVEL UP'), findsNothing);
+    expect(find.text('You know some ball.'), findsOneWidget);
+  });
 
   testWidgets('Quitting asks first; Keep playing stays, Leave goes back', (
     tester,

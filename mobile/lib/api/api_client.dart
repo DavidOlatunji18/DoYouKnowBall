@@ -185,13 +185,69 @@ class ReviewItem {
   final bool correct;
 }
 
-/// A finished, saved round, scored by the server.
+/// Where a round's XP came from: correct answers, finishing, and the perfect bonus.
+class XpEarned {
+  const XpEarned({
+    required this.correct,
+    required this.round,
+    required this.perfect,
+    required this.total,
+  });
+
+  factory XpEarned.fromJson(Map<String, dynamic> json) => XpEarned(
+    correct: json['correct'] as int,
+    round: json['round'] as int,
+    perfect: json['perfect'] as int,
+    total: json['total'] as int,
+  );
+
+  final int correct;
+  final int round;
+  final int perfect;
+  final int total;
+}
+
+/// A player's XP, level and rank. [levelXp] is the XP gained since reaching
+/// [level], out of [levelXpNeeded] for the next one.
+class Progress {
+  const Progress({
+    required this.xp,
+    required this.level,
+    required this.levelXp,
+    required this.levelXpNeeded,
+    required this.rank,
+  });
+
+  factory Progress.fromJson(Map<String, dynamic> json) => Progress(
+    xp: json['xp'] as int,
+    level: json['level'] as int,
+    levelXp: json['levelXp'] as int,
+    levelXpNeeded: json['levelXpNeeded'] as int,
+    rank: json['rank'] as String,
+  );
+
+  final int xp;
+  final int level;
+  final int levelXp;
+  final int levelXpNeeded;
+
+  /// The rank's name, e.g. "Real Fan".
+  final String rank;
+
+  double get fraction =>
+      levelXpNeeded == 0 ? 0 : (levelXp / levelXpNeeded).clamp(0, 1);
+}
+
+/// A finished, saved round, scored by the server, with the XP it earned.
 class GameResult {
   const GameResult({
     required this.gameId,
     required this.score,
     required this.total,
     required this.review,
+    required this.xp,
+    required this.before,
+    required this.after,
   });
 
   factory GameResult.fromJson(Map<String, dynamic> json) => GameResult(
@@ -201,18 +257,32 @@ class GameResult {
     review: (json['review'] as List<dynamic>)
         .map((j) => ReviewItem.fromJson(j as Map<String, dynamic>))
         .toList(),
+    xp: XpEarned.fromJson(json['xp'] as Map<String, dynamic>),
+    before: Progress.fromJson(json['before'] as Map<String, dynamic>),
+    after: Progress.fromJson(json['after'] as Map<String, dynamic>),
   );
 
   final int gameId;
   final int score;
   final int total;
   final List<ReviewItem> review;
+  final XpEarned xp;
+
+  /// The player's progress before and after this round.
+  final Progress before;
+  final Progress after;
 }
 
+/// One player on a leaderboard. [xp] is what they earned on this board (all
+/// sports, or one); [level] and [rankName] are their overall progress.
+/// [bestScore] is only set on sport boards.
 class LeaderboardEntry {
   const LeaderboardEntry({
     required this.rank,
     required this.displayName,
+    required this.xp,
+    required this.level,
+    required this.rankName,
     required this.bestScore,
     required this.gamesPlayed,
   });
@@ -221,14 +291,39 @@ class LeaderboardEntry {
       LeaderboardEntry(
         rank: json['rank'] as int,
         displayName: json['displayName'] as String,
-        bestScore: json['bestScore'] as int,
+        xp: json['xp'] as int,
+        level: json['level'] as int,
+        rankName: json['rankName'] as String,
+        bestScore: json['bestScore'] as int?,
         gamesPlayed: json['gamesPlayed'] as int,
       );
 
+  /// Position on the board; tied players share it.
   final int rank;
   final String displayName;
-  final int bestScore;
+  final int xp;
+  final int level;
+  final String rankName;
+  final int? bestScore;
   final int gamesPlayed;
+}
+
+/// The top players, plus the caller's own row ([me] is null if they haven't
+/// played on this board yet).
+class Leaderboard {
+  const Leaderboard({required this.top, required this.me});
+
+  factory Leaderboard.fromJson(Map<String, dynamic> json) => Leaderboard(
+    top: (json['top'] as List<dynamic>)
+        .map((j) => LeaderboardEntry.fromJson(j as Map<String, dynamic>))
+        .toList(),
+    me: json['me'] == null
+        ? null
+        : LeaderboardEntry.fromJson(json['me'] as Map<String, dynamic>),
+  );
+
+  final List<LeaderboardEntry> top;
+  final LeaderboardEntry? me;
 }
 
 /// Talks to the Do You Know Ball? API. Attaches the saved JWT to every request
@@ -325,13 +420,16 @@ class ApiClient {
   Future<GameResult> submitGame(String sessionToken) =>
       _post('/games', {'sessionToken': sessionToken}, GameResult.fromJson);
 
-  /// Each player's best score in a sport, ranked.
-  Future<List<LeaderboardEntry>> leaderboard(
-    int sportId, {
-    int top = 100,
-  }) async => (await _get<List<dynamic>>(
-    '/leaderboard?sportId=$sportId&top=$top',
-  )).map((j) => LeaderboardEntry.fromJson(j as Map<String, dynamic>)).toList();
+  /// The top 10 players by XP: across all sports, or in one when [sportId] is given.
+  Future<Leaderboard> leaderboard({int? sportId}) async => Leaderboard.fromJson(
+    await _get<Map<String, dynamic>>(
+      sportId == null ? '/leaderboard' : '/leaderboard?sportId=$sportId',
+    ),
+  );
+
+  /// The logged-in player's XP, level and rank.
+  Future<Progress> progress() async =>
+      Progress.fromJson(await _get<Map<String, dynamic>>('/me/progress'));
 
   Future<T> _get<T>(String path) async {
     try {

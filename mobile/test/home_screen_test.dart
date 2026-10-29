@@ -34,6 +34,15 @@ Future<TestApp> loggedInApp({
         ]);
       case '/games/history':
         return jsonResponse(200, history);
+      case '/me/progress':
+        // Level 23, Real Fan: 640 of 1,000 XP into the level.
+        return jsonResponse(200, {
+          'xp': 12840,
+          'level': 23,
+          'levelXp': 640,
+          'levelXpNeeded': 1000,
+          'rank': 'Real Fan',
+        });
       case '/sports/2/categories':
         return jsonResponse(200, [
           {'id': 10, 'name': 'History', 'sportId': 2},
@@ -57,6 +66,12 @@ void main() {
 
     expect(find.bySemanticsLabel('Welcome @kobe24'), findsOneWidget);
     expect(find.text('Football'), findsOneWidget);
+    expect(
+      find.bySemanticsLabel(
+        'Real Fan, level 23, 640 of 1000 XP to the next level',
+      ),
+      findsOneWidget,
+    );
     expect(find.text('Soccer'), findsOneWidget);
     expect(find.text('History, records & players'), findsOneWidget);
     expect(find.byType(AppNavBar), findsOneWidget);

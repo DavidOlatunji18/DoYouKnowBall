@@ -6,18 +6,30 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'support/fakes.dart';
 
-Map<String, dynamic> entry(int rank, String name, int best, int games) => {
+Map<String, dynamic> entry(
+  int rank,
+  String name,
+  int xp, {
+  int level = 23,
+  String rankName = 'Real Fan',
+  int? best,
+  int games = 3,
+}) => {
   'rank': rank,
   'displayName': name,
+  'xp': xp,
+  'level': level,
+  'rankName': rankName,
   'bestScore': best,
   'gamesPlayed': games,
 };
 
-/// A logged-in app (as @kobe24) whose fake API serves the given boards by sport id:
-/// NFL is sport 2, Soccer is sport 3.
+/// A logged-in app (as @kobe24) whose fake API serves the global board and one
+/// board per sport id: NFL is sport 2, Soccer is sport 3.
 Future<TestApp> leaderboardApp({
-  List<Map<String, dynamic>> nfl = const [],
-  List<Map<String, dynamic>> soccer = const [],
+  Map<String, dynamic> global = const {'top': [], 'me': null},
+  Map<String, dynamic> nfl = const {'top': [], 'me': null},
+  Map<String, dynamic> soccer = const {'top': [], 'me': null},
 }) async {
   final app = TestApp((RequestOptions request) {
     switch (request.path) {
@@ -26,6 +38,14 @@ Future<TestApp> leaderboardApp({
           'id': 1,
           'email': 'k@b.co',
           'displayName': 'kobe24',
+        });
+      case '/me/progress':
+        return jsonResponse(200, {
+          'xp': 6640,
+          'level': 23,
+          'levelXp': 640,
+          'levelXpNeeded': 1000,
+          'rank': 'Real Fan',
         });
       case '/sports':
         return jsonResponse(200, [
@@ -36,9 +56,11 @@ Future<TestApp> leaderboardApp({
         return jsonResponse(200, [
           {'id': 10, 'name': 'History', 'sportId': 2},
         ]);
-      case '/leaderboard?sportId=2&top=100':
+      case '/leaderboard':
+        return jsonResponse(200, global);
+      case '/leaderboard?sportId=2':
         return jsonResponse(200, nfl);
-      case '/leaderboard?sportId=3&top=100':
+      case '/leaderboard?sportId=3':
         return jsonResponse(200, soccer);
     }
     return jsonResponse(404, {'error': 'Not found'});
@@ -57,62 +79,127 @@ Future<void> openLeaderboard(WidgetTester tester) async {
   await settleRequest(tester);
 }
 
+/// The page itself, not the sideways tabs.
+final pageScroller = find.byWidgetPredicate(
+  (w) => w is Scrollable && w.axisDirection == AxisDirection.down,
+);
+
 void main() {
-  testWidgets('Shows the top three on the podium and highlights you below', (
+  testWidgets('Global shows the top players by XP with level and rank', (
+    tester,
+  ) async {
+    usePhoneScreen(tester);
+    final me = entry(4, 'kobe24', 6640);
+    final app = await leaderboardApp(
+      global: {
+        'top': [
+          entry(1, 'lebron', 48210, level: 104, rankName: 'YKB'),
+          entry(2, 'steph', 39560, level: 88, rankName: 'GOAT'),
+          entry(2, 'kd', 39560, level: 88, rankName: 'GOAT'),
+          me,
+        ],
+        'me': me,
+      },
+    );
+    await launch(tester, app);
+    await openLeaderboard(tester);
+
+    expect(app.adapter.requestTo('/leaderboard').path, '/leaderboard');
+    expect(find.text('GLOBAL'), findsNothing, reason: 'part of a rich label');
+    expect(
+      find.bySemanticsLabel('Rank 1, @lebron, level 104 YKB, 48,210 XP'),
+      findsOneWidget,
+    );
+    // Tied players share a rank.
+    expect(
+      find.bySemanticsLabel('Rank 2, @steph, level 88 GOAT, 39,560 XP'),
+      findsOneWidget,
+    );
+    expect(
+      find.bySemanticsLabel('Rank 2, @kd, level 88 GOAT, 39,560 XP'),
+      findsOneWidget,
+    );
+    expect(
+      find.bySemanticsLabel(
+        'Rank 4, @kobe24, you, level 23 Real Fan, 6,640 XP',
+      ),
+      findsOneWidget,
+      reason: "you're in the list, so there's no pinned row",
+    );
+    expect(find.text("You're not on the board yet"), findsNothing);
+  });
+
+  testWidgets("Below the top 10, your row is pinned under the list", (
     tester,
   ) async {
     usePhoneScreen(tester);
     await launch(
       tester,
       await leaderboardApp(
-        nfl: [
-          entry(1, 'lebron', 10, 4),
-          entry(2, 'steph', 9, 6),
-          entry(2, 'kd', 9, 2),
-          entry(4, 'kobe24', 7, 3),
-          entry(5, 'rookie', 3, 1),
-        ],
+        global: {
+          'top': [
+            for (var i = 1; i <= 10; i++) entry(i, 'pro$i', 50000 - i * 1000),
+          ],
+          'me': entry(23, 'kobe24', 6640),
+        },
       ),
     );
     await openLeaderboard(tester);
 
-    expect(find.bySemanticsLabel('Who knows ball?'), findsOneWidget);
-    expect(find.bySemanticsLabel('Rank 1, @lebron, best 10'), findsOneWidget);
-    // Tied players share a rank.
-    expect(find.bySemanticsLabel('Rank 2, @steph, best 9'), findsOneWidget);
-    expect(find.bySemanticsLabel('Rank 2, @kd, best 9'), findsOneWidget);
-    expect(
-      find.bySemanticsLabel('Rank 4, @kobe24, you, best 7, 3 games'),
-      findsOneWidget,
+    await tester.scrollUntilVisible(
+      find.textContaining('kobe24'),
+      200,
+      scrollable: pageScroller,
     );
     expect(
-      find.bySemanticsLabel('Rank 5, @rookie, best 3, 1 game'),
+      find.bySemanticsLabel(
+        'Rank 23, @kobe24, you, level 23 Real Fan, 6,640 XP',
+      ),
       findsOneWidget,
     );
-    expect(find.text('YOU'), findsOneWidget);
-    expect(find.text("You're not on the board yet"), findsNothing);
   });
 
-  testWidgets('Switching sport loads that sport, and an empty board says so', (
+  testWidgets('A sport tab ranks by XP in that sport and shows best scores', (
     tester,
   ) async {
     usePhoneScreen(tester);
-    final app = await leaderboardApp(nfl: [entry(1, 'lebron', 10, 4)]);
+    final app = await leaderboardApp(
+      global: {
+        'top': [entry(1, 'lebron', 48210, level: 104, rankName: 'YKB')],
+        'me': null,
+      },
+      nfl: {
+        'top': [
+          entry(1, 'mahomes15', 9840, level: 79, rankName: 'GOAT', best: 10),
+        ],
+        'me': null,
+      },
+    );
     await launch(tester, app);
     await openLeaderboard(tester);
-    expect(find.bySemanticsLabel('Rank 1, @lebron, best 10'), findsOneWidget);
+
+    await tester.tap(find.bySemanticsLabel('Football'));
+    await settleRequest(tester);
+
+    expect(app.adapter.requestTo('/leaderboard?sportId=2'), isNotNull);
+    expect(
+      find.bySemanticsLabel(
+        'Rank 1, @mahomes15, level 79 GOAT, 9,840 XP, best 10 out of 10',
+      ),
+      findsOneWidget,
+    );
+    expect(find.bySemanticsLabel(RegExp('@lebron')), findsNothing);
+  });
+
+  testWidgets('An empty sport says so', (tester) async {
+    usePhoneScreen(tester);
+    await launch(tester, await leaderboardApp());
+    await openLeaderboard(tester);
 
     await tester.tap(find.bySemanticsLabel('Soccer'));
     await settleRequest(tester);
 
-    expect(
-      app.adapter.requests.where(
-        (r) => r.path == '/leaderboard?sportId=3&top=100',
-      ),
-      hasLength(1),
-    );
     expect(find.text('No scores yet'), findsOneWidget);
-    expect(find.bySemanticsLabel('Rank 1, @lebron, best 10'), findsNothing);
   });
 
   testWidgets("If you haven't played, a nudge takes you to that sport", (
@@ -122,19 +209,21 @@ void main() {
     await launch(
       tester,
       await leaderboardApp(
-        nfl: [entry(1, 'lebron', 10, 4), entry(2, 'steph', 9, 6)],
+        nfl: {
+          'top': [entry(1, 'mahomes15', 9840, best: 10)],
+          'me': null,
+        },
       ),
     );
     await openLeaderboard(tester);
+    await tester.tap(find.bySemanticsLabel('Football'));
+    await settleRequest(tester);
 
     expect(find.text("You're not on the board yet"), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Play a round'),
       200,
-      // The page itself, not the sideways sport switcher.
-      scrollable: find.byWidgetPredicate(
-        (w) => w is Scrollable && w.axisDirection == AxisDirection.down,
-      ),
+      scrollable: pageScroller,
     );
     await tester.tap(find.text('Play a round'));
     await settleRequest(tester);

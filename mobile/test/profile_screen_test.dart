@@ -45,7 +45,13 @@ void main() {
 
     expect(find.text('@kobe24'), findsOneWidget);
     expect(find.text('3'), findsOneWidget); // games
-    expect(find.text('60%'), findsOneWidget); // 18 of 30 correct
+    expect(find.text('12,840'), findsOneWidget); // total XP
+    expect(
+      find.bySemanticsLabel(
+        'Real Fan, level 23, 640 of 1000 XP to the next level',
+      ),
+      findsOneWidget,
+    );
     expect(
       find.text('9/10'),
       findsWidgets,

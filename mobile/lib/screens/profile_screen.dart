@@ -7,10 +7,14 @@ import '../auth/session.dart';
 import '../format.dart';
 import '../game_events.dart';
 import '../sports.dart';
+import '../ranks.dart';
 import '../theme.dart';
 import '../widgets/brand_header.dart';
 import '../widgets/chunky_button.dart';
 import '../widgets/load_view.dart';
+import '../widgets/progress_builder.dart';
+import '../widgets/rank_badges.dart';
+import '../widgets/rank_ladder.dart';
 
 /// Profile tab: who you are, your stats, and your recent games. Stats are worked
 /// out from your game history, so there's a single request behind the screen.
@@ -48,7 +52,26 @@ class _ProfileScreenState extends State<ProfileScreen> {
               const BrandHeader(),
               const SizedBox(height: 32),
               if (user != null) ...[
-                Center(child: _Avatar(name: user.displayName)),
+                // The rank shield sits on the avatar once progress loads.
+                ProgressBuilder(
+                  builder: (context, progress) => Center(
+                    child: Stack(
+                      clipBehavior: Clip.none,
+                      children: [
+                        _Avatar(name: user.displayName),
+                        if (progress != null)
+                          Positioned(
+                            right: -10,
+                            bottom: -8,
+                            child: RankShield(
+                              rank: RankStyle.of(progress.rank),
+                              width: 36,
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
                 const SizedBox(height: 16),
                 Text(
                   '@${user.displayName}',
@@ -60,6 +83,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   user.email,
                   textAlign: TextAlign.center,
                   style: appFont(14, weight: 500, color: AppColors.muted),
+                ),
+                ProgressBuilder(
+                  builder: (context, progress) => progress == null
+                      ? const SizedBox.shrink()
+                      : Padding(
+                          padding: const EdgeInsets.only(top: 18),
+                          child: LevelSummary(
+                            progress: progress,
+                            onTap: () => showRankLadder(context, progress),
+                          ),
+                        ),
                 ),
                 const SizedBox(height: 24),
               ],
@@ -99,8 +133,6 @@ class _StatsAndRecent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final correct = games.fold<int>(0, (sum, g) => sum + g.score);
-    final asked = games.fold<int>(0, (sum, g) => sum + g.total);
     final best = games.reduce(
       (a, b) => a.score / a.total >= b.score / b.total ? a : b,
     );
@@ -127,9 +159,11 @@ class _StatsAndRecent extends StatelessWidget {
             ),
             const SizedBox(width: 12),
             Expanded(
-              child: _StatTile(
-                value: '${(100 * correct / asked).round()}%',
-                label: 'Accuracy',
+              child: ProgressBuilder(
+                builder: (context, progress) => _StatTile(
+                  value: progress == null ? '–' : formatXp(progress.xp),
+                  label: 'Total XP',
+                ),
               ),
             ),
             const SizedBox(width: 12),
