@@ -1,0 +1,35 @@
+{
+    "name": "Do You Know Ball?",
+    "short_name": "DYKB",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ECEAF6",
+    "theme_color": "#05FF85",
+    "description": "Sports trivia: pick a sport, answer 10 questions, climb the leaderboard.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

@@ -156,6 +156,7 @@ flutter run --dart-define=API_BASE_URL=http://<your-computer-ip>:5050
 
 The API runs on **Azure App Service** with an **Azure SQL** database, both on free tiers. Release builds of the app point at it automatically.
 
+- **Play in the browser:** https://jolly-stone-01f7ca410.3.azurestaticapps.net
 - Live API: https://dykb-api-csbb.azurewebsites.net/health
 - To redeploy after changes: `az login`, then `sh infra/deploy.sh` (add `--seed` when there are new migrations or questions)
 - Full setup, limits and commands: [infra/deploy.md](infra/deploy.md)

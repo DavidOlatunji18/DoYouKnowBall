@@ -77,6 +77,27 @@ az sql server firewall-rule update -g dykb-rg -s dykb-sql-csbb -n DevMac \
   --start-ip-address "$(curl -s https://api.ipify.org)" --end-ip-address "$(curl -s https://api.ipify.org)"
 ```
 
+## The website
+
+The Flutter app also runs in the browser, hosted on **Azure Static Web Apps** (Free plan, $0): **https://jolly-stone-01f7ca410.3.azurestaticapps.net**
+
+- **Resource:** `dykb-web` in `dykb-rg` (Central US).
+- **How it's built:** `flutter build web --release` turns the app into static files (`mobile/build/web`). Release builds call the live API.
+- **CORS:** the API only accepts browser requests from the site's address, set in App Service settings as `Cors__AllowedOrigins__0`. If the site gets a custom domain, add it as `Cors__AllowedOrigins__1`.
+- **Automatic deploys:** `.github/workflows/deploy-web.yml` runs the app tests, builds the site and publishes it on every push to `main` that changes `mobile/`. It needs the site's deploy token saved as a GitHub secret, once:
+
+```bash
+az staticwebapp secrets list -n dykb-web -g dykb-rg --query properties.apiKey -o tsv \
+  | gh secret set AZURE_STATIC_WEB_APPS_TOKEN --repo DavidOlatunji18/DoYouKnowBall
+```
+
+- **Deploying by hand** (from `mobile/`, after `flutter build web --release`):
+
+```bash
+npx -y @azure/static-web-apps-cli@2.0.2 deploy ./build/web --env production \
+  --deployment-token "$(az staticwebapp secrets list -n dykb-web -g dykb-rg --query properties.apiKey -o tsv)"
+```
+
 ## Pointing the app at it
 
 Release builds of the app use the live API automatically (`AppConfig.production` in `mobile/lib/config.dart`). Debug runs use the API on your computer. To play against Azure from the simulator:
