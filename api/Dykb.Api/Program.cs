@@ -22,7 +22,11 @@ var jwt = builder.Configuration.GetSection(JwtOptions.Section).Get<JwtOptions>()
 if (Encoding.UTF8.GetByteCount(jwt.Key) < 32)
     throw new InvalidOperationException("Jwt:Key must be configured and at least 32 bytes long.");
 
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+// Retries cover the free Azure SQL tier, which pauses when idle and refuses connections
+// (error 40613) for up to a minute while it resumes. There are no explicit transactions,
+// so every save can be retried as a whole.
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString,
+    sql => sql.EnableRetryOnFailure(maxRetryCount: 10, maxRetryDelay: TimeSpan.FromSeconds(15), errorNumbersToAdd: null)));
 builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection(JwtOptions.Section));
 
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
