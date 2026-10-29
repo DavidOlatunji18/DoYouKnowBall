@@ -1,0 +1,1250 @@
+[
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds MLB's career home run record?",
+    "options": [
+      "Barry Bonds",
+      "Alex Rodriguez",
+      "Babe Ruth",
+      "Hank Aaron"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How many career home runs did Barry Bonds hit?",
+    "options": [
+      "762",
+      "714",
+      "755",
+      "763"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Hank Aaron finished his career with how many home runs?",
+    "options": [
+      "762",
+      "741",
+      "755",
+      "714"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Babe Ruth finished his career with how many home runs?",
+    "options": [
+      "755",
+      "660",
+      "700",
+      "714"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the single-season home run record?",
+    "options": [
+      "Aaron Judge",
+      "Barry Bonds",
+      "Sammy Sosa",
+      "Mark McGwire"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Barry Bonds set the single-season home run record in 2001 with how many?",
+    "options": [
+      "75",
+      "73",
+      "70",
+      "66"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Roger Maris hit how many home runs in 1961 to break Babe Ruth's record?",
+    "options": [
+      "65",
+      "60",
+      "61",
+      "62"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Aaron Judge set the American League home run record in 2022 with how many?",
+    "options": [
+      "59",
+      "62",
+      "61",
+      "65"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Whose American League home run record did Aaron Judge break in 2022?",
+    "options": [
+      "Alex Rodriguez",
+      "Mickey Mantle",
+      "Roger Maris",
+      "Babe Ruth"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Mark McGwire hit how many home runs in 1998?",
+    "options": [
+      "61",
+      "66",
+      "70",
+      "73"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds MLB's career hits record?",
+    "options": [
+      "Derek Jeter",
+      "Hank Aaron",
+      "Ty Cobb",
+      "Pete Rose"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How many career hits did Pete Rose collect?",
+    "options": [
+      "4,412",
+      "3,771",
+      "4,189",
+      "4,256"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Before Negro Leagues stats were added in 2024, who had the highest career batting average?",
+    "options": [
+      "Rogers Hornsby",
+      "Tony Gwynn",
+      "Ted Williams",
+      "Ty Cobb"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "After Negro Leagues stats were added in 2024, who became MLB's career batting average leader?",
+    "options": [
+      "Satchel Paige",
+      "Cool Papa Bell",
+      "Josh Gibson",
+      "Oscar Charleston"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who was the last player to hit .400 in a season?",
+    "options": [
+      "Tony Gwynn",
+      "Ted Williams",
+      "George Brett",
+      "Ty Cobb"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Ted Williams hit what average in 1941?",
+    "options": [
+      ".406",
+      ".424",
+      ".400",
+      ".412"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Joe DiMaggio's 1941 hitting streak lasted how many games?",
+    "options": [
+      "61",
+      "56",
+      "50",
+      "44"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Cal Ripken Jr. played how many consecutive games?",
+    "options": [
+      "2,632",
+      "2,801",
+      "2,130",
+      "2,500"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Whose consecutive-games record did Cal Ripken Jr. break in 1995?",
+    "options": [
+      "Joe DiMaggio",
+      "Lou Gehrig",
+      "Babe Ruth",
+      "Pete Rose"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Which pitcher has the most career wins?",
+    "options": [
+      "Walter Johnson",
+      "Christy Mathewson",
+      "Cy Young",
+      "Greg Maddux"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How many career wins did Cy Young record?",
+    "options": [
+      "417",
+      "511",
+      "530",
+      "455"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the record for career strikeouts by a pitcher?",
+    "options": [
+      "Steve Carlton",
+      "Randy Johnson",
+      "Roger Clemens",
+      "Nolan Ryan"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How many career strikeouts did Nolan Ryan record?",
+    "options": [
+      "5,714",
+      "4,875",
+      "5,236",
+      "6,102"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Nolan Ryan threw a record number of no-hitters. How many?",
+    "options": [
+      "4",
+      "9",
+      "7",
+      "5"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds MLB's career saves record?",
+    "options": [
+      "Mariano Rivera",
+      "Dennis Eckersley",
+      "Trevor Hoffman",
+      "Lee Smith"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who set the single-season saves record with 62 in 2008?",
+    "options": [
+      "Francisco Rodriguez",
+      "Mariano Rivera",
+      "Eric Gagne",
+      "Bobby Thigpen"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career stolen bases record?",
+    "options": [
+      "Rickey Henderson",
+      "Tim Raines",
+      "Ty Cobb",
+      "Lou Brock"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Rickey Henderson set the single-season stolen base record in 1982 with how many?",
+    "options": [
+      "104",
+      "142",
+      "130",
+      "118"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Whose career stolen base record did Rickey Henderson break in 1991?",
+    "options": [
+      "Vince Coleman",
+      "Ty Cobb",
+      "Lou Brock",
+      "Maury Wills"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds MLB's official career RBI record?",
+    "options": [
+      "Albert Pujols",
+      "Babe Ruth",
+      "Barry Bonds",
+      "Hank Aaron"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Hack Wilson set the single-season RBI record in 1930 with how many?",
+    "options": [
+      "175",
+      "191",
+      "184",
+      "165"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Ichiro Suzuki set the single-season hits record in 2004 with how many?",
+    "options": [
+      "257",
+      "240",
+      "270",
+      "262"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Whose single-season hits record did Ichiro break in 2004?",
+    "options": [
+      "Rogers Hornsby",
+      "George Sisler",
+      "Pete Rose",
+      "Ty Cobb"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "What is the MLB record for strikeouts by a pitcher in a nine-inning game?",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "17"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who has won the most Cy Young Awards, with seven?",
+    "options": [
+      "Roger Clemens",
+      "Randy Johnson",
+      "Clayton Kershaw",
+      "Greg Maddux"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who has won the most MVP awards, with seven?",
+    "options": [
+      "Stan Musial",
+      "Mike Trout",
+      "Barry Bonds",
+      "Shohei Ohtani"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "In 2024, Shohei Ohtani became the first player to have a season with how many home runs and stolen bases?",
+    "options": [
+      "50 and 50",
+      "60 and 40",
+      "40 and 40",
+      "45 and 45"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How many home runs did Shohei Ohtani hit in his 2024 season?",
+    "options": [
+      "58",
+      "54",
+      "50",
+      "62"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for walks?",
+    "options": [
+      "Ted Williams",
+      "Barry Bonds",
+      "Rickey Henderson",
+      "Babe Ruth"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Barry Bonds drew a record number of intentional walks in 2004. How many?",
+    "options": [
+      "145",
+      "88",
+      "120",
+      "68"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Bob Gibson posted an ERA of 1.12 in which season?",
+    "options": [
+      "1971",
+      "1965",
+      "1968",
+      "1975"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Which season is called 'The Year of the Pitcher'?",
+    "options": [
+      "1985",
+      "1972",
+      "1968",
+      "1963"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Orel Hershiser set the record for consecutive scoreless innings in 1988. How many?",
+    "options": [
+      "52",
+      "65",
+      "59",
+      "45"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who is the only pitcher to throw no-hitters in back-to-back starts?",
+    "options": [
+      "Nolan Ryan",
+      "Johnny Vander Meer",
+      "Max Scherzer",
+      "Sandy Koufax"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for grand slams, with 25?",
+    "options": [
+      "Alex Rodriguez",
+      "Lou Gehrig",
+      "Albert Pujols",
+      "Manny Ramirez"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "What is the most home runs one player has hit in a single MLB game?",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who hit two grand slams in the same inning in 1999?",
+    "options": [
+      "Ken Griffey Jr.",
+      "Fernando Tatis",
+      "Sammy Sosa",
+      "Mark McGwire"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Yogi Berra won a record number of World Series rings as a player. How many?",
+    "options": [
+      "12",
+      "8",
+      "10",
+      "7"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "In 2022, Albert Pujols became the fourth player to reach how many career home runs?",
+    "options": [
+      "600",
+      "700",
+      "750",
+      "650"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Nolan Ryan set the modern single-season strikeout record in 1973 with how many?",
+    "options": [
+      "340",
+      "383",
+      "401",
+      "365"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for triples?",
+    "options": [
+      "Roberto Clemente",
+      "Honus Wagner",
+      "Ty Cobb",
+      "Sam Crawford"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for doubles?",
+    "options": [
+      "Pete Rose",
+      "Tris Speaker",
+      "Ty Cobb",
+      "Stan Musial"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for runs scored?",
+    "options": [
+      "Rickey Henderson",
+      "Babe Ruth",
+      "Barry Bonds",
+      "Ty Cobb"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who has played the most games in MLB history?",
+    "options": [
+      "Pete Rose",
+      "Hank Aaron",
+      "Cal Ripken Jr.",
+      "Carl Yastrzemski"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for shutouts, with 110?",
+    "options": [
+      "Walter Johnson",
+      "Cy Young",
+      "Christy Mathewson",
+      "Pete Alexander"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Greg Maddux won a record number of Gold Gloves. How many?",
+    "options": [
+      "16",
+      "12",
+      "18",
+      "15"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the rookie home run record, with 53 in 2019?",
+    "options": [
+      "Cody Bellinger",
+      "Mark McGwire",
+      "Aaron Judge",
+      "Pete Alonso"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Aaron Judge hit how many home runs as a rookie in 2017?",
+    "options": [
+      "49",
+      "53",
+      "44",
+      "52"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Sammy Sosa hit 60 or more home runs in how many seasons?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Ted Williams reached base in a record number of consecutive games. How many?",
+    "options": [
+      "84",
+      "68",
+      "101",
+      "56"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Aroldis Chapman threw the fastest pitch on record in 2010. How fast?",
+    "options": [
+      "105.8 mph",
+      "103.4 mph",
+      "101.2 mph",
+      "108.1 mph"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "The longest MLB game by innings, in 1920, went how many innings?",
+    "options": [
+      "30",
+      "26",
+      "19",
+      "22"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "The 2001 Seattle Mariners tied the record for regular-season wins. How many?",
+    "options": [
+      "108",
+      "116",
+      "112",
+      "120"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "The 2024 Chicago White Sox set the modern record for losses. How many?",
+    "options": [
+      "125",
+      "116",
+      "121",
+      "111"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Cleveland won how many games in a row in 2017, the longest streak in decades?",
+    "options": [
+      "18",
+      "26",
+      "20",
+      "22"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who was known as 'Mr. October' for his postseason heroics?",
+    "options": [
+      "Babe Ruth",
+      "Derek Jeter",
+      "Reggie Jackson",
+      "David Ortiz"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who won the most batting titles in MLB history?",
+    "options": [
+      "Tony Gwynn",
+      "Honus Wagner",
+      "Ty Cobb",
+      "Rod Carew"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "A hitter wins the Triple Crown by leading the league in batting average, home runs and what?",
+    "options": [
+      "Runs",
+      "Stolen bases",
+      "Hits",
+      "RBIs"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who was the last player to win the batting Triple Crown, in 2012?",
+    "options": [
+      "Mike Trout",
+      "Albert Pujols",
+      "Josh Hamilton",
+      "Miguel Cabrera"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "A pitcher's Triple Crown means leading the league in wins, ERA and what?",
+    "options": [
+      "Saves",
+      "Innings pitched",
+      "Complete games",
+      "Strikeouts"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How many outs does each team get in a regulation nine-inning game?",
+    "options": [
+      "18",
+      "27",
+      "24",
+      "30"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "What does ERA stand for?",
+    "options": [
+      "Earned runs allowed",
+      "Earned run average",
+      "Expected run average",
+      "Effective run average"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "OPS adds on-base percentage to what?",
+    "options": [
+      "Walk rate",
+      "Home run rate",
+      "Batting average",
+      "Slugging percentage"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "WHIP measures walks plus hits per what?",
+    "options": [
+      "Game started",
+      "Inning pitched",
+      "Batter faced",
+      "Nine innings"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "A .300 hitter gets a hit in about how many out of 10 at-bats?",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "A player who hits a single, double, triple and home run in one game has done what?",
+    "options": [
+      "Won the Triple Crown",
+      "Hit a grand slam",
+      "Hit a golden sombrero",
+      "Hit for the cycle"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "What is it called when a batter strikes out four times in one game?",
+    "options": [
+      "A cycle",
+      "A platinum sombrero",
+      "A golden sombrero",
+      "A hat trick"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "What is it called when a pitcher strikes out the side on exactly nine pitches?",
+    "options": [
+      "A perfect inning",
+      "A maddux",
+      "A golden inning",
+      "An immaculate inning"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "What is it called when a pitcher allows no baserunners in a complete game?",
+    "options": [
+      "A maddux",
+      "A no-hitter",
+      "A shutout",
+      "A perfect game"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Sammy Sosa set the record for home runs in a single month in June 1998. How many?",
+    "options": [
+      "18",
+      "23",
+      "20",
+      "15"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Cy Young holds the career record for losses as well as wins. How many losses?",
+    "options": [
+      "341",
+      "279",
+      "244",
+      "316"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for strikeouts by a batter?",
+    "options": [
+      "Alex Rodriguez",
+      "Jim Thome",
+      "Adam Dunn",
+      "Reggie Jackson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who signed the largest contract in MLB history in December 2024?",
+    "options": [
+      "Juan Soto",
+      "Mike Trout",
+      "Aaron Judge",
+      "Shohei Ohtani"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How much was Shohei Ohtani's contract with the Dodgers, signed in December 2023?",
+    "options": [
+      "$700 million",
+      "$600 million",
+      "$500 million",
+      "$765 million"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the single-game RBI record of 12, along with Jim Bottomley?",
+    "options": [
+      "Tony Lazzeri",
+      "Fernando Tatis",
+      "Mark Whiten",
+      "Albert Pujols"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Derek Jeter finished his career with how many hits?",
+    "options": [
+      "3,630",
+      "3,465",
+      "3,255",
+      "3,000"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who was the first player to hit 40 home runs and steal 40 bases in a season, in 1988?",
+    "options": [
+      "Barry Bonds",
+      "Jose Canseco",
+      "Alex Rodriguez",
+      "Rickey Henderson"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "In 2023, Ronald Acuña Jr. became the first player with 40 home runs and at least how many steals in a season?",
+    "options": [
+      "70",
+      "50",
+      "80",
+      "60"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Babe Ruth's career slugging percentage, the highest ever before 2024's Negro Leagues update, was about what?",
+    "options": [
+      ".634",
+      ".600",
+      ".690",
+      ".750"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for hit by pitches, with 287?",
+    "options": [
+      "Craig Biggio",
+      "Don Baylor",
+      "Ron Hunt",
+      "Hughie Jennings"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Craig Biggio was hit by how many pitches in his career, the most since 1900?",
+    "options": [
+      "241",
+      "285",
+      "198",
+      "310"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Barry Bonds won how many National League MVP awards in a row from 2001 to 2004?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Lou Gehrig played how many consecutive games, the record before Cal Ripken Jr.?",
+    "options": [
+      "1,897",
+      "2,005",
+      "2,130",
+      "2,370"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most strikeouts in a single World Series game, with 17 in 1968?",
+    "options": [
+      "Bob Gibson",
+      "Sandy Koufax",
+      "Denny McLain",
+      "Mickey Lolich"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "Who hit 61 home runs in 1961 alongside Mickey Mantle's 54?",
+    "options": [
+      "Whitey Ford",
+      "Elston Howard",
+      "Yogi Berra",
+      "Roger Maris"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Records and Stats",
+    "text": "How many home runs did Mickey Mantle hit in 1961 while chasing Babe Ruth's record?",
+    "options": [
+      "52",
+      "54",
+      "58",
+      "49"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  }
+]

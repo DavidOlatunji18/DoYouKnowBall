@@ -1,0 +1,1159 @@
+[
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the NHL record for career goals?",
+    "options": [
+      "Gordie Howe",
+      "Alex Ovechkin",
+      "Jaromir Jagr",
+      "Wayne Gretzky"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "In which year did Alex Ovechkin break Wayne Gretzky's career goals record?",
+    "options": [
+      "2024",
+      "2026",
+      "2023",
+      "2025"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky finished his career with how many goals?",
+    "options": [
+      "856",
+      "894",
+      "912",
+      "801"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Alex Ovechkin scored his record-breaking 895th goal against which team?",
+    "options": [
+      "New York Islanders",
+      "Philadelphia Flyers",
+      "Pittsburgh Penguins",
+      "New York Rangers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the NHL record for career points?",
+    "options": [
+      "Wayne Gretzky",
+      "Mark Messier",
+      "Alex Ovechkin",
+      "Jaromir Jagr"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky finished his career with how many points?",
+    "options": [
+      "1,921",
+      "2,415",
+      "2,857",
+      "3,032"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the NHL record for career assists?",
+    "options": [
+      "Mark Messier",
+      "Ron Francis",
+      "Ray Bourque",
+      "Wayne Gretzky"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky's assists alone would rank where on the all-time points list?",
+    "options": [
+      "Tenth",
+      "Fifth",
+      "First",
+      "Second"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who ranks second on the NHL's all-time points list?",
+    "options": [
+      "Mark Messier",
+      "Jaromir Jagr",
+      "Gordie Howe",
+      "Sidney Crosby"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky set the single-season goals record in 1981-82 with how many?",
+    "options": [
+      "87",
+      "99",
+      "76",
+      "92"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky set the single-season points record in 1985-86 with how many?",
+    "options": [
+      "199",
+      "183",
+      "215",
+      "232"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky scored 50 goals in how few games in 1981-82, a record?",
+    "options": [
+      "39",
+      "44",
+      "47",
+      "50"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who was the first player to score 50 goals in 50 games, in 1944-45?",
+    "options": [
+      "Jean Beliveau",
+      "Maurice Richard",
+      "Gordie Howe",
+      "Bobby Hull"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most NHL games played, with 1,779?",
+    "options": [
+      "Patrick Marleau",
+      "Mark Messier",
+      "Jaromir Jagr",
+      "Gordie Howe"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Patrick Marleau broke whose record for most career games played?",
+    "options": [
+      "Chris Chelios",
+      "Gordie Howe",
+      "Mark Messier",
+      "Ron Francis"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Which goalie has the most career wins?",
+    "options": [
+      "Patrick Roy",
+      "Martin Brodeur",
+      "Marc-André Fleury",
+      "Roberto Luongo"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Which goalie has the most career shutouts?",
+    "options": [
+      "George Hainsworth",
+      "Martin Brodeur",
+      "Dominik Hasek",
+      "Terry Sawchuk"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who won a record 11 Stanley Cups as a player?",
+    "options": [
+      "Henri Richard",
+      "Maurice Richard",
+      "Yvan Cournoyer",
+      "Jean Beliveau"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for career playoff points?",
+    "options": [
+      "Mark Messier",
+      "Sidney Crosby",
+      "Wayne Gretzky",
+      "Jari Kurri"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most consecutive games played?",
+    "options": [
+      "Doug Jarvis",
+      "Phil Kessel",
+      "Keith Yandle",
+      "Garry Unger"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Darryl Sittler set the record for points in one game in 1976. How many?",
+    "options": [
+      "12",
+      "7",
+      "10",
+      "8"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Joe Malone set the record for goals in a single game in 1920. How many?",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the career record for penalty minutes?",
+    "options": [
+      "Tiger Williams",
+      "Marty McSorley",
+      "Tie Domi",
+      "Bob Probert"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky won a record number of Hart Trophies. How many?",
+    "options": [
+      "9",
+      "7",
+      "6",
+      "10"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Which goalie won a record seven Vezina Trophies?",
+    "options": [
+      "Patrick Roy",
+      "Jacques Plante",
+      "Dominik Hasek",
+      "Martin Brodeur"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Bobby Orr won a record number of Norris Trophies. How many?",
+    "options": [
+      "9",
+      "5",
+      "8",
+      "6"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who is the only defenseman to win the Art Ross Trophy as the league's top scorer?",
+    "options": [
+      "Ray Bourque",
+      "Erik Karlsson",
+      "Bobby Orr",
+      "Paul Coffey"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who scored a goal five different ways in one game on New Year's Eve 1988?",
+    "options": [
+      "Steve Yzerman",
+      "Wayne Gretzky",
+      "Mario Lemieux",
+      "Brett Hull"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who has the highest goals-per-game average in NHL history?",
+    "options": [
+      "Mario Lemieux",
+      "Wayne Gretzky",
+      "Mike Bossy",
+      "Alex Ovechkin"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Mike Bossy scored 50 or more goals in how many straight seasons?",
+    "options": [
+      "9",
+      "6",
+      "7",
+      "11"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for career power-play goals?",
+    "options": [
+      "Alex Ovechkin",
+      "Brett Hull",
+      "Teemu Selanne",
+      "Dave Andreychuk"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Connor McDavid scored how many points in 2022-23?",
+    "options": [
+      "160",
+      "153",
+      "141",
+      "128"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Bobby Orr set the record for assists by a defenseman in a season with how many?",
+    "options": [
+      "87",
+      "110",
+      "102",
+      "95"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "In 2022-23, Erik Karlsson became the first defenseman since 1992 to reach how many points?",
+    "options": [
+      "110",
+      "90",
+      "80",
+      "100"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky holds the record for the longest point streak. How many games?",
+    "options": [
+      "58",
+      "46",
+      "51",
+      "39"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "The Philadelphia Flyers went how many games without a loss in 1979-80, a record?",
+    "options": [
+      "41",
+      "35",
+      "24",
+      "30"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "The 2022-23 Boston Bruins set the record for wins in a season with how many?",
+    "options": [
+      "65",
+      "58",
+      "62",
+      "68"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "The 2022-23 Boston Bruins set the record for points in a season with how many?",
+    "options": [
+      "135",
+      "124",
+      "129",
+      "140"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Bill Mosienko scored the fastest hat trick in NHL history in 1952. How fast?",
+    "options": [
+      "38 seconds",
+      "21 seconds",
+      "52 seconds",
+      "1 minute 4 seconds"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who set the rookie record with 76 goals in 1992-93?",
+    "options": [
+      "Teemu Selanne",
+      "Mike Bossy",
+      "Pavel Bure",
+      "Alex Ovechkin"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Teemu Selanne set the rookie points record in 1992-93 with how many?",
+    "options": [
+      "118",
+      "145",
+      "109",
+      "132"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who has won the most Conn Smythe Trophies, with three?",
+    "options": [
+      "Patrick Roy",
+      "Mario Lemieux",
+      "Wayne Gretzky",
+      "Sidney Crosby"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for career goals by a defenseman?",
+    "options": [
+      "Paul Coffey",
+      "Bobby Orr",
+      "Ray Bourque",
+      "Al MacInnis"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who scored the most career goals among American-born players?",
+    "options": [
+      "Joe Mullen",
+      "Mike Modano",
+      "Patrick Kane",
+      "Keith Tkachuk"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Gordie Howe played his last NHL season at what age?",
+    "options": [
+      "55",
+      "48",
+      "52",
+      "45"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky holds the record for career hat tricks. How many?",
+    "options": [
+      "38",
+      "50",
+      "62",
+      "44"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky had how many seasons with 100 or more points, a record?",
+    "options": [
+      "18",
+      "15",
+      "12",
+      "10"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky set the record for points in a single playoff year in 1985. How many?",
+    "options": [
+      "35",
+      "47",
+      "52",
+      "41"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who holds the record for career playoff overtime goals?",
+    "options": [
+      "Joe Sakic",
+      "Patrick Kane",
+      "Glenn Anderson",
+      "Maurice Richard"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "The longest game in NHL history, in 1936, needed how many overtimes?",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "7"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "The 1983-84 Edmonton Oilers set the record for team goals in a season. How many?",
+    "options": [
+      "446",
+      "472",
+      "398",
+      "421"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who was the first NHL goalie to score by shooting the puck into the net?",
+    "options": [
+      "Martin Brodeur",
+      "Ron Hextall",
+      "Billy Smith",
+      "Patrick Roy"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "George Hainsworth set the record for shutouts in a season in 1928-29. How many?",
+    "options": [
+      "18",
+      "22",
+      "15",
+      "25"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Glenn Hall holds the goalie record for consecutive complete games. How many?",
+    "options": [
+      "415",
+      "560",
+      "302",
+      "502"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Scotty Bowman won a record number of Stanley Cups as a coach. How many?",
+    "options": [
+      "11",
+      "6",
+      "9",
+      "7"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Which coach has the most wins in NHL history?",
+    "options": [
+      "Al Arbour",
+      "Scotty Bowman",
+      "Joel Quenneville",
+      "Barry Trotz"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who was the first player to score 500 career goals?",
+    "options": [
+      "Bobby Hull",
+      "Gordie Howe",
+      "Maurice Richard",
+      "Phil Esposito"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "In NHL statistics, a player's points are goals plus what?",
+    "options": [
+      "Shots",
+      "Assists",
+      "Blocks",
+      "Hits"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Up to how many assists can be credited on a single goal?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "What does the plus-minus stat measure?",
+    "options": [
+      "Goal differential while a player is on the ice",
+      "Shots taken minus shots allowed",
+      "Penalties drawn minus penalties taken",
+      "Faceoffs won minus faceoffs lost"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "A goalie with a .900 save percentage stops what share of shots?",
+    "options": [
+      "90 percent",
+      "80 percent",
+      "9 percent",
+      "99 percent"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How many goals in one game make a hat trick?",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "What is a 'natural hat trick'?",
+    "options": [
+      "Three goals in one period by a team",
+      "Three goals on three shots",
+      "Three power-play goals",
+      "Three goals in a row by one player"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "What is a goal scored by a team that has fewer players on the ice called?",
+    "options": [
+      "A power-play goal",
+      "An empty-net goal",
+      "A shorthanded goal",
+      "A penalty-shot goal"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "What does GAA stand for in goalie stats?",
+    "options": [
+      "Goals against average",
+      "Goals allowed adjusted",
+      "Games and assists",
+      "Goalie average action"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How long is a major penalty?",
+    "options": [
+      "5 minutes",
+      "4 minutes",
+      "10 minutes",
+      "2 minutes"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How long is a misconduct penalty?",
+    "options": [
+      "2 minutes",
+      "10 minutes",
+      "5 minutes",
+      "20 minutes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How is a tied NHL playoff game decided?",
+    "options": [
+      "Full 20-minute sudden-death overtime periods",
+      "3-on-3 overtime",
+      "A shootout",
+      "A single 5-minute overtime"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "A regular-season shootout starts with how many rounds before sudden death?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "3"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How long is a regulation NHL game?",
+    "options": [
+      "90 minutes",
+      "48 minutes",
+      "60 minutes",
+      "75 minutes"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How long is a standard NHL rink?",
+    "options": [
+      "180 feet",
+      "200 feet",
+      "220 feet",
+      "250 feet"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "What is the diameter of a hockey puck?",
+    "options": [
+      "4 inches",
+      "5 inches",
+      "2 inches",
+      "3 inches"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How big is an NHL goal opening?",
+    "options": [
+      "6 feet wide by 4 feet tall",
+      "5 feet wide by 3 feet tall",
+      "8 feet wide by 4 feet tall",
+      "6 feet wide by 6 feet tall"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Alex Ovechkin scored a career-high how many goals in 2007-08?",
+    "options": [
+      "65",
+      "56",
+      "60",
+      "70"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Auston Matthews scored how many goals in 2023-24, the most in a season since the mid-1990s?",
+    "options": [
+      "72",
+      "60",
+      "69",
+      "64"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Which number was retired across the entire NHL to honor Wayne Gretzky?",
+    "options": [
+      "99",
+      "9",
+      "66",
+      "87"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Patrick Kane passed Mike Modano in 2025 for the most career points by what kind of player?",
+    "options": [
+      "American-born",
+      "First overall pick",
+      "Left-handed",
+      "Blackhawks"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Martin Brodeur finished his career with how many wins?",
+    "options": [
+      "702",
+      "551",
+      "691",
+      "618"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky won how many Art Ross Trophies as the league's top scorer?",
+    "options": [
+      "12",
+      "7",
+      "8",
+      "10"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How many Stanley Cups did Wayne Gretzky win?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How many Stanley Cups has Sidney Crosby won?",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How many Stanley Cups did Mario Lemieux win as a player?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "How many Stanley Cups did Patrick Roy win?",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Bobby Hull was the first player to score more than 50 goals in a season, with how many in 1965-66?",
+    "options": [
+      "51",
+      "61",
+      "58",
+      "54"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Phil Esposito became the first player to reach 100 points in a season in which year?",
+    "options": [
+      "1974",
+      "1961",
+      "1965",
+      "1969"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who led the NHL in points in 2023-24 with 144?",
+    "options": [
+      "Nikita Kucherov",
+      "Connor McDavid",
+      "Nathan MacKinnon",
+      "Auston Matthews"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "In 2023-24, Connor McDavid became the fourth player ever to reach how many assists in a season?",
+    "options": [
+      "100",
+      "80",
+      "110",
+      "90"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Wayne Gretzky had how many seasons with 200 or more points?",
+    "options": [
+      "6",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Records and Stats",
+    "text": "Who is the NHL's all-time leader in goals by a player born in Europe?",
+    "options": [
+      "Teemu Selanne",
+      "Alex Ovechkin",
+      "Jari Kurri",
+      "Jaromir Jagr"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  }
+]

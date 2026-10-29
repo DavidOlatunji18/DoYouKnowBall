@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'support/fakes.dart';
@@ -127,7 +128,14 @@ void main() {
     await openLeaderboard(tester);
 
     expect(find.text("You're not on the board yet"), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('Play a round'), 200);
+    await tester.scrollUntilVisible(
+      find.text('Play a round'),
+      200,
+      // The page itself, not the sideways sport switcher.
+      scrollable: find.byWidgetPredicate(
+        (w) => w is Scrollable && w.axisDirection == AxisDirection.down,
+      ),
+    );
     await tester.tap(find.text('Play a round'));
     await settleRequest(tester);
 

@@ -1,0 +1,1276 @@
+[
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which franchise has won the most Stanley Cups?",
+    "options": [
+      "Montreal Canadiens",
+      "Toronto Maple Leafs",
+      "Detroit Red Wings",
+      "Boston Bruins"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many Stanley Cups have the Montreal Canadiens won?",
+    "options": [
+      "27",
+      "18",
+      "24",
+      "21"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which of these teams is NOT one of the 'Original Six'?",
+    "options": [
+      "Chicago Blackhawks",
+      "Detroit Red Wings",
+      "Boston Bruins",
+      "Philadelphia Flyers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which two Original Six teams are based in Canada?",
+    "options": [
+      "Toronto Maple Leafs and Vancouver Canucks",
+      "Montreal Canadiens and Ottawa Senators",
+      "Edmonton Oilers and Calgary Flames",
+      "Montreal Canadiens and Toronto Maple Leafs"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The NHL doubled from six to 12 teams with the expansion of which year?",
+    "options": [
+      "1972",
+      "1967",
+      "1960",
+      "1979"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The NHL was founded in which year?",
+    "options": [
+      "1926",
+      "1909",
+      "1917",
+      "1893"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Stanley Cup is named after Lord Stanley, who was what?",
+    "options": [
+      "Prime Minister of Canada",
+      "Governor General of Canada",
+      "Mayor of Montreal",
+      "King of England"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Stanley Cup was first awarded in which year?",
+    "options": [
+      "1917",
+      "1875",
+      "1893",
+      "1905"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "In the 1980 'Miracle on Ice,' the US Olympic team beat which country?",
+    "options": [
+      "Sweden",
+      "Canada",
+      "Soviet Union",
+      "Finland"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The 'Miracle on Ice' took place in which town?",
+    "options": [
+      "Sarajevo, Yugoslavia",
+      "Squaw Valley, California",
+      "Lake Placid, New York",
+      "Calgary, Alberta"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Who scored the winning goal for Canada in the 1972 Summit Series against the Soviet Union?",
+    "options": [
+      "Ken Dryden",
+      "Phil Esposito",
+      "Bobby Clarke",
+      "Paul Henderson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "In 1988, the Edmonton Oilers traded Wayne Gretzky to which team?",
+    "options": [
+      "Los Angeles Kings",
+      "New York Rangers",
+      "St. Louis Blues",
+      "Vancouver Canucks"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many Stanley Cups did the Edmonton Oilers win between 1984 and 1990?",
+    "options": [
+      "3",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The New York Islanders won how many straight Stanley Cups from 1980 to 1983?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Montreal Canadiens won how many straight Stanley Cups from 1956 to 1960?",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team won the Stanley Cup in both 2024 and 2025?",
+    "options": [
+      "Tampa Bay Lightning",
+      "Florida Panthers",
+      "Edmonton Oilers",
+      "Vegas Golden Knights"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team did the Florida Panthers beat in both the 2024 and 2025 Stanley Cup Finals?",
+    "options": [
+      "New York Rangers",
+      "Vancouver Canucks",
+      "Dallas Stars",
+      "Edmonton Oilers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Vegas Golden Knights won the Stanley Cup in 2023, in which season of their existence?",
+    "options": [
+      "Eighth",
+      "Sixth",
+      "Fourth",
+      "First"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "In their first season, 2017-18, the Vegas Golden Knights did what?",
+    "options": [
+      "Missed the playoffs",
+      "Won the Stanley Cup",
+      "Reached the Stanley Cup Final",
+      "Lost in the first round"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Seattle Kraken played their first NHL season in which year?",
+    "options": [
+      "2021-22",
+      "2018-19",
+      "2023-24",
+      "2019-20"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "In 2024, the Arizona Coyotes' hockey operations moved to which state?",
+    "options": [
+      "Texas",
+      "Nevada",
+      "Kansas",
+      "Utah"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The NHL team in Utah is now called what?",
+    "options": [
+      "Utah Mammoth",
+      "Utah Yetis",
+      "Utah Outlaws",
+      "Utah Blizzard"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The original Winnipeg Jets moved in 1996 and became which team?",
+    "options": [
+      "Dallas Stars",
+      "Phoenix Coyotes",
+      "Colorado Avalanche",
+      "Carolina Hurricanes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Today's Winnipeg Jets moved from which city in 2011?",
+    "options": [
+      "Phoenix",
+      "Hartford",
+      "Atlanta",
+      "Quebec City"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Quebec Nordiques moved in 1995 and became which team?",
+    "options": [
+      "Carolina Hurricanes",
+      "Phoenix Coyotes",
+      "Dallas Stars",
+      "Colorado Avalanche"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Hartford Whalers moved in 1997 and became which team?",
+    "options": [
+      "Columbus Blue Jackets",
+      "Carolina Hurricanes",
+      "Florida Panthers",
+      "Nashville Predators"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Minnesota North Stars moved in 1993 and became which team?",
+    "options": [
+      "San Jose Sharks",
+      "Dallas Stars",
+      "Colorado Avalanche",
+      "Minnesota Wild"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The New Jersey Devils were the Kansas City Scouts and then which team?",
+    "options": [
+      "Colorado Rockies",
+      "Atlanta Flames",
+      "Cleveland Barons",
+      "California Seals"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Calgary Flames moved from which city in 1980?",
+    "options": [
+      "Oakland",
+      "Kansas City",
+      "Atlanta",
+      "Cleveland"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Colorado Avalanche won the Stanley Cup in which of their seasons in Denver?",
+    "options": [
+      "Their fifth",
+      "Their third",
+      "Their tenth",
+      "Their first"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Chicago Blackhawks won Stanley Cups in 2010, 2013 and which other year?",
+    "options": [
+      "2016",
+      "2015",
+      "2011",
+      "2014"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Blackhawks' 2010 Stanley Cup was their first since which year?",
+    "options": [
+      "1961",
+      "1938",
+      "1972",
+      "1992"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The New York Rangers' 1994 Stanley Cup ended a drought of how many years?",
+    "options": [
+      "54",
+      "47",
+      "40",
+      "61"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which season was canceled entirely by a lockout?",
+    "options": [
+      "2012-13",
+      "1992-93",
+      "1994-95",
+      "2004-05"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The first NHL Winter Classic, in 2008, was between the Buffalo Sabres and which team?",
+    "options": [
+      "Chicago Blackhawks",
+      "Boston Bruins",
+      "Detroit Red Wings",
+      "Pittsburgh Penguins"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many teams are in the NHL?",
+    "options": [
+      "32",
+      "30",
+      "34",
+      "31"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "What happens to the names of the Stanley Cup champions each year?",
+    "options": [
+      "They are carved into the Hall of Fame wall",
+      "They are engraved on the Cup",
+      "They are sewn onto a banner",
+      "They are painted on the arena ice"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the playoff MVP?",
+    "options": [
+      "Art Ross Trophy",
+      "Conn Smythe Trophy",
+      "Lady Byng Trophy",
+      "Hart Trophy"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the regular-season MVP?",
+    "options": [
+      "Hart Trophy",
+      "Vezina Trophy",
+      "Conn Smythe Trophy",
+      "Ted Lindsay Award"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the best goaltender?",
+    "options": [
+      "Vezina Trophy",
+      "Jennings Trophy",
+      "Norris Trophy",
+      "Calder Trophy"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the best defenseman?",
+    "options": [
+      "Norris Trophy",
+      "Selke Trophy",
+      "Lady Byng Trophy",
+      "Vezina Trophy"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the top rookie?",
+    "options": [
+      "Hart Trophy",
+      "Art Ross Trophy",
+      "Calder Trophy",
+      "Masterton Trophy"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the player with the most points?",
+    "options": [
+      "Hart Trophy",
+      "Art Ross Trophy",
+      "Conn Smythe Trophy",
+      "Rocket Richard Trophy"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the player with the most goals?",
+    "options": [
+      "Art Ross Trophy",
+      "Selke Trophy",
+      "Lady Byng Trophy",
+      "Maurice 'Rocket' Richard Trophy"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy rewards sportsmanship and gentlemanly play?",
+    "options": [
+      "King Clancy Trophy",
+      "Masterton Trophy",
+      "Lady Byng Trophy",
+      "Selke Trophy"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the best defensive forward?",
+    "options": [
+      "Selke Trophy",
+      "Jennings Trophy",
+      "Norris Trophy",
+      "Calder Trophy"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which trophy goes to the team with the best regular-season record?",
+    "options": [
+      "Presidents' Trophy",
+      "Stanley Cup",
+      "Clarence Campbell Bowl",
+      "Prince of Wales Trophy"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Eastern Conference champion receives which trophy?",
+    "options": [
+      "Prince of Wales Trophy",
+      "Lester Patrick Trophy",
+      "Presidents' Trophy",
+      "Clarence Campbell Bowl"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Detroit Red Wings' 1997 Stanley Cup was their first since which year?",
+    "options": [
+      "1955",
+      "1987",
+      "1972",
+      "1966"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Red Wings' group of five Russian players in the 1990s was nicknamed what?",
+    "options": [
+      "The KGB Line",
+      "The Russian Five",
+      "The Moscow Line",
+      "The Red Army"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Boston Bruins won the 2011 Stanley Cup by beating which team?",
+    "options": [
+      "Vancouver Canucks",
+      "Chicago Blackhawks",
+      "Tampa Bay Lightning",
+      "Philadelphia Flyers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Los Angeles Kings won their first Stanley Cup in 2012 as which playoff seed?",
+    "options": [
+      "8th",
+      "1st",
+      "3rd",
+      "5th"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Washington Capitals won their first Stanley Cup in which year?",
+    "options": [
+      "2019",
+      "2010",
+      "2018",
+      "2016"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The St. Louis Blues won their first Stanley Cup in 2019 with which song as their anthem?",
+    "options": [
+      "Livin' on a Prayer",
+      "Don't Stop Believin'",
+      "Sweet Caroline",
+      "Gloria"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Tampa Bay Lightning won back-to-back Stanley Cups in which years?",
+    "options": [
+      "2015 and 2016",
+      "2020 and 2021",
+      "2021 and 2022",
+      "2004 and 2005"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team won the 2022 Stanley Cup?",
+    "options": [
+      "New York Rangers",
+      "Edmonton Oilers",
+      "Colorado Avalanche",
+      "Tampa Bay Lightning"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The 2020 NHL playoffs were played in 'bubbles' in which two cities?",
+    "options": [
+      "Vancouver and Toronto",
+      "Edmonton and Toronto",
+      "Las Vegas and Chicago",
+      "Edmonton and Montreal"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Helmets became mandatory for new NHL players starting in which season?",
+    "options": [
+      "1967-68",
+      "1979-80",
+      "1992-93",
+      "1985-86"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which goalie first wore a mask regularly in an NHL game, in 1959?",
+    "options": [
+      "Jacques Plante",
+      "Gump Worsley",
+      "Terry Sawchuk",
+      "Glenn Hall"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Who broke the NHL's color barrier in 1958 with the Boston Bruins?",
+    "options": [
+      "Grant Fuhr",
+      "Willie O'Ree",
+      "Tony McKegney",
+      "Mike Marson"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Who became the first woman to play in an NHL preseason game, in 1992?",
+    "options": [
+      "Cammi Granato",
+      "Angela Ruggiero",
+      "Hayley Wickenheiser",
+      "Manon Rhéaume"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The NHL introduced the shootout to settle tied regular-season games in which season?",
+    "options": [
+      "2010-11",
+      "1999-00",
+      "2003-04",
+      "2005-06"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Regular-season overtime in the NHL is played with how many skaters per side?",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "2"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many points does an NHL team get for a win in the standings?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "3"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many points does a team get for losing in overtime or a shootout?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How long is each period in an NHL game?",
+    "options": [
+      "15 minutes",
+      "30 minutes",
+      "20 minutes",
+      "25 minutes"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many periods are in a regulation NHL game?",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many players does each team have on the ice at full strength, including the goalie?",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "11"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How long is a minor penalty?",
+    "options": [
+      "2 minutes",
+      "3 minutes",
+      "5 minutes",
+      "1 minute"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "When a player scores a hat trick, what do fans traditionally throw on the ice?",
+    "options": [
+      "Rats",
+      "Teddy bears",
+      "Octopuses",
+      "Hats"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Detroit Red Wings fans are famous for throwing what onto the ice during the playoffs?",
+    "options": [
+      "Octopuses",
+      "Hats",
+      "Rats",
+      "Fish"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "What is a 'Gordie Howe hat trick'?",
+    "options": [
+      "A goal, an assist and a fight",
+      "A goal, a fight and a penalty shot",
+      "Three assists and a goal",
+      "Three goals in one period"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Toronto Maple Leafs last won the Stanley Cup in which year?",
+    "options": [
+      "1993",
+      "1967",
+      "1962",
+      "1978"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which was the first American team to join the NHL, in 1924?",
+    "options": [
+      "Boston Bruins",
+      "New York Rangers",
+      "Chicago Blackhawks",
+      "Detroit Red Wings"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "NHL players first took part in the Winter Olympics in which year?",
+    "options": [
+      "1998",
+      "1994",
+      "2002",
+      "1988"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "When NHL players returned to the Olympics in 2026, it was their first Olympics since which year?",
+    "options": [
+      "2014",
+      "2022",
+      "2010",
+      "2018"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which country won the 4 Nations Face-Off in February 2025?",
+    "options": [
+      "Canada",
+      "United States",
+      "Sweden",
+      "Finland"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The machine that resurfaces the ice between periods is commonly called what?",
+    "options": [
+      "Frostbot",
+      "Rinkster",
+      "Zamboni",
+      "Icemaster"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Who has been NHL commissioner since 1993?",
+    "options": [
+      "Roger Goodell",
+      "Gary Bettman",
+      "John Ziegler",
+      "Adam Silver"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Pittsburgh Penguins won back-to-back Stanley Cups in which years?",
+    "options": [
+      "2016 and 2017",
+      "2008 and 2009",
+      "2017 and 2018",
+      "2009 and 2010"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Pittsburgh Penguins won the 2009 Stanley Cup by beating which team?",
+    "options": [
+      "Chicago Blackhawks",
+      "San Jose Sharks",
+      "Philadelphia Flyers",
+      "Detroit Red Wings"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team won the 2007 Stanley Cup?",
+    "options": [
+      "Carolina Hurricanes",
+      "Ottawa Senators",
+      "Detroit Red Wings",
+      "Anaheim Ducks"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team won the 2006 Stanley Cup?",
+    "options": [
+      "Anaheim Ducks",
+      "Buffalo Sabres",
+      "Carolina Hurricanes",
+      "Edmonton Oilers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team won the 2004 Stanley Cup?",
+    "options": [
+      "Tampa Bay Lightning",
+      "Detroit Red Wings",
+      "Calgary Flames",
+      "New Jersey Devils"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Dallas Stars won the 1999 Stanley Cup on a disputed triple-overtime goal by which player?",
+    "options": [
+      "Joe Nieuwendyk",
+      "Sergei Zubov",
+      "Brett Hull",
+      "Mike Modano"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The New Jersey Devils won Stanley Cups in 1995, 2000 and which other year?",
+    "options": [
+      "1998",
+      "2001",
+      "2006",
+      "2003"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Ray Bourque finally won the Stanley Cup in 2001 with which team?",
+    "options": [
+      "Boston Bruins",
+      "Colorado Avalanche",
+      "New Jersey Devils",
+      "Detroit Red Wings"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "How many teams played in the NHL's first season, 1917-18?",
+    "options": [
+      "8",
+      "6",
+      "3",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Besides 2005, in which year was the Stanley Cup not awarded?",
+    "options": [
+      "1918",
+      "1945",
+      "1942",
+      "1919"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Hockey Hall of Fame is in which city?",
+    "options": [
+      "Ottawa",
+      "Montreal",
+      "Toronto",
+      "Boston"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The New Jersey Devils of the 1990s were famous for which defensive system?",
+    "options": [
+      "The left wing lock",
+      "The box-plus-one",
+      "The neutral zone trap",
+      "The full-ice press"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Montreal Canadiens' 1993 title is notable for being what?",
+    "options": [
+      "The first Cup won in overtime",
+      "The last Cup won by a Canadian team",
+      "The first Cup won by an expansion team",
+      "The first Cup won by a European captain"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team won the 2023 Stanley Cup, beating the Florida Panthers?",
+    "options": [
+      "Dallas Stars",
+      "Vegas Golden Knights",
+      "Edmonton Oilers",
+      "Carolina Hurricanes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team won the 2019 Stanley Cup, beating the Boston Bruins?",
+    "options": [
+      "St. Louis Blues",
+      "Tampa Bay Lightning",
+      "San Jose Sharks",
+      "Carolina Hurricanes"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "Which team did the Washington Capitals beat in the 2018 Stanley Cup Final?",
+    "options": [
+      "Vegas Golden Knights",
+      "Tampa Bay Lightning",
+      "Nashville Predators",
+      "Pittsburgh Penguins"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "What is 'icing' in hockey?",
+    "options": [
+      "Flipping the puck over the glass",
+      "Shooting the puck from your half past the opposing goal line untouched",
+      "Holding the puck against the boards",
+      "Entering the offensive zone before the puck"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "What is it called when a team has more players on the ice because of an opponent's penalty?",
+    "options": [
+      "A power play",
+      "A breakaway",
+      "A penalty kill",
+      "A line change"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "History",
+    "text": "The Columbus Blue Jackets and which team joined the NHL as expansion teams in 2000?",
+    "options": [
+      "Minnesota Wild",
+      "Nashville Predators",
+      "Atlanta Thrashers",
+      "Seattle Kraken"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  }
+]

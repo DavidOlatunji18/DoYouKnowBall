@@ -1,0 +1,1341 @@
+[
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Michael Jordan played college basketball at which school?",
+    "options": [
+      "Duke",
+      "North Carolina",
+      "Kentucky",
+      "Kansas"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "What jersey number is Michael Jordan most famous for wearing?",
+    "options": [
+      "45",
+      "33",
+      "32",
+      "23"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Michael Jordan wore which number when he first returned to the NBA in 1995?",
+    "options": [
+      "33",
+      "9",
+      "45",
+      "12"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which two jersey numbers did Kobe Bryant wear for the Lakers?",
+    "options": [
+      "23 and 24",
+      "8 and 24",
+      "8 and 32",
+      "24 and 33"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed the 'Black Mamba'?",
+    "options": [
+      "Tracy McGrady",
+      "Allen Iverson",
+      "Kobe Bryant",
+      "Kevin Garnett"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Answer'?",
+    "options": [
+      "Allen Iverson",
+      "Kevin Garnett",
+      "Tracy McGrady",
+      "Ray Allen"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Truth'?",
+    "options": [
+      "Carmelo Anthony",
+      "Vince Carter",
+      "Kevin Durant",
+      "Paul Pierce"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Big Fundamental'?",
+    "options": [
+      "Pau Gasol",
+      "David Robinson",
+      "Tim Duncan",
+      "Kevin Garnett"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Admiral'?",
+    "options": [
+      "Hakeem Olajuwon",
+      "Patrick Ewing",
+      "Dikembe Mutombo",
+      "David Robinson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Mailman'?",
+    "options": [
+      "Charles Barkley",
+      "Karl Malone",
+      "John Stockton",
+      "Moses Malone"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Dream'?",
+    "options": [
+      "Shaquille O'Neal",
+      "Dikembe Mutombo",
+      "Hakeem Olajuwon",
+      "Patrick Ewing"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player is nicknamed the 'Greek Freak'?",
+    "options": [
+      "Thanasis Antetokounmpo",
+      "Luka Doncic",
+      "Giannis Antetokounmpo",
+      "Nikola Jokic"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player is nicknamed 'The Joker'?",
+    "options": [
+      "Rudy Gobert",
+      "Luka Doncic",
+      "Nikola Jokic",
+      "Joel Embiid"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player is nicknamed 'The Beard'?",
+    "options": [
+      "James Harden",
+      "Russell Westbrook",
+      "Chris Paul",
+      "Damian Lillard"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was known as 'Dr. J'?",
+    "options": [
+      "Julius Erving",
+      "Clyde Drexler",
+      "Dominique Wilkins",
+      "Magic Johnson"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "What is Magic Johnson's real first name?",
+    "options": [
+      "Edward",
+      "Earvin",
+      "Elgin",
+      "Ervin"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'Clyde the Glide'?",
+    "options": [
+      "Clyde Drexler",
+      "Walt Frazier",
+      "Dominique Wilkins",
+      "Scottie Pippen"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Human Highlight Film'?",
+    "options": [
+      "Dominique Wilkins",
+      "Shawn Kemp",
+      "Vince Carter",
+      "Julius Erving"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'Half Man, Half Amazing'?",
+    "options": [
+      "Tracy McGrady",
+      "Kobe Bryant",
+      "Vince Carter",
+      "Dominique Wilkins"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which defensive guard was nicknamed 'The Glove'?",
+    "options": [
+      "Jason Kidd",
+      "Gary Payton",
+      "Scottie Pippen",
+      "Tony Allen"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which rebounding legend was nicknamed 'The Worm'?",
+    "options": [
+      "Dennis Rodman",
+      "Charles Oakley",
+      "Scottie Pippen",
+      "Horace Grant"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Round Mound of Rebound'?",
+    "options": [
+      "Charles Barkley",
+      "Moses Malone",
+      "Shaquille O'Neal",
+      "Karl Malone"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which team drafted Shaquille O'Neal first overall in 1992?",
+    "options": [
+      "Orlando Magic",
+      "Miami Heat",
+      "Phoenix Suns",
+      "Los Angeles Lakers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Shaquille O'Neal won his fourth championship in 2006 with which team?",
+    "options": [
+      "Phoenix Suns",
+      "Los Angeles Lakers",
+      "Boston Celtics",
+      "Miami Heat"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "LeBron James went to which high school in Akron, Ohio?",
+    "options": [
+      "Oak Hill Academy",
+      "Mater Dei",
+      "Findlay Prep",
+      "St. Vincent-St. Mary"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "LeBron James grew up in which Ohio city?",
+    "options": [
+      "Cleveland",
+      "Toledo",
+      "Akron",
+      "Columbus"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "With which three teams has LeBron James won NBA championships?",
+    "options": [
+      "Heat, Cavaliers and Lakers",
+      "Heat, Lakers and Knicks",
+      "Heat, Cavaliers and Celtics",
+      "Cavaliers, Lakers and Warriors"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which of LeBron James's sons was drafted by the Lakers in 2024?",
+    "options": [
+      "Zhuri James",
+      "Bronny James",
+      "Bryce James",
+      "LeBron James Jr. III"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Stephen Curry's father, who also played in the NBA, is named what?",
+    "options": [
+      "Dell Curry",
+      "Doc Rivers",
+      "Rick Barry",
+      "Mychal Thompson"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Klay Thompson's father, Mychal, was the No. 1 pick in 1978 for which team?",
+    "options": [
+      "Seattle SuperSonics",
+      "Golden State Warriors",
+      "Portland Trail Blazers",
+      "Los Angeles Lakers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Stephen Curry played college basketball at which school?",
+    "options": [
+      "Butler",
+      "Davidson",
+      "Gonzaga",
+      "Duke"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "With which pick was Stephen Curry selected in the 2009 NBA Draft?",
+    "options": [
+      "7th",
+      "3rd",
+      "11th",
+      "1st"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Who was the No. 1 pick in the 2009 NBA Draft?",
+    "options": [
+      "Tyreke Evans",
+      "Blake Griffin",
+      "James Harden",
+      "Hasheem Thabeet"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kevin Durant played college basketball at which school?",
+    "options": [
+      "Texas",
+      "Duke",
+      "Kansas",
+      "Georgetown"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which team drafted Kevin Durant in 2007?",
+    "options": [
+      "Atlanta Hawks",
+      "Oklahoma City Thunder",
+      "Portland Trail Blazers",
+      "Seattle SuperSonics"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player was picked one spot ahead of Kevin Durant in the 2007 NBA Draft?",
+    "options": [
+      "Greg Oden",
+      "Mike Conley",
+      "Joakim Noah",
+      "Al Horford"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "How many NBA Finals MVP awards has Kevin Durant won?",
+    "options": [
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Giannis Antetokounmpo was born in which country?",
+    "options": [
+      "Greece",
+      "Turkey",
+      "Nigeria",
+      "Spain"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Nikola Jokic was drafted 41st overall in which year?",
+    "options": [
+      "2014",
+      "2012",
+      "2016",
+      "2015"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "How many NBA MVP awards did Nikola Jokic win through the 2025 season?",
+    "options": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Nikola Jokic is from which country?",
+    "options": [
+      "Slovenia",
+      "Montenegro",
+      "Croatia",
+      "Serbia"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Luka Doncic is from which country?",
+    "options": [
+      "Croatia",
+      "Slovakia",
+      "Slovenia",
+      "Serbia"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "The Dallas Mavericks traded Luka Doncic in February 2025 to which team?",
+    "options": [
+      "Golden State Warriors",
+      "Los Angeles Clippers",
+      "Los Angeles Lakers",
+      "Miami Heat"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which star did Dallas receive in the February 2025 Luka Doncic trade?",
+    "options": [
+      "Anthony Davis",
+      "D'Angelo Russell",
+      "Austin Reaves",
+      "LeBron James"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Who won both the NBA MVP and Finals MVP awards in 2025?",
+    "options": [
+      "Giannis Antetokounmpo",
+      "Jalen Brunson",
+      "Nikola Jokic",
+      "Shai Gilgeous-Alexander"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Shai Gilgeous-Alexander is from which country?",
+    "options": [
+      "Canada",
+      "United States",
+      "Australia",
+      "France"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Victor Wembanyama was the No. 1 pick in 2023 for which team?",
+    "options": [
+      "Charlotte Hornets",
+      "Detroit Pistons",
+      "Houston Rockets",
+      "San Antonio Spurs"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Victor Wembanyama is from which country?",
+    "options": [
+      "Belgium",
+      "Switzerland",
+      "France",
+      "Canada"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Zion Williamson played college basketball at which school?",
+    "options": [
+      "North Carolina",
+      "Kentucky",
+      "Clemson",
+      "Duke"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Ja Morant played college basketball at which school?",
+    "options": [
+      "Kentucky",
+      "Murray State",
+      "Gonzaga",
+      "Memphis"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kawhi Leonard won Finals MVP with the Spurs and which other team?",
+    "options": [
+      "Milwaukee Bucks",
+      "Boston Celtics",
+      "Toronto Raptors",
+      "Los Angeles Clippers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Dirk Nowitzki spent his entire 21-season career with which team?",
+    "options": [
+      "Dallas Mavericks",
+      "San Antonio Spurs",
+      "Phoenix Suns",
+      "Milwaukee Bucks"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Dirk Nowitzki is from which country?",
+    "options": [
+      "Austria",
+      "Germany",
+      "Netherlands",
+      "Switzerland"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Tim Duncan was born in which place?",
+    "options": [
+      "Puerto Rico",
+      "Jamaica",
+      "U.S. Virgin Islands",
+      "Bahamas"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Tim Duncan played college basketball at which school?",
+    "options": [
+      "North Carolina",
+      "Duke",
+      "Wake Forest",
+      "Georgetown"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Hakeem Olajuwon was born in which country?",
+    "options": [
+      "Ghana",
+      "Senegal",
+      "Nigeria",
+      "Cameroon"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Yao Ming played his entire NBA career for which team?",
+    "options": [
+      "Dallas Mavericks",
+      "Houston Rockets",
+      "Los Angeles Lakers",
+      "Golden State Warriors"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Manu Ginobili is from which country?",
+    "options": [
+      "Italy",
+      "Argentina",
+      "Brazil",
+      "Spain"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Tony Parker is from which country?",
+    "options": [
+      "Canada",
+      "France",
+      "Belgium",
+      "Spain"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Pau Gasol won two NBA titles with which team?",
+    "options": [
+      "Los Angeles Lakers",
+      "Memphis Grizzlies",
+      "San Antonio Spurs",
+      "Chicago Bulls"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Larry Bird played college basketball at which school?",
+    "options": [
+      "Purdue",
+      "Indiana",
+      "Kentucky",
+      "Indiana State"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Magic Johnson played college basketball at which school?",
+    "options": [
+      "Indiana State",
+      "Michigan",
+      "UCLA",
+      "Michigan State"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kareem Abdul-Jabbar was known as what before he changed his name?",
+    "options": [
+      "Lew Alcindor",
+      "Cassius Clay",
+      "Lewis Alston",
+      "Walter Jabbar"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kareem Abdul-Jabbar's signature shot was called what?",
+    "options": [
+      "The skyhook",
+      "The fadeaway",
+      "The dream shake",
+      "The finger roll"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kareem Abdul-Jabbar played college basketball at which school?",
+    "options": [
+      "Michigan",
+      "USC",
+      "Kansas",
+      "UCLA"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Bill Russell played college basketball at which school?",
+    "options": [
+      "Kansas",
+      "UCLA",
+      "San Francisco",
+      "Seattle"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Before joining the NBA, Wilt Chamberlain played for which exhibition team?",
+    "options": [
+      "Harlem Rens",
+      "Washington Generals",
+      "Harlem Globetrotters",
+      "Philadelphia Spas"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Allen Iverson played college basketball at which school?",
+    "options": [
+      "Georgetown",
+      "Syracuse",
+      "Villanova",
+      "North Carolina"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Allen Iverson won the 2001 MVP award with which team?",
+    "options": [
+      "Memphis Grizzlies",
+      "Denver Nuggets",
+      "Philadelphia 76ers",
+      "Detroit Pistons"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which Canadian point guard won back-to-back MVP awards in 2005 and 2006?",
+    "options": [
+      "Jason Kidd",
+      "Steve Nash",
+      "Chris Paul",
+      "Tony Parker"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Derrick Rose won his MVP award with which team?",
+    "options": [
+      "New York Knicks",
+      "Chicago Bulls",
+      "Minnesota Timberwolves",
+      "Detroit Pistons"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kevin Garnett was drafted straight out of high school in 1995 by which team?",
+    "options": [
+      "Milwaukee Bucks",
+      "Minnesota Timberwolves",
+      "Boston Celtics",
+      "Brooklyn Nets"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Chris Paul played college basketball at which school?",
+    "options": [
+      "Duke",
+      "North Carolina",
+      "Kentucky",
+      "Wake Forest"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Carmelo Anthony won the 2003 NCAA championship with which school?",
+    "options": [
+      "Georgetown",
+      "Syracuse",
+      "Kansas",
+      "Connecticut"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Dwyane Wade played college basketball at which school?",
+    "options": [
+      "Michigan State",
+      "Louisville",
+      "Marquette",
+      "DePaul"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Russell Westbrook played college basketball at which school?",
+    "options": [
+      "Oregon",
+      "USC",
+      "UCLA",
+      "Arizona"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "James Harden played college basketball at which school?",
+    "options": [
+      "Oregon",
+      "Arizona State",
+      "Arizona",
+      "UCLA"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Anthony Davis was the No. 1 pick in 2012 for which franchise?",
+    "options": [
+      "Charlotte Bobcats",
+      "Washington Wizards",
+      "New Orleans Hornets",
+      "Cleveland Cavaliers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kyrie Irving was born in which country?",
+    "options": [
+      "New Zealand",
+      "Canada",
+      "Australia",
+      "United States"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Joel Embiid is from which country?",
+    "options": [
+      "Senegal",
+      "Cameroon",
+      "Congo",
+      "Nigeria"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Jayson Tatum played college basketball at which school?",
+    "options": [
+      "Saint Louis",
+      "Kentucky",
+      "Duke",
+      "Kansas"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Jalen Brunson won two national championships with which college?",
+    "options": [
+      "Connecticut",
+      "Gonzaga",
+      "Duke",
+      "Villanova"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which four-time Defensive Player of the Year went undrafted?",
+    "options": [
+      "Dikembe Mutombo",
+      "Rudy Gobert",
+      "Ben Wallace",
+      "Dwight Howard"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Dennis Rodman led the league in rebounding how many seasons in a row?",
+    "options": [
+      "5",
+      "4",
+      "9",
+      "7"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Scottie Pippen played college basketball at which school?",
+    "options": [
+      "Arkansas",
+      "Central Arkansas",
+      "Memphis",
+      "Arkansas State"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which team originally drafted Scottie Pippen before trading him to Chicago?",
+    "options": [
+      "Portland Trail Blazers",
+      "Sacramento Kings",
+      "Seattle SuperSonics",
+      "Houston Rockets"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Reggie Miller played his entire career for which team?",
+    "options": [
+      "New York Knicks",
+      "Indiana Pacers",
+      "Boston Celtics",
+      "Los Angeles Clippers"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Reggie Miller famously scored 8 points in 9 seconds in 1995 against which team?",
+    "options": [
+      "Chicago Bulls",
+      "Boston Celtics",
+      "New York Knicks",
+      "Orlando Magic"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "John Stockton and Karl Malone played together on which team?",
+    "options": [
+      "Houston Rockets",
+      "Seattle SuperSonics",
+      "Utah Jazz",
+      "Phoenix Suns"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Patrick Ewing played college basketball at which school?",
+    "options": [
+      "Villanova",
+      "Georgetown",
+      "St. John's",
+      "Syracuse"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Charles Barkley won the 1993 MVP award with which team?",
+    "options": [
+      "Philadelphia 76ers",
+      "Phoenix Suns",
+      "Chicago Bulls",
+      "Houston Rockets"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which point guard won a title as a player with the 2011 Mavericks and later coached them?",
+    "options": [
+      "Derek Fisher",
+      "Jason Terry",
+      "Jason Kidd",
+      "Steve Nash"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Steve Kerr won five NBA titles as a player with the Bulls and which other team?",
+    "options": [
+      "Cleveland Cavaliers",
+      "Phoenix Suns",
+      "Golden State Warriors",
+      "San Antonio Spurs"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Draymond Green played college basketball at which school?",
+    "options": [
+      "Kentucky",
+      "Ohio State",
+      "Michigan",
+      "Michigan State"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Kobe Bryant went straight to the NBA from which Pennsylvania high school?",
+    "options": [
+      "Simon Gratz",
+      "Lower Merion",
+      "Roman Catholic",
+      "Germantown Academy"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Who was named NBA Finals MVP in 2011?",
+    "options": [
+      "Dirk Nowitzki",
+      "LeBron James",
+      "Dwyane Wade",
+      "Jason Kidd"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player won the 2015 Finals MVP after starting the season as a bench player?",
+    "options": [
+      "Andre Iguodala",
+      "Draymond Green",
+      "Stephen Curry",
+      "Klay Thompson"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Who was named NBA Finals MVP in 2007?",
+    "options": [
+      "Tony Parker",
+      "Tim Duncan",
+      "LeBron James",
+      "Manu Ginobili"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Who was named NBA Finals MVP in 2023?",
+    "options": [
+      "Nikola Jokic",
+      "Jimmy Butler",
+      "Jamal Murray",
+      "Aaron Gordon"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Who was named NBA Finals MVP in 2024?",
+    "options": [
+      "Jaylen Brown",
+      "Luka Doncic",
+      "Jrue Holiday",
+      "Jayson Tatum"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Michael Jordan played minor league baseball for which team?",
+    "options": [
+      "Memphis Chicks",
+      "Chicago Cubs",
+      "Charlotte Knights",
+      "Birmingham Barons"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "LeBron and Bronny James became the first father and son to play together in an NBA game in which season?",
+    "options": [
+      "2023-24",
+      "2022-23",
+      "2025-26",
+      "2024-25"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Players",
+    "text": "Which player is nicknamed 'Chef Curry' and 'Baby-Faced Assassin'?",
+    "options": [
+      "Stephen Curry",
+      "Damian Lillard",
+      "Trae Young",
+      "Seth Curry"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  }
+]

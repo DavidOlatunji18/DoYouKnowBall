@@ -23,8 +23,18 @@ public class SeedLoaderTests : IDisposable
     {
         var questions = SeedLoader.ReadAndValidate(RealSeedDirectory);
 
-        Assert.True(questions.Count >= 400, $"Expected at least 400 seed questions, found {questions.Count}");
-        Assert.Equal(["NFL", "Soccer"], questions.Select(q => q.Sport).Distinct().Order());
+        Assert.True(questions.Count >= 1300, $"Expected at least 1,300 seed questions, found {questions.Count}");
+        Assert.Equal(["MLB", "NBA", "NFL", "NHL", "Soccer"], questions.Select(q => q.Sport).Distinct().Order());
+
+        // Every category can fill a balanced round (4 easy, 4 medium, 2 hard) several
+        // times over without repeats.
+        foreach (var category in questions.GroupBy(q => (q.Sport, q.Category)))
+        {
+            var byDifficulty = category.GroupBy(q => q.Difficulty).ToDictionary(g => g.Key, g => g.Count());
+            Assert.True(byDifficulty.GetValueOrDefault(1) >= 12, $"{category.Key}: too few easy questions");
+            Assert.True(byDifficulty.GetValueOrDefault(2) >= 12, $"{category.Key}: too few medium questions");
+            Assert.True(byDifficulty.GetValueOrDefault(3) >= 6, $"{category.Key}: too few hard questions");
+        }
     }
 
     [Fact]
@@ -36,7 +46,7 @@ public class SeedLoaderTests : IDisposable
         Assert.Equal(first.Total, first.Added);
         Assert.Equal(new SeedResult(0, 0, 0, first.Total), second);
         Assert.Equal(first.Total, await _factory.WithDbAsync(db => db.Questions.CountAsync()));
-        Assert.Equal(2, await _factory.WithDbAsync(db => db.Sports.CountAsync()));
+        Assert.Equal(5, await _factory.WithDbAsync(db => db.Sports.CountAsync()));
     }
 
     [Fact]

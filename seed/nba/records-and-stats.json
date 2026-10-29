@@ -1,0 +1,1263 @@
+[
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who scored 100 points in a single NBA game in 1962?",
+    "options": [
+      "Elgin Baylor",
+      "Jerry West",
+      "Bill Russell",
+      "Wilt Chamberlain"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Wilt Chamberlain's 100-point game in 1962 came against which team?",
+    "options": [
+      "Boston Celtics",
+      "Syracuse Nationals",
+      "Los Angeles Lakers",
+      "New York Knicks"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who is the NBA's all-time leading scorer?",
+    "options": [
+      "Kobe Bryant",
+      "Michael Jordan",
+      "LeBron James",
+      "Kareem Abdul-Jabbar"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Whose career scoring record did LeBron James break in 2023?",
+    "options": [
+      "Karl Malone",
+      "Michael Jordan",
+      "Kareem Abdul-Jabbar",
+      "Kobe Bryant"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Kareem Abdul-Jabbar's career points record stood at how many before LeBron passed it?",
+    "options": [
+      "36,928",
+      "38,387",
+      "32,292",
+      "33,643"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who ranks third on the NBA's all-time scoring list, behind LeBron James and Kareem Abdul-Jabbar?",
+    "options": [
+      "Michael Jordan",
+      "Karl Malone",
+      "Kobe Bryant",
+      "Dirk Nowitzki"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many players in NBA history have scored 40,000 career points?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Kobe Bryant scored how many points against the Toronto Raptors in January 2006?",
+    "options": [
+      "70",
+      "78",
+      "73",
+      "81"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Kobe Bryant's 81-point game in 2006 came against which team?",
+    "options": [
+      "Phoenix Suns",
+      "Sacramento Kings",
+      "Portland Trail Blazers",
+      "Toronto Raptors"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Luka Doncic scored 73 points in January 2024 against which team?",
+    "options": [
+      "New York Knicks",
+      "Memphis Grizzlies",
+      "Atlanta Hawks",
+      "Utah Jazz"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Devin Booker scored 70 points in 2017 against which team?",
+    "options": [
+      "Philadelphia 76ers",
+      "New York Knicks",
+      "Boston Celtics",
+      "Los Angeles Lakers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Joel Embiid scored 70 points in January 2024 against which team?",
+    "options": [
+      "Washington Wizards",
+      "San Antonio Spurs",
+      "Charlotte Hornets",
+      "Detroit Pistons"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "The 2015-16 Golden State Warriors set the regular-season wins record with how many?",
+    "options": [
+      "70",
+      "74",
+      "73",
+      "72"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "The 2015-16 Warriors started the season with how many straight wins, a record?",
+    "options": [
+      "28",
+      "24",
+      "20",
+      "16"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the most career assists in NBA history?",
+    "options": [
+      "Jason Kidd",
+      "Chris Paul",
+      "John Stockton",
+      "Magic Johnson"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the most career steals in NBA history?",
+    "options": [
+      "Michael Jordan",
+      "Chris Paul",
+      "John Stockton",
+      "Jason Kidd"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the most career rebounds in NBA history?",
+    "options": [
+      "Kareem Abdul-Jabbar",
+      "Bill Russell",
+      "Moses Malone",
+      "Wilt Chamberlain"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the most career blocked shots in NBA history?",
+    "options": [
+      "Dikembe Mutombo",
+      "Kareem Abdul-Jabbar",
+      "Hakeem Olajuwon",
+      "Shaquille O'Neal"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Wilt Chamberlain set the single-game rebounding record in 1960 with how many?",
+    "options": [
+      "50",
+      "55",
+      "45",
+      "62"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Wilt Chamberlain averaged how many points per game in the 1961-62 season?",
+    "options": [
+      "44.8",
+      "41.0",
+      "37.1",
+      "50.4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has scored the most points in NBA playoff history?",
+    "options": [
+      "LeBron James",
+      "Kareem Abdul-Jabbar",
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the highest career points-per-game average in the regular season?",
+    "options": [
+      "Wilt Chamberlain",
+      "LeBron James",
+      "Elgin Baylor",
+      "Michael Jordan"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has won the most NBA regular-season MVP awards, with six?",
+    "options": [
+      "Kareem Abdul-Jabbar",
+      "Michael Jordan",
+      "Bill Russell",
+      "LeBron James"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has won the most NBA Finals MVP awards?",
+    "options": [
+      "Magic Johnson",
+      "Shaquille O'Neal",
+      "Michael Jordan",
+      "LeBron James"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Bill Russell won how many NBA championships as a player?",
+    "options": [
+      "11",
+      "13",
+      "9",
+      "8"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who won the second-most titles as a player, 10, as Bill Russell's teammate?",
+    "options": [
+      "Sam Jones",
+      "Bob Cousy",
+      "John Havlicek",
+      "Tom Heinsohn"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Robert Horry won how many NBA championships?",
+    "options": [
+      "6",
+      "8",
+      "7",
+      "5"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has made the most three-pointers in NBA history?",
+    "options": [
+      "James Harden",
+      "Reggie Miller",
+      "Stephen Curry",
+      "Ray Allen"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Stephen Curry set the single-season three-point record in 2015-16 with how many?",
+    "options": [
+      "402",
+      "354",
+      "300",
+      "380"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Klay Thompson set the record for three-pointers in a game in 2018 with how many?",
+    "options": [
+      "13",
+      "15",
+      "12",
+      "14"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Klay Thompson set the record for points in a single quarter in 2015 with how many?",
+    "options": [
+      "30",
+      "37",
+      "33",
+      "41"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "The 1971-72 Lakers hold the record for the longest winning streak. How many games?",
+    "options": [
+      "33",
+      "31",
+      "27",
+      "28"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "The 2011-12 Charlotte Bobcats set the record for the worst winning percentage with what record?",
+    "options": [
+      "11-71",
+      "10-56",
+      "9-73",
+      "7-59"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Michael Jordan set the playoff scoring record with 63 points in 1986 against which team?",
+    "options": [
+      "Detroit Pistons",
+      "Cleveland Cavaliers",
+      "Boston Celtics",
+      "New York Knicks"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "The highest-scoring game in NBA history, 186-184 in 1983, was between the Pistons and which team?",
+    "options": [
+      "Boston Celtics",
+      "Denver Nuggets",
+      "Phoenix Suns",
+      "San Antonio Spurs"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who holds the NBA record for assists in a single game, with 30?",
+    "options": [
+      "Rajon Rondo",
+      "Magic Johnson",
+      "John Stockton",
+      "Scott Skiles"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the most triple-doubles in NBA history?",
+    "options": [
+      "Oscar Robertson",
+      "Russell Westbrook",
+      "Magic Johnson",
+      "Nikola Jokic"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Oscar Robertson averaged a triple-double for an entire season in which year?",
+    "options": [
+      "1959-60",
+      "1967-68",
+      "1963-64",
+      "1961-62"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who was the second player ever to average a triple-double for a season, in 2016-17?",
+    "options": [
+      "LeBron James",
+      "Nikola Jokic",
+      "James Harden",
+      "Russell Westbrook"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who is the youngest player to win NBA MVP?",
+    "options": [
+      "Derrick Rose",
+      "LeBron James",
+      "Kevin Durant",
+      "Magic Johnson"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Michael Jordan won a record number of scoring titles. How many?",
+    "options": [
+      "7",
+      "8",
+      "12",
+      "10"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has been selected to the most NBA All-Star Games?",
+    "options": [
+      "LeBron James",
+      "Kobe Bryant",
+      "Kareem Abdul-Jabbar",
+      "Tim Duncan"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who set the All-Star Game scoring record with 52 points in 2017?",
+    "options": [
+      "Anthony Davis",
+      "Kyrie Irving",
+      "Stephen Curry",
+      "Russell Westbrook"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Which coach has won the most regular-season games in NBA history?",
+    "options": [
+      "Lenny Wilkens",
+      "Gregg Popovich",
+      "Pat Riley",
+      "Don Nelson"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Phil Jackson won how many NBA championships as a head coach?",
+    "options": [
+      "8",
+      "10",
+      "11",
+      "9"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Red Auerbach won how many NBA championships as the Celtics' head coach?",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "11"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the most 50-point games in NBA history?",
+    "options": [
+      "Wilt Chamberlain",
+      "Michael Jordan",
+      "James Harden",
+      "Kobe Bryant"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Elmore Smith holds the single-game record for blocked shots. How many?",
+    "options": [
+      "20",
+      "14",
+      "12",
+      "17"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "In 2021 the Grizzlies set the record for largest margin of victory. By how many points?",
+    "options": [
+      "64",
+      "73",
+      "58",
+      "68"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who was the first NBA player to reach 30,000 career points?",
+    "options": [
+      "Kareem Abdul-Jabbar",
+      "Oscar Robertson",
+      "Wilt Chamberlain",
+      "Michael Jordan"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many times did Michael Jordan lose in the NBA Finals?",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "3"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many NBA Finals has LeBron James played in?",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "8"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "LeBron James reached how many straight NBA Finals from 2011 to 2018?",
+    "options": [
+      "7",
+      "5",
+      "8",
+      "6"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Since the Celtics' 1960s dynasty, what is the most consecutive titles any team has won?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Which player born outside the United States has scored the most NBA points?",
+    "options": [
+      "Hakeem Olajuwon",
+      "Pau Gasol",
+      "Dirk Nowitzki",
+      "Tony Parker"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Which legend famously never fouled out of an NBA game?",
+    "options": [
+      "Shaquille O'Neal",
+      "Wilt Chamberlain",
+      "Kareem Abdul-Jabbar",
+      "Bill Russell"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Michael Jordan averaged 41 points per game in which NBA Finals?",
+    "options": [
+      "1993",
+      "1998",
+      "1991",
+      "1996"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who has the highest career points-per-game average in the playoffs?",
+    "options": [
+      "Kevin Durant",
+      "Allen Iverson",
+      "LeBron James",
+      "Michael Jordan"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who holds the NBA record for career offensive rebounds?",
+    "options": [
+      "Dennis Rodman",
+      "Shaquille O'Neal",
+      "Moses Malone",
+      "Charles Barkley"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Rudy Gobert, Dikembe Mutombo and Ben Wallace share the record for Defensive Player of the Year awards. How many?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Lou Williams and Jamal Crawford share the record for Sixth Man of the Year awards. How many?",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "3"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most points in a single NBA Finals game, 61 in 1962?",
+    "options": [
+      "Bob Pettit",
+      "Elgin Baylor",
+      "Jerry West",
+      "Wilt Chamberlain"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who is the shortest player in NBA history, at 5 feet 3 inches?",
+    "options": [
+      "Nate Robinson",
+      "Earl Boykins",
+      "Spud Webb",
+      "Muggsy Bogues"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Manute Bol and which other player are tied as the tallest in NBA history, at 7 feet 7 inches?",
+    "options": [
+      "Yao Ming",
+      "Gheorghe Muresan",
+      "Tacko Fall",
+      "Shawn Bradley"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "The 1998-99 Chicago Bulls scored the fewest points in a game in the shot-clock era. How many?",
+    "options": [
+      "55",
+      "58",
+      "49",
+      "62"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most seasons played in the NBA?",
+    "options": [
+      "Robert Parish",
+      "Kevin Willis",
+      "LeBron James",
+      "Vince Carter"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many points is a shot made from behind the arc worth?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How far is the NBA three-point line at the top of the arc?",
+    "options": [
+      "20 feet 9 inches",
+      "22 feet",
+      "25 feet",
+      "23 feet 9 inches"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How long is an NBA quarter?",
+    "options": [
+      "15 minutes",
+      "10 minutes",
+      "20 minutes",
+      "12 minutes"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many players does each team have on the court at once?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many personal fouls does it take to foul out of an NBA game?",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How long is an NBA overtime period?",
+    "options": [
+      "5 minutes",
+      "10 minutes",
+      "6 minutes",
+      "3 minutes"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How high is an NBA rim off the floor?",
+    "options": [
+      "11 feet",
+      "10 feet",
+      "12 feet",
+      "9 feet"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many seconds does a team have to get the ball past half-court?",
+    "options": [
+      "6",
+      "5",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many seconds can an offensive player stay in the lane before a violation?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "3"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many points is a made free throw worth?",
+    "options": [
+      "1",
+      "2",
+      "0.5",
+      "3"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many quarters are in an NBA game?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who holds the NBA record for career free throws made?",
+    "options": [
+      "Kobe Bryant",
+      "Moses Malone",
+      "Karl Malone",
+      "Dirk Nowitzki"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Kobe Bryant scored how many points in his final NBA game in 2016?",
+    "options": [
+      "45",
+      "50",
+      "60",
+      "81"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Giannis Antetokounmpo scored how many points in the title-clinching Game 6 of the 2021 Finals?",
+    "options": [
+      "45",
+      "50",
+      "40",
+      "41"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who holds the record for points in a single game by a rookie, scoring 58 twice?",
+    "options": [
+      "Elgin Baylor",
+      "Wilt Chamberlain",
+      "Michael Jordan",
+      "LeBron James"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Stephen Curry was the first player to win MVP by a unanimous vote. In which year?",
+    "options": [
+      "2014",
+      "2017",
+      "2015",
+      "2016"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Wilt Chamberlain averaged how many rebounds per game in his career?",
+    "options": [
+      "25.6",
+      "18.7",
+      "16.4",
+      "22.9"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Michael Jordan led the league in scoring how many seasons in a row from 1987 to 1993?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Which team holds the record for most NBA Finals appearances?",
+    "options": [
+      "Los Angeles Lakers",
+      "Golden State Warriors",
+      "Boston Celtics",
+      "Chicago Bulls"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "The 1972-73 Philadelphia 76ers won only how many games, for years the fewest in an 82-game season?",
+    "options": [
+      "7",
+      "9",
+      "11",
+      "13"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who holds the record for most steals in a single season, 301 in 1985-86?",
+    "options": [
+      "Alvin Robertson",
+      "Michael Jordan",
+      "Magic Johnson",
+      "Gary Payton"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Who set the record for most consecutive free throws made, 97, in 1993?",
+    "options": [
+      "Mark Price",
+      "Steve Nash",
+      "Calvin Murphy",
+      "Micheal Williams"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Wilt Chamberlain scored how many total points in the 1961-62 season, still the record?",
+    "options": [
+      "4,029",
+      "3,041",
+      "3,586",
+      "4,412"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Tim Duncan won how many NBA championships, all with the Spurs?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Magic Johnson won how many NBA championships with the Lakers?",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Larry Bird won how many NBA MVP awards in a row from 1984 to 1986?",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "Shaquille O'Neal won how many straight Finals MVP awards from 2000 to 2002?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many NBA championships did Kobe Bryant win?",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many NBA championships did LeBron James win through 2025?",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many NBA championships did Michael Jordan win?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "4"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NBA",
+    "category": "Records and Stats",
+    "text": "How many points per game did Michael Jordan average for his career in the regular season?",
+    "options": [
+      "30.1",
+      "28.9",
+      "27.4",
+      "31.6"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  }
+]

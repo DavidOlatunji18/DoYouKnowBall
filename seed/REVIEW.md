@@ -22,3 +22,29 @@ To fix one, edit its JSON file in this folder, run `python3 seed/validate.py`, t
 | NFL | Records and Stats | Who set the single-season receptions record with 149 in 2019? | Michael Thomas | Stood through 2024; check the 2025 season |
 | NFL | Records and Stats | Who holds the record for most yards from scrimmage in a season, 2,509 in 2009? | Chris Johnson | Stood through 2024; check the 2025 season |
 | NFL | Records and Stats | Who was the last defensive player to win NFL MVP, in 1986? | Lawrence Taylor | Confirm the 2025 MVP was not a defensive player |
+| NBA | History | Which franchise has won the most NBA championships? | Boston Celtics | 18 to the Lakers' 17 through 2025; check the 2026 Finals |
+| NBA | History | Which team won the 2025 NBA championship? | Oklahoma City Thunder | Recent (June 2025) |
+| NBA | History | Which team did the Oklahoma City Thunder beat in the 2025 NBA Finals? | Indiana Pacers | Recent (June 2025) |
+| NBA | History | Which team won the 2024 NBA Cup? | Milwaukee Bucks | Recent (December 2024) |
+| NBA | Records and Stats | Who has the most triple-doubles in NBA history? | Russell Westbrook | Nikola Jokic was closing in; check after the 2025-26 season |
+| NBA | Records and Stats | Who holds the record for most seasons played in the NBA? | LeBron James | Assumes LeBron played a 23rd season in 2025-26 |
+| NBA | Records and Stats | Klay Thompson set the record for three-pointers in a game in 2018 with how many? | 14 | Confirm no one has made 15 since |
+| NBA | Players | How many NBA MVP awards did Nikola Jokic win through the 2025 season? | 3 | Worded "through 2025" on purpose; 2026 may add one |
+| NBA | Players | The Dallas Mavericks traded Luka Doncic in February 2025 to which team? | Los Angeles Lakers | Recent (February 2025) |
+| MLB | History | Which team won the 2025 World Series? | Los Angeles Dodgers | Recent (November 2025); I believe they beat Toronto in seven |
+| MLB | History | The Dodgers beat which team in seven games in the 2025 World Series? | Toronto Blue Jays | Recent (November 2025) |
+| MLB | History | How many World Series titles have the New York Yankees won? | 27 | True through 2025; check the 2026 World Series |
+| MLB | History | In 2025, the Athletics began playing temporarily in which city? | Sacramento | Recent |
+| MLB | Records and Stats | Who signed the largest contract in MLB history in December 2024? | Juan Soto | Worded to the date, but confirm no bigger deal is implied |
+| MLB | Records and Stats | The 2024 Chicago White Sox set the modern record for losses. How many? | 121 | Recent (2024) |
+| MLB | Players | In 2025, Ichiro Suzuki became the first player from which country elected to the Hall of Fame? | Japan | Recent (January 2025) |
+| NHL | History | Which team won the Stanley Cup in both 2024 and 2025? | Florida Panthers | Recent (June 2025) |
+| NHL | History | The NHL team in Utah is now called what? | Utah Mammoth | Name announced in 2025; please confirm |
+| NHL | History | The Montreal Canadiens' 1993 title is notable for being what? | The last Cup won by a Canadian team | True through 2025; check the 2026 Final |
+| NHL | History | The Toronto Maple Leafs last won the Stanley Cup in which year? | 1967 | True through 2025; check the 2026 Final |
+| NHL | History | Which country won the 4 Nations Face-Off in February 2025? | Canada | Recent (February 2025) |
+| NHL | Records and Stats | In which year did Alex Ovechkin break Wayne Gretzky's career goals record? | 2025 | Recent (April 2025) |
+| NHL | Records and Stats | Patrick Kane passed Mike Modano in 2025 for the most career points by what kind of player? | American-born | Recent (2025) |
+| NHL | Players | Who won the Conn Smythe Trophy in 2025? | Sam Bennett | Recent (June 2025) |
+| NHL | Players | Which goalie won both the Hart and Vezina Trophies in 2025? | Connor Hellebuyck | Recent (June 2025) |
+| NHL | Players | Steven Stamkos spent 16 seasons with which team before joining Nashville in 2024? | Tampa Bay Lightning | Recent (July 2024) |

@@ -106,19 +106,22 @@ class _SportSwitcher extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        for (final (i, sport) in sports.indexed) ...[
-          if (i > 0) const SizedBox(width: 10),
-          Expanded(
-            child: _SportChip(
+    // Scrolls sideways once there are more sports than fit across the screen.
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      clipBehavior: Clip.none,
+      child: Row(
+        children: [
+          for (final (i, sport) in sports.indexed) ...[
+            if (i > 0) const SizedBox(width: 10),
+            _SportChip(
               style: SportStyle.of(sport.name),
               selected: sport.id == selectedId,
               onTap: () => onSelect(sport.id),
             ),
-          ),
+          ],
         ],
-      ],
+      ),
     );
   }
 }
@@ -146,7 +149,7 @@ class _SportChip extends StatelessWidget {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 200),
           height: 48,
-          padding: const EdgeInsets.symmetric(horizontal: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 16),
           decoration: BoxDecoration(
             color: selected ? AppColors.green : AppColors.card,
             borderRadius: BorderRadius.circular(999),
@@ -159,17 +162,13 @@ class _SportChip extends StatelessWidget {
             ],
           ),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(style.asset, width: 24, height: 24),
               const SizedBox(width: 8),
-              Flexible(
-                child: Text(
-                  style.label,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: appFont(15, weight: selected ? 700 : 600),
-                ),
+              Text(
+                style.label,
+                style: appFont(15, weight: selected ? 700 : 600),
               ),
             ],
           ),

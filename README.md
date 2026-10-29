@@ -4,8 +4,8 @@
 
 ## Features
 
-- **Two sports, five categories, 524 questions**
-  - **Football:** History, Records & Stats, Players
+- **Five sports, 14 categories, 1,405 questions**
+  - **Football, Basketball, Baseball and Hockey:** History, Records & Stats, Players
   - **Soccer:** European Top 5 Leagues, Internationals
 - **Instant feedback.** Every answer is checked by the server the moment you tap it.
 - **Cheat-resistant scoring.** The phone never receives the answers. Scores are computed on the server from answers that are locked in as you play.

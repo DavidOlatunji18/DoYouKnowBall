@@ -1,0 +1,1250 @@
+[
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player is known as 'The Great One'?",
+    "options": [
+      "Bobby Orr",
+      "Gordie Howe",
+      "Mario Lemieux",
+      "Wayne Gretzky"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "What number did Wayne Gretzky wear?",
+    "options": [
+      "87",
+      "9",
+      "66",
+      "99"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which of these teams did Wayne Gretzky NOT play for?",
+    "options": [
+      "Boston Bruins",
+      "New York Rangers",
+      "Los Angeles Kings",
+      "Edmonton Oilers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Wayne Gretzky also played briefly for which team in 1996?",
+    "options": [
+      "Vancouver Canucks",
+      "Detroit Red Wings",
+      "Chicago Blackhawks",
+      "St. Louis Blues"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was known as 'Mr. Hockey'?",
+    "options": [
+      "Bobby Hull",
+      "Wayne Gretzky",
+      "Maurice Richard",
+      "Gordie Howe"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which Montreal legend was nicknamed 'The Rocket'?",
+    "options": [
+      "Maurice Richard",
+      "Guy Lafleur",
+      "Jean Beliveau",
+      "Henri Richard"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'Super Mario'?",
+    "options": [
+      "Mario Marois",
+      "Marc-André Fleury",
+      "Mario Lemieux",
+      "Mario Tremblay"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "After his playing career, Mario Lemieux became part-owner of which team?",
+    "options": [
+      "Tampa Bay Lightning",
+      "Montreal Canadiens",
+      "Pittsburgh Penguins",
+      "Quebec Nordiques"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Mario Lemieux returned to play on the same day as his last treatment for which illness in 1993?",
+    "options": [
+      "Hodgkin's lymphoma",
+      "Pneumonia",
+      "Leukemia",
+      "Mononucleosis"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player is nicknamed 'Sid the Kid'?",
+    "options": [
+      "Sidney Crosby",
+      "Steven Stamkos",
+      "Sidney Bechet",
+      "Sid Abel"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Sidney Crosby is from which Canadian province?",
+    "options": [
+      "Quebec",
+      "Ontario",
+      "Nova Scotia",
+      "Alberta"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Sidney Crosby scored the 'Golden Goal' in overtime at the 2010 Olympics against which country?",
+    "options": [
+      "Finland",
+      "Sweden",
+      "United States",
+      "Russia"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "What number does Sidney Crosby wear?",
+    "options": [
+      "97",
+      "71",
+      "87",
+      "66"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player is nicknamed 'The Great Eight'?",
+    "options": [
+      "Nikita Kucherov",
+      "Alex Ovechkin",
+      "Teemu Selanne",
+      "Evgeni Malkin"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Alex Ovechkin is from which country?",
+    "options": [
+      "Latvia",
+      "Belarus",
+      "Russia",
+      "Ukraine"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Alex Ovechkin has played his entire NHL career for which team?",
+    "options": [
+      "New York Rangers",
+      "Washington Capitals",
+      "Chicago Blackhawks",
+      "Pittsburgh Penguins"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "What number does Connor McDavid wear?",
+    "options": [
+      "29",
+      "97",
+      "99",
+      "87"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Connor McDavid has played his entire NHL career for which team?",
+    "options": [
+      "Toronto Maple Leafs",
+      "Edmonton Oilers",
+      "Calgary Flames",
+      "Buffalo Sabres"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Connor McDavid was the No. 1 pick in which NHL Draft?",
+    "options": [
+      "2013",
+      "2016",
+      "2014",
+      "2015"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Auston Matthews grew up in which US state?",
+    "options": [
+      "Massachusetts",
+      "Arizona",
+      "Minnesota",
+      "Michigan"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Auston Matthews was the No. 1 pick in 2016 for which team?",
+    "options": [
+      "Columbus Blue Jackets",
+      "Edmonton Oilers",
+      "Toronto Maple Leafs",
+      "Winnipeg Jets"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Bobby Orr starred for which team?",
+    "options": [
+      "Montreal Canadiens",
+      "Boston Bruins",
+      "Chicago Blackhawks",
+      "New York Rangers"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Bobby Orr's famous flying goal won the 1970 Stanley Cup against which team?",
+    "options": [
+      "Montreal Canadiens",
+      "New York Rangers",
+      "St. Louis Blues",
+      "Chicago Blackhawks"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Golden Jet'?",
+    "options": [
+      "Bobby Orr",
+      "Bobby Hull",
+      "Guy Lafleur",
+      "Brett Hull"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Brett Hull is the son of which Hall of Famer?",
+    "options": [
+      "Stan Mikita",
+      "Gordie Howe",
+      "Bobby Hull",
+      "Bernie Geoffrion"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Mark Messier guaranteed a win in the 1994 playoffs against which team?",
+    "options": [
+      "Vancouver Canucks",
+      "New Jersey Devils",
+      "Washington Capitals",
+      "Philadelphia Flyers"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Mark Messier is the only player to captain two teams to the Stanley Cup. Which teams?",
+    "options": [
+      "Oilers and Rangers",
+      "Rangers and Kings",
+      "Oilers and Canucks",
+      "Oilers and Kings"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Patrick Roy won Stanley Cups with the Canadiens and which other team?",
+    "options": [
+      "Detroit Red Wings",
+      "Colorado Avalanche",
+      "Dallas Stars",
+      "New Jersey Devils"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which goalie was nicknamed 'The Dominator'?",
+    "options": [
+      "Ed Belfour",
+      "Martin Brodeur",
+      "Dominik Hasek",
+      "Patrick Roy"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Martin Brodeur spent almost his entire career with which team?",
+    "options": [
+      "Montreal Canadiens",
+      "St. Louis Blues",
+      "New Jersey Devils",
+      "New York Islanders"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which goalie was nicknamed 'King Henrik'?",
+    "options": [
+      "Henrik Zetterberg",
+      "Henrik Sedin",
+      "Henrik Lundqvist",
+      "Henrik Tallinder"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Carey Price played his entire career for which team?",
+    "options": [
+      "Vancouver Canucks",
+      "Toronto Maple Leafs",
+      "Montreal Canadiens",
+      "Ottawa Senators"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which goalie is nicknamed 'Flower'?",
+    "options": [
+      "Carey Price",
+      "Marc-André Fleury",
+      "Roberto Luongo",
+      "Jonathan Quick"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Jaromir Jagr wore number 68 in honor of what?",
+    "options": [
+      "His father's number",
+      "The 1968 Prague Spring",
+      "His birth year",
+      "The 1968 Olympics"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Finnish Flash'?",
+    "options": [
+      "Teemu Selanne",
+      "Mikko Rantanen",
+      "Saku Koivu",
+      "Jari Kurri"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Russian Rocket'?",
+    "options": [
+      "Ilya Kovalchuk",
+      "Alexander Mogilny",
+      "Pavel Bure",
+      "Sergei Fedorov"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Steve Yzerman captained which team for 20 seasons?",
+    "options": [
+      "Toronto Maple Leafs",
+      "Tampa Bay Lightning",
+      "Montreal Canadiens",
+      "Detroit Red Wings"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Who became the first European-born captain to win the Stanley Cup, in 2008?",
+    "options": [
+      "Nicklas Lidstrom",
+      "Zdeno Chara",
+      "Henrik Zetterberg",
+      "Peter Forsberg"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which defenseman, listed at 6 feet 9 inches, is the tallest player in NHL history?",
+    "options": [
+      "Chris Pronger",
+      "Hal Gill",
+      "Zdeno Chara",
+      "Tyler Myers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Zdeno Chara set the record for the hardest shot at the All-Star skills competition. How fast?",
+    "options": [
+      "103.4 mph",
+      "108.8 mph",
+      "98.5 mph",
+      "112.1 mph"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Big E'?",
+    "options": [
+      "Eric Lindros",
+      "Evgeni Malkin",
+      "Eric Staal",
+      "Erik Karlsson"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Eric Lindros refused to play for which team that drafted him in 1991?",
+    "options": [
+      "Quebec Nordiques",
+      "Philadelphia Flyers",
+      "Hartford Whalers",
+      "Toronto Maple Leafs"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Joe Sakic spent his entire career with which franchise?",
+    "options": [
+      "Canucks",
+      "Red Wings",
+      "Nordiques/Avalanche",
+      "Blues"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Patrick Kane won the Hart Trophy in 2016 with which team?",
+    "options": [
+      "Buffalo Sabres",
+      "New York Rangers",
+      "Detroit Red Wings",
+      "Chicago Blackhawks"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which Blackhawks captain was nicknamed 'Captain Serious'?",
+    "options": [
+      "Brent Seabrook",
+      "Patrick Sharp",
+      "Jonathan Toews",
+      "Duncan Keith"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Nathan MacKinnon won the 2024 Hart Trophy with which team?",
+    "options": [
+      "Edmonton Oilers",
+      "Tampa Bay Lightning",
+      "Toronto Maple Leafs",
+      "Colorado Avalanche"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Cale Makar, the 2022 Conn Smythe winner, plays which position?",
+    "options": [
+      "Center",
+      "Defense",
+      "Left wing",
+      "Goalie"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Leon Draisaitl is from which country?",
+    "options": [
+      "Austria",
+      "Czech Republic",
+      "Switzerland",
+      "Germany"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Nikita Kucherov plays for which team?",
+    "options": [
+      "New York Rangers",
+      "Florida Panthers",
+      "Tampa Bay Lightning",
+      "Washington Capitals"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which goalie won the Conn Smythe Trophy in 2021?",
+    "options": [
+      "Carey Price",
+      "Andrei Vasilevskiy",
+      "Igor Shesterkin",
+      "Marc-André Fleury"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Connor Bedard was the No. 1 pick in 2023 for which team?",
+    "options": [
+      "Chicago Blackhawks",
+      "San Jose Sharks",
+      "Columbus Blue Jackets",
+      "Anaheim Ducks"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Macklin Celebrini was the No. 1 pick in 2024 for which team?",
+    "options": [
+      "San Jose Sharks",
+      "Montreal Canadiens",
+      "Chicago Blackhawks",
+      "Anaheim Ducks"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Brothers Jack and Luke Hughes play together for which team?",
+    "options": [
+      "New Jersey Devils",
+      "Detroit Red Wings",
+      "New York Rangers",
+      "Vancouver Canucks"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Brothers Matthew and Brady Tkachuk are sons of which former NHL star?",
+    "options": [
+      "Keith Tkachuk",
+      "Mike Modano",
+      "Jeremy Roenick",
+      "Brett Hull"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Twins Daniel and Henrik Sedin spent their careers with which team?",
+    "options": [
+      "Detroit Red Wings",
+      "Calgary Flames",
+      "Vancouver Canucks",
+      "Edmonton Oilers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "How many Sutter brothers played in the NHL?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "In the 1988 Gretzky trade, which player did the Oilers receive from Los Angeles?",
+    "options": [
+      "Marcel Dionne",
+      "Jimmy Carson",
+      "Bernie Nicholls",
+      "Luc Robitaille"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Professor'?",
+    "options": [
+      "Slava Fetisov",
+      "Igor Larionov",
+      "Sergei Fedorov",
+      "Pavel Datsyuk"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Mats Sundin captained which team for over a decade?",
+    "options": [
+      "Detroit Red Wings",
+      "Toronto Maple Leafs",
+      "Quebec Nordiques",
+      "Vancouver Canucks"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Daniel Alfredsson starred for which team?",
+    "options": [
+      "Montreal Canadiens",
+      "Toronto Maple Leafs",
+      "Detroit Red Wings",
+      "Ottawa Senators"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Jarome Iginla is most associated with which team?",
+    "options": [
+      "Edmonton Oilers",
+      "Colorado Avalanche",
+      "Calgary Flames",
+      "Pittsburgh Penguins"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Gordie Howe played professionally alongside which relatives?",
+    "options": [
+      "His brothers Vic and Vern",
+      "His nephews",
+      "His sons Mark and Marty",
+      "His father"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Mike Bossy starred for which team?",
+    "options": [
+      "Montreal Canadiens",
+      "Philadelphia Flyers",
+      "New York Rangers",
+      "New York Islanders"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Phil Esposito set scoring records with which team?",
+    "options": [
+      "Chicago Blackhawks",
+      "New York Rangers",
+      "Boston Bruins",
+      "Montreal Canadiens"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which goalie won the Conn Smythe Trophy in 1971 before he had even won the Calder Trophy?",
+    "options": [
+      "Gump Worsley",
+      "Tony Esposito",
+      "Ken Dryden",
+      "Rogie Vachon"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Alex Ovechkin's favorite shooting spot is known by what nickname?",
+    "options": [
+      "The danger zone",
+      "The garage",
+      "His office",
+      "His kitchen"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Alex Ovechkin won the Conn Smythe Trophy in which year?",
+    "options": [
+      "2018",
+      "2015",
+      "2020",
+      "2010"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Even though his team lost the Final, Connor McDavid won the 2024 Conn Smythe. Which team beat the Oilers?",
+    "options": [
+      "Dallas Stars",
+      "Florida Panthers",
+      "Tampa Bay Lightning",
+      "Vegas Golden Knights"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Who won the Conn Smythe Trophy in 2025?",
+    "options": [
+      "Sam Bennett",
+      "Aleksander Barkov",
+      "Matthew Tkachuk",
+      "Sergei Bobrovsky"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Florida Panthers captain Aleksander Barkov is from which country?",
+    "options": [
+      "Czech Republic",
+      "Finland",
+      "Russia",
+      "Sweden"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Kirill Kaprizov plays for which team?",
+    "options": [
+      "Minnesota Wild",
+      "Colorado Avalanche",
+      "Detroit Red Wings",
+      "Winnipeg Jets"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Who won the Conn Smythe Trophy when Vegas won the 2023 Stanley Cup?",
+    "options": [
+      "Jack Eichel",
+      "Adin Hill",
+      "Jonathan Marchessault",
+      "Mark Stone"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Wayne Gretzky liked to set up plays from behind the net, an area nicknamed what?",
+    "options": [
+      "The garage",
+      "The slot",
+      "The crease",
+      "His office"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Wayne Gretzky later coached which team?",
+    "options": [
+      "Los Angeles Kings",
+      "New York Rangers",
+      "Edmonton Oilers",
+      "Phoenix Coyotes"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "What number did Mario Lemieux wear?",
+    "options": [
+      "66",
+      "88",
+      "68",
+      "99"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "What number did Bobby Orr wear?",
+    "options": [
+      "2",
+      "7",
+      "4",
+      "77"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "What number did Gordie Howe wear?",
+    "options": [
+      "7",
+      "4",
+      "19",
+      "9"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Wayne Gretzky grew up in which Ontario city?",
+    "options": [
+      "Brantford",
+      "Toronto",
+      "London",
+      "Hamilton"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Auston Matthews won the Hart Trophy in which year?",
+    "options": [
+      "2020",
+      "2021",
+      "2023",
+      "2022"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which goalie won the 2022 Vezina Trophy with the New York Rangers?",
+    "options": [
+      "Henrik Lundqvist",
+      "Alexandar Georgiev",
+      "Jonathan Quick",
+      "Igor Shesterkin"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which goalie won both the Hart and Vezina Trophies in 2025?",
+    "options": [
+      "Sergei Bobrovsky",
+      "Andrei Vasilevskiy",
+      "Connor Hellebuyck",
+      "Igor Shesterkin"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Connor Hellebuyck plays for which team?",
+    "options": [
+      "Winnipeg Jets",
+      "Seattle Kraken",
+      "Vegas Golden Knights",
+      "Columbus Blue Jackets"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which defenseman won the Norris Trophy in 2022?",
+    "options": [
+      "Victor Hedman",
+      "Roman Josi",
+      "Adam Fox",
+      "Cale Makar"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Evgeni Malkin has played his NHL career with which team?",
+    "options": [
+      "Washington Capitals",
+      "Montreal Canadiens",
+      "New York Rangers",
+      "Pittsburgh Penguins"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Steven Stamkos spent 16 seasons with which team before joining Nashville in 2024?",
+    "options": [
+      "Tampa Bay Lightning",
+      "Toronto Maple Leafs",
+      "Buffalo Sabres",
+      "Florida Panthers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which defenseman was famous for his 'flying' rushes and is often called the best ever at his position?",
+    "options": [
+      "Bobby Orr",
+      "Ray Bourque",
+      "Denis Potvin",
+      "Nicklas Lidstrom"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which Islanders defenseman captained their four straight Cups from 1980 to 1983?",
+    "options": [
+      "Denis Potvin",
+      "Billy Smith",
+      "Bryan Trottier",
+      "Clark Gillies"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Brett Hull's controversial 1999 Cup-winning goal was scored for which team?",
+    "options": [
+      "St. Louis Blues",
+      "Buffalo Sabres",
+      "Dallas Stars",
+      "Detroit Red Wings"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'Mr. Game 7'?",
+    "options": [
+      "Mark Messier",
+      "Joe Sakic",
+      "Patrick Kane",
+      "Justin Williams"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which 1970s Montreal Canadiens star was nicknamed 'The Flower'?",
+    "options": [
+      "Steve Shutt",
+      "Guy Lafleur",
+      "Jacques Lemaire",
+      "Bob Gainey"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'Le Gros Bill'?",
+    "options": [
+      "Guy Lafleur",
+      "Henri Richard",
+      "Maurice Richard",
+      "Jean Beliveau"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Pocket Rocket'?",
+    "options": [
+      "Henri Richard",
+      "Yvan Cournoyer",
+      "Maurice Richard",
+      "Theo Fleury"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Wayne Gretzky played junior hockey for which team?",
+    "options": [
+      "London Knights",
+      "Sault Ste. Marie Greyhounds",
+      "Oshawa Generals",
+      "Peterborough Petes"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Connor McDavid played junior hockey for which team?",
+    "options": [
+      "London Knights",
+      "Erie Otters",
+      "Kitchener Rangers",
+      "Oshawa Generals"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Sidney Crosby played junior hockey for which team?",
+    "options": [
+      "Moncton Wildcats",
+      "Rimouski Océanic",
+      "Quebec Remparts",
+      "Halifax Mooseheads"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "NHL",
+    "category": "Players",
+    "text": "Willie O'Ree broke the NHL's color barrier with which team?",
+    "options": [
+      "Chicago Blackhawks",
+      "Montreal Canadiens",
+      "Boston Bruins",
+      "Detroit Red Wings"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  }
+]

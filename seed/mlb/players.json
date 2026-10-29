@@ -1,0 +1,1315 @@
+[
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Bambino'?",
+    "options": [
+      "Jimmie Foxx",
+      "Lou Gehrig",
+      "Ty Cobb",
+      "Babe Ruth"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Iron Horse'?",
+    "options": [
+      "Lou Gehrig",
+      "Joe DiMaggio",
+      "Babe Ruth",
+      "Cal Ripken Jr."
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Yankee Clipper'?",
+    "options": [
+      "Lou Gehrig",
+      "Yogi Berra",
+      "Mickey Mantle",
+      "Joe DiMaggio"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Say Hey Kid'?",
+    "options": [
+      "Willie Mays",
+      "Ernie Banks",
+      "Jackie Robinson",
+      "Hank Aaron"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'Hammerin' Hank'?",
+    "options": [
+      "Hank Aaron",
+      "Hank Greenberg",
+      "Henry Rodriguez",
+      "Hank Bauer"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Splendid Splinter'?",
+    "options": [
+      "Ty Cobb",
+      "Ted Williams",
+      "Joe DiMaggio",
+      "Stan Musial"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which pitcher was nicknamed 'The Ryan Express'?",
+    "options": [
+      "Nolan Ryan",
+      "Roger Clemens",
+      "Randy Johnson",
+      "Tom Seaver"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which slugger is nicknamed 'Big Papi'?",
+    "options": [
+      "Albert Pujols",
+      "Vladimir Guerrero",
+      "Manny Ramirez",
+      "David Ortiz"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which Japanese slugger was nicknamed 'Godzilla'?",
+    "options": [
+      "Shohei Ohtani",
+      "Kosuke Fukudome",
+      "Hideki Matsui",
+      "Ichiro Suzuki"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Shohei Ohtani is from which country?",
+    "options": [
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "China"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which MLB team did Shohei Ohtani play for before the Dodgers?",
+    "options": [
+      "Seattle Mariners",
+      "San Diego Padres",
+      "Los Angeles Angels",
+      "Texas Rangers"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Shohei Ohtani played in Japan for which team?",
+    "options": [
+      "Hokkaido Nippon-Ham Fighters",
+      "Yomiuri Giants",
+      "Orix Buffaloes",
+      "Hanshin Tigers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Ichiro Suzuki spent most of his MLB career with which team?",
+    "options": [
+      "New York Yankees",
+      "Miami Marlins",
+      "Oakland Athletics",
+      "Seattle Mariners"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "In 2025, Ichiro Suzuki became the first player from which country elected to the Hall of Fame?",
+    "options": [
+      "Japan",
+      "South Korea",
+      "Cuba",
+      "Taiwan"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Ichiro Suzuki fell how many votes short of a unanimous Hall of Fame election?",
+    "options": [
+      "10",
+      "1",
+      "2",
+      "5"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who was the first player elected to the Hall of Fame unanimously, in 2019?",
+    "options": [
+      "Ken Griffey Jr.",
+      "Mariano Rivera",
+      "Derek Jeter",
+      "Chipper Jones"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Derek Jeter played his entire career for which team?",
+    "options": [
+      "Miami Marlins",
+      "Boston Red Sox",
+      "New York Mets",
+      "New York Yankees"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Jackie Robinson lettered in four sports at which university?",
+    "options": [
+      "Stanford",
+      "UCLA",
+      "California",
+      "USC"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Roberto Clemente played his entire career for which team?",
+    "options": [
+      "Brooklyn Dodgers",
+      "Pittsburgh Pirates",
+      "Cincinnati Reds",
+      "St. Louis Cardinals"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Roberto Clemente was from which island?",
+    "options": [
+      "Cuba",
+      "Dominican Republic",
+      "Puerto Rico",
+      "Jamaica"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Roberto Clemente died in a 1972 plane crash while delivering aid to which country?",
+    "options": [
+      "Guatemala",
+      "Haiti",
+      "Nicaragua",
+      "Peru"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Roberto Clemente finished his career with exactly how many hits?",
+    "options": [
+      "3,000",
+      "3,010",
+      "3,100",
+      "2,999"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Willie Mays made his famous over-the-shoulder 'The Catch' in which World Series?",
+    "options": [
+      "1957",
+      "1954",
+      "1951",
+      "1962"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Lou Gehrig's career was ended by which disease, now often named after him?",
+    "options": [
+      "Polio",
+      "Tuberculosis",
+      "Multiple sclerosis",
+      "ALS"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Cal Ripken Jr. played his entire career for which team?",
+    "options": [
+      "Baltimore Orioles",
+      "Boston Red Sox",
+      "New York Yankees",
+      "Washington Senators"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Ken Griffey Jr. is most associated with which team?",
+    "options": [
+      "Seattle Mariners",
+      "Chicago White Sox",
+      "New York Yankees",
+      "Cincinnati Reds"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "In 1990, Ken Griffey Jr. hit back-to-back home runs with which teammate?",
+    "options": [
+      "His father, Ken Griffey Sr.",
+      "Alex Rodriguez",
+      "Edgar Martinez",
+      "Jay Buhner"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Barry Bonds played for the Pirates and which other team?",
+    "options": [
+      "Oakland Athletics",
+      "Los Angeles Dodgers",
+      "San Francisco Giants",
+      "New York Mets"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who is Barry Bonds's godfather?",
+    "options": [
+      "Hank Aaron",
+      "Willie Mays",
+      "Willie McCovey",
+      "Bobby Bonds"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'Charlie Hustle'?",
+    "options": [
+      "Lenny Dykstra",
+      "Pete Rose",
+      "Johnny Bench",
+      "Joe Morgan"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Mickey Mantle played his whole career for which team?",
+    "options": [
+      "New York Yankees",
+      "Kansas City Athletics",
+      "Boston Red Sox",
+      "Brooklyn Dodgers"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Yogi Berra played which position?",
+    "options": [
+      "Shortstop",
+      "Pitcher",
+      "First base",
+      "Catcher"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player is famous for the saying 'It ain't over till it's over'?",
+    "options": [
+      "Mickey Mantle",
+      "Tommy Lasorda",
+      "Yogi Berra",
+      "Casey Stengel"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Sandy Koufax pitched for which franchise?",
+    "options": [
+      "Cardinals",
+      "Yankees",
+      "Giants",
+      "Dodgers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Sandy Koufax retired at what age because of arthritis in his elbow?",
+    "options": [
+      "36",
+      "33",
+      "30",
+      "27"
+    ],
+    "correctIndex": 2,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Clayton Kershaw spent his entire career with which team?",
+    "options": [
+      "Los Angeles Dodgers",
+      "Texas Rangers",
+      "St. Louis Cardinals",
+      "San Diego Padres"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Mike Trout has played his entire career for which team?",
+    "options": [
+      "Philadelphia Phillies",
+      "Los Angeles Angels",
+      "Seattle Mariners",
+      "Oakland Athletics"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "How many American League MVP awards has Mike Trout won?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Aaron Judge played college baseball at which school?",
+    "options": [
+      "UCLA",
+      "Stanford",
+      "Arizona State",
+      "Fresno State"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Juan Soto is from which country?",
+    "options": [
+      "Venezuela",
+      "Dominican Republic",
+      "Puerto Rico",
+      "Cuba"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Juan Soto signed his record contract in December 2024 with which team?",
+    "options": [
+      "New York Mets",
+      "New York Yankees",
+      "Boston Red Sox",
+      "Toronto Blue Jays"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "The Red Sox traded Mookie Betts in 2020 to which team?",
+    "options": [
+      "New York Yankees",
+      "Atlanta Braves",
+      "Los Angeles Dodgers",
+      "San Diego Padres"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Besides baseball, Mookie Betts has bowled perfect games in which sport?",
+    "options": [
+      "Darts",
+      "Billiards",
+      "Golf",
+      "Bowling"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Bryce Harper signed a 13-year contract in 2019 with which team?",
+    "options": [
+      "Philadelphia Phillies",
+      "Los Angeles Dodgers",
+      "San Francisco Giants",
+      "Washington Nationals"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Bryce Harper was the No. 1 pick in 2010 for which team?",
+    "options": [
+      "Seattle Mariners",
+      "Pittsburgh Pirates",
+      "Washington Nationals",
+      "Tampa Bay Rays"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who was the 2019 World Series MVP?",
+    "options": [
+      "Anthony Rendon",
+      "Juan Soto",
+      "Max Scherzer",
+      "Stephen Strasburg"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who hit a walk-off grand slam in Game 1 of the 2024 World Series and won World Series MVP?",
+    "options": [
+      "Teoscar Hernandez",
+      "Shohei Ohtani",
+      "Freddie Freeman",
+      "Mookie Betts"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Albert Pujols is from which country?",
+    "options": [
+      "Venezuela",
+      "Puerto Rico",
+      "Dominican Republic",
+      "Mexico"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Albert Pujols returned to which team for his final season in 2022?",
+    "options": [
+      "St. Louis Cardinals",
+      "Los Angeles Dodgers",
+      "Los Angeles Angels",
+      "Kansas City Royals"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Miguel Cabrera spent most of his career with which team?",
+    "options": [
+      "Chicago White Sox",
+      "Cleveland Indians",
+      "Florida Marlins",
+      "Detroit Tigers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Miguel Cabrera is from which country?",
+    "options": [
+      "Dominican Republic",
+      "Venezuela",
+      "Colombia",
+      "Cuba"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Jose Altuve is listed at what height, making him one of the shortest stars in MLB?",
+    "options": [
+      "5 feet 3 inches",
+      "5 feet 11 inches",
+      "5 feet 9 inches",
+      "5 feet 6 inches"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "'Fernandomania' swept which city in 1981?",
+    "options": [
+      "Houston",
+      "Mexico City",
+      "San Diego",
+      "Los Angeles"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which Japanese pitcher was nicknamed 'The Tornado' for his windup?",
+    "options": [
+      "Yu Darvish",
+      "Daisuke Matsuzaka",
+      "Hideki Irabu",
+      "Hideo Nomo"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which pitcher was nicknamed 'The Big Unit'?",
+    "options": [
+      "Randy Johnson",
+      "Roger Clemens",
+      "Curt Schilling",
+      "CC Sabathia"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which pitcher was nicknamed 'The Professor' for his precision?",
+    "options": [
+      "Greg Maddux",
+      "Mike Mussina",
+      "Tom Glavine",
+      "John Smoltz"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Pedro Martinez won a World Series with which team?",
+    "options": [
+      "New York Mets",
+      "Philadelphia Phillies",
+      "Boston Red Sox",
+      "Montreal Expos"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Satchel Paige pitched in an MLB game in 1965 at what age?",
+    "options": [
+      "52",
+      "59",
+      "63",
+      "47"
+    ],
+    "correctIndex": 1,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player was nicknamed 'The Man of Steal'?",
+    "options": [
+      "Rickey Henderson",
+      "Tim Raines",
+      "Lou Brock",
+      "Vince Coleman"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Tony Gwynn played his entire career for which team?",
+    "options": [
+      "San Francisco Giants",
+      "San Diego Padres",
+      "Los Angeles Dodgers",
+      "Seattle Mariners"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Chipper Jones played his entire career for which team?",
+    "options": [
+      "St. Louis Cardinals",
+      "Atlanta Braves",
+      "Houston Astros",
+      "Florida Marlins"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "After retiring, Derek Jeter became part-owner of which team?",
+    "options": [
+      "Detroit Tigers",
+      "Miami Marlins",
+      "Tampa Bay Rays",
+      "New York Yankees"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Alex Rodriguez was traded to the Yankees in 2004 from which team?",
+    "options": [
+      "Boston Red Sox",
+      "Houston Astros",
+      "Texas Rangers",
+      "Seattle Mariners"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who was the 2013 World Series MVP?",
+    "options": [
+      "David Ortiz",
+      "Koji Uehara",
+      "Dustin Pedroia",
+      "Jon Lester"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "The phrase 'Manny being Manny' described which player?",
+    "options": [
+      "Manny Mota",
+      "Manny Machado",
+      "Manny Ramirez",
+      "Manny Trillo"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which athlete played both MLB and the NFL and starred in 'Bo Knows' ads?",
+    "options": [
+      "Jim Thorpe",
+      "Bo Jackson",
+      "Deion Sanders",
+      "Brian Jordan"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who is the only athlete to play in both a World Series and a Super Bowl?",
+    "options": [
+      "Brian Jordan",
+      "Bo Jackson",
+      "Drew Henson",
+      "Deion Sanders"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Jackie Robinson won MLB's first Rookie of the Year award in which year?",
+    "options": [
+      "1949",
+      "1947",
+      "1945",
+      "1951"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Hank Aaron played for the Braves and which other team?",
+    "options": [
+      "Chicago Cubs",
+      "Cincinnati Reds",
+      "Atlanta Falcons",
+      "Milwaukee Brewers"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Hank Aaron hit his record-breaking 715th home run in 1974 off which pitcher?",
+    "options": [
+      "Tom Seaver",
+      "Phil Niekro",
+      "Don Drysdale",
+      "Al Downing"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Babe Ruth began his career as what type of player?",
+    "options": [
+      "Center fielder",
+      "Shortstop",
+      "Catcher",
+      "Pitcher"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Babe Ruth's first MLB team was which franchise?",
+    "options": [
+      "Boston Braves",
+      "Boston Red Sox",
+      "Baltimore Orioles",
+      "New York Yankees"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Ty Cobb spent most of his career with which team?",
+    "options": [
+      "Philadelphia Athletics",
+      "Detroit Tigers",
+      "Chicago White Sox",
+      "Cleveland Naps"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "A 1909 baseball card of which player is among the most valuable ever?",
+    "options": [
+      "Ty Cobb",
+      "Christy Mathewson",
+      "Cy Young",
+      "Honus Wagner"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which pitcher was nicknamed 'The Big Train'?",
+    "options": [
+      "Christy Mathewson",
+      "Cy Young",
+      "Lefty Grove",
+      "Walter Johnson"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Bob Gibson pitched his whole career for which team?",
+    "options": [
+      "St. Louis Cardinals",
+      "Pittsburgh Pirates",
+      "Cincinnati Reds",
+      "Chicago Cubs"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Johnny Bench was a star catcher for which team?",
+    "options": [
+      "Cincinnati Reds",
+      "St. Louis Cardinals",
+      "Los Angeles Dodgers",
+      "Pittsburgh Pirates"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which shortstop was nicknamed 'The Wizard' and famous for backflips?",
+    "options": [
+      "Luis Aparicio",
+      "Ozzie Smith",
+      "Omar Vizquel",
+      "Barry Larkin"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which pitcher was nicknamed 'Tom Terrific'?",
+    "options": [
+      "Tom Gordon",
+      "Tom Glavine",
+      "Tom Seaver",
+      "Tommy John"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Mariano Rivera's signature pitch was what?",
+    "options": [
+      "Curveball",
+      "Splitter",
+      "Cut fastball",
+      "Knuckleball"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "R.A. Dickey won the 2012 Cy Young Award throwing which pitch?",
+    "options": [
+      "Cutter",
+      "Screwball",
+      "Splitter",
+      "Knuckleball"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which pitcher threw a no-hitter in 1993 despite being born without a right hand?",
+    "options": [
+      "Jim Abbott",
+      "Pete Gray",
+      "Dave Dravecky",
+      "Mordecai Brown"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "What is the name of Shohei Ohtani's dog, who threw a first pitch in 2024?",
+    "options": [
+      "Shiba",
+      "Decoy",
+      "Champ",
+      "Kobe"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Vladimir Guerrero Jr. plays for which team?",
+    "options": [
+      "Los Angeles Angels",
+      "Toronto Blue Jays",
+      "Montreal Expos",
+      "Texas Rangers"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Vladimir Guerrero Jr.'s father, a Hall of Famer, starred for the Angels and which other team?",
+    "options": [
+      "Baltimore Orioles",
+      "Texas Rangers",
+      "New York Yankees",
+      "Montreal Expos"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Fernando Tatis Jr. plays for which team?",
+    "options": [
+      "Los Angeles Dodgers",
+      "Texas Rangers",
+      "San Diego Padres",
+      "Chicago White Sox"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Paul Skenes was the 2024 National League Rookie of the Year with which team?",
+    "options": [
+      "Arizona Diamondbacks",
+      "Cincinnati Reds",
+      "Chicago Cubs",
+      "Pittsburgh Pirates"
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Shohei Ohtani struck out which teammate to end the 2023 World Baseball Classic?",
+    "options": [
+      "Mookie Betts",
+      "Mike Trout",
+      "Nolan Arenado",
+      "Paul Goldschmidt"
+    ],
+    "correctIndex": 1,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Justin Verlander is married to which model?",
+    "options": [
+      "Gisele Bündchen",
+      "Chrissy Teigen",
+      "Kate Upton",
+      "Brooklyn Decker"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who was the first Black manager in MLB, hired in 1975?",
+    "options": [
+      "Frank Robinson",
+      "Jackie Robinson",
+      "Larry Doby",
+      "Dusty Baker"
+    ],
+    "correctIndex": 0,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Frank Robinson is the only player to win MVP in both leagues. Which teams?",
+    "options": [
+      "Reds and Yankees",
+      "Cardinals and Orioles",
+      "Orioles and Dodgers",
+      "Reds and Orioles"
+    ],
+    "correctIndex": 3,
+    "difficulty": 3
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which slugger was nicknamed 'Mr. Cub'?",
+    "options": [
+      "Sammy Sosa",
+      "Ron Santo",
+      "Ernie Banks",
+      "Ryne Sandberg"
+    ],
+    "correctIndex": 2,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which player is nicknamed 'The Kid' and wore his cap backwards?",
+    "options": [
+      "Gary Carter",
+      "Ted Williams",
+      "Derek Jeter",
+      "Ken Griffey Jr."
+    ],
+    "correctIndex": 3,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Clayton Kershaw has won how many Cy Young Awards?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Max Scherzer has won how many Cy Young Awards?",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Randy Johnson won how many Cy Young Awards in a row from 1999 to 2002?",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Pete Alonso set the rookie home run record in 2019 with which team?",
+    "options": [
+      "Atlanta Braves",
+      "Miami Marlins",
+      "New York Mets",
+      "New York Yankees"
+    ],
+    "correctIndex": 2,
+    "difficulty": 1
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Who was named 2004 ALCS MVP after two walk-off hits against the Yankees?",
+    "options": [
+      "Manny Ramirez",
+      "Jason Varitek",
+      "Johnny Damon",
+      "David Ortiz"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which Hall of Famer was nicknamed 'Mr. Padre'?",
+    "options": [
+      "Dave Winfield",
+      "Ozzie Smith",
+      "Trevor Hoffman",
+      "Tony Gwynn"
+    ],
+    "correctIndex": 3,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Stan Musial played his entire career for which team?",
+    "options": [
+      "Chicago Cubs",
+      "St. Louis Cardinals",
+      "Pittsburgh Pirates",
+      "Cincinnati Reds"
+    ],
+    "correctIndex": 1,
+    "difficulty": 2
+  },
+  {
+    "sport": "MLB",
+    "category": "Players",
+    "text": "Which pitcher had a surgery named after him that is now common for elbow injuries?",
+    "options": [
+      "Tommy John",
+      "Sandy Koufax",
+      "Bob Gibson",
+      "Don Sutton"
+    ],
+    "correctIndex": 0,
+    "difficulty": 1
+  }
+]
